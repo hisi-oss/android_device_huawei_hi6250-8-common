@@ -6,6 +6,8 @@
 
 DEVICE_PATH := device/huawei/prague
 
+BUILD_BROKEN_DUP_RULES := true
+
 # APEX
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
