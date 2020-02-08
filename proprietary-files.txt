@@ -2584,9 +2584,9 @@ vendor/lib64/libemmcscreen_test.so
 vendor/lib64/libufs_info.so
 
 # TEE
-bin/system_teecd:vendor/bin/system_teecd
-lib/libtuidaemon.so:vendor/lib/libtuidaemon.so
-lib64/libtuidaemon.so:vendor/lib64/libtuidaemon.so
+system/bin/system_teecd:vendor/bin/system_teecd
+system/lib/libtuidaemon.so:vendor/lib/libtuidaemon.so
+system/lib64/libtuidaemon.so:vendor/lib64/libtuidaemon.so
 vendor/bin/teecd
 vendor/bin/tlogcat
 vendor/etc/native_packages.xml:vendor/etc/native_packages.bin
