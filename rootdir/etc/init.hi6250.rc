@@ -320,12 +320,12 @@ on fs
 
     #wait /dev/block/bootdevice/by-name/userdata
     wait /dev/block/bootdevice/by-name/vbmeta
-    mount_all /vendor/etc/fstab.${ro.hardware}
+
+    # Mount everything
+    mount_all /vendor/etc/fstab.${ro.hardware} --early
 
     chown root root /sec_storage
     chmod 600 /sec_storage
-
-    mount_all_patch /patch_hw/fstab.patch_step1
 
     mkdir /splash2/log 0775 system log
     symlink /splash2/fac_log /data/log/fac_log
@@ -348,6 +348,9 @@ on boot
 # set qemu.gles=1 use gralloc.<platform>.so and hwcomposer.<platform>.so;
 #   setprop ro.kernel.qemu 0
 #   setprop ro.kernel.qemu.gles 1
+
+on late-fs
+    mount_all /vendor/etc/fstab.${ro.hardware} --late
 
 on post-fs-data
     mkdir /data/nfc
