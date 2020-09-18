@@ -511,16 +511,6 @@ vendor/lib64/hw/sensors.default.so
 vendor/lib64/hw/vendor.huawei.hardware.sensors@1.0-impl.so
 vendor/lib64/vendor.huawei.hardware.sensors@1.0.so
 
-# Thermal
-vendor/bin/hw/android.hardware.thermal@1.0-service
-vendor/etc/init/android.hardware.thermal@1.0-service.rc
-vendor/lib/hw/android.hardware.thermal@1.0-impl.so
-vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
-
-# Thermal-Hardware
-vendor/lib/hw/thermal.hi6250.so
-vendor/lib64/hw/thermal.hi6250.so
-
 # Vibrator
 vendor/bin/hw/vendor.huawei.hardware.hwvibrator@1.0-service
 vendor/etc/init/vendor.huawei.hardware.hwvibrator@1.0-service.rc
