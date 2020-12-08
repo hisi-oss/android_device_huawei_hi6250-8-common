@@ -427,12 +427,6 @@ vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/hw/vulkan.hi6250.so
 vendor/lib64/libOpenCL.so
 
-# Health
-vendor/bin/hw/android.hardware.health@1.0-service
-vendor/etc/init/android.hardware.health@1.0-service.rc
-vendor/lib/hw/android.hardware.health@1.0-impl.so
-vendor/lib64/hw/android.hardware.health@1.0-impl.so
-
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service
 vendor/etc/init/android.hardware.keymaster@3.0-service.rc
