@@ -27,8 +27,8 @@
   <item name="wifi.on">0.6</item>
   <item name="wifi.active">128</item>
   <item name="wifi.scan">146</item>
-  <item name="dsp.audio">43</item> <!-- k3v5 -->
-  <item name="dsp.video">176</item>
+  <item name="audio">43</item> <!-- k3v5 -->
+  <item name="video">176</item>
   <item name="radio.active">190</item>
   <item name="gps.on">70</item>
   <item name="battery.capacity">2900</item> <!-- 3900mAh -->
