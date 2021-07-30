@@ -80,3 +80,5 @@
 /dev/block/mmcblk0p45				0660	system	system
 /dev/block/mmcblk0p46				0660	system	system
 /dev/block/mmcblk0p52				0660	system	system
+
+/dev/pn544					0660	nfc	nfc
