@@ -46,9 +46,6 @@ on fs
 
 on post-fs
 
-on charger
-    class_start core
-
 on post-fs-data
 
     mkdir /data/hwzd_logs

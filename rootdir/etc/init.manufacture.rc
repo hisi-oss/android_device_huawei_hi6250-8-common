@@ -137,10 +137,6 @@ on property:sys.wifitest.service=stop
     restart diagserver
     start commu_server
 
-on charger
-    start atcmdserver
-    start diagserver
-
 service goldeneye /system/bin/goldeneye
     class main
     user root
