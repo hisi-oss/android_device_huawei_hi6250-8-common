@@ -118,6 +118,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.hi6250:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.hi6250 \
     $(LOCAL_PATH)/rootdir/etc/fstab.hi6250:$(TARGET_COPY_OUT_RAMDISK)/fstab.hi6250
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/fstab.modem:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.modem
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
