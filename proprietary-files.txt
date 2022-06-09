@@ -1381,13 +1381,6 @@ vendor/lib64/hw/vendor.huawei.hardware.hwfs@1.0-impl.so
 vendor/lib64/vendor.huawei.hardware.hwfs@1.0.so
 
 # IMS
-system/bin/emcomd
-system/lib64/libc_secshared.so
-system/lib64/libemcomutil.so
-system/lib64/libhuaweicust.so
-system/lib64/libsmartcare.so
-system/lib64/libsmartcareSDK.so
-system/lib64/libxengine.so
 -system/app/HwIms/HwIms.apk:system/priv-app/HwIms/HwIms.apk
 system/app/HwIms/lib/arm64/libHME-Video.so:system/priv-app/HwIms/lib/arm64/libHME-Video.so
 system/app/HwIms/lib/arm64/libVT80.so:system/priv-app/HwIms/lib/arm64/libVT80.so
@@ -1403,9 +1396,16 @@ system/app/HwIms/lib/arm64/libssltsc.so:system/priv-app/HwIms/lib/arm64/libsslts
 system/app/HwIms/lib/arm64/libtls_default.so:system/priv-app/HwIms/lib/arm64/libtls_default.so
 system/app/HwIms/lib/arm64/libut.so:system/priv-app/HwIms/lib/arm64/libut.so
 system/app/HwIms/lib/arm64/libvsc.so:system/priv-app/HwIms/lib/arm64/libvsc.so
+system/bin/emcomd
 -system/framework/hwEmui.jar
--system/framework/hwframework.jar
 -system/framework/hwTelephony-common.jar
+-system/framework/hwframework.jar
+system/lib64/libc_secshared.so
+system/lib64/libemcomutil.so
+system/lib64/libhuaweicust.so
+system/lib64/libsmartcare.so
+system/lib64/libsmartcareSDK.so
+system/lib64/libxengine.so
 vendor/bin/hivwserver
 vendor/bin/iked
 vendor/bin/isplogcat
@@ -2602,6 +2602,9 @@ vendor/lib64/libtrustzone_key_manager.so
 vendor/lib64/vendor.huawei.hardware.libteec@1.0.so
 vendor/lib64/vendor.huawei.hardware.teecdaemon@1.0.so
 
+# TEE - from NXT 8.0.0 OPR6.170623.010
+vendor/etc/DroidSansFallbackTui.ttf|2f8a266389a8e22f68f402b775731eec6b760334
+
 # TEE Configs
 vendor/bin/6c8cf255-ca98-439e-a98e-ade64022ecb6.sec
 vendor/bin/86310d18-5659-47c9-b212-841a3ca4f814.sec
@@ -2618,9 +2621,6 @@ vendor/bin/pki_provision_ta.sec
 vendor/bin/syna_109A0_ta.sec
 vendor/bin/syna_155A_ta.sec
 vendor/bin/syna_155A_ta_lldp.sec
-
-# TEE - from NXT 8.0.0 OPR6.170623.010
-vendor/etc/DroidSansFallbackTui.ttf|2f8a266389a8e22f68f402b775731eec6b760334
 
 # Touchscreen
 vendor/bin/hw/vendor.huawei.hardware.tp@1.0-service
