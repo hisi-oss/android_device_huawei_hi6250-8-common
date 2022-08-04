@@ -8,18 +8,9 @@ vendor/lib64/soundfx/libhuaweiprocessing.so
 vendor/lib64/soundfx/liboffloadvisualizer.so
 vendor/lib64/libaudio_custom.so
 
-# Audio-Hardware - from ANE-LGRP2-OVS 9.1.0.401.
-vendor/bin/hw/vendor.huawei.hardware.audio@4.0-service|6ad6d2a1f9c6223ecdb66820e967c13e0ee7f340
-vendor/etc/init/vendor.huawei.hardware.audio@4.0-service.rc|784d046ab16ce771527d87b55fef600959c002e9
-vendor/lib64/librttserver.so|2a7e27520c517f5a6e3473cfac5aee6e63d0320a
-vendor/lib64/vendor.huawei.hardware.rtt@1.0.so|3e61f2b5aeb0314fdb281cbe510763facecef2d7
-
 # Audio-Hardware
-vendor/lib/hw/audio.primary.hisi.so
-vendor/lib/vendor.huawei.hardware.audio@2.0.so
-vendor/lib64/hw/audio.primary.hisi.so
-vendor/lib64/hw/vendor.huawei.hardware.audio@2.0-impl.so
-vendor/lib64/vendor.huawei.hardware.audio@2.0.so
+vendor/lib/hw/audio.primary.hisi.so:vendor/lib/hw/audio.primary.hi6250.so
+vendor/lib64/hw/audio.primary.hisi.so:vendor/lib64/hw/audio.primary.hi6250.so
 
 # Bluetooth
 vendor/etc/bluetooth/bt_vendor.conf

@@ -44,9 +44,12 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
 # Audio
+$(call soong_config_set,android_hardware_audio,run_64bit,true)
+
 PRODUCT_PACKAGES += \
     android.hardware.audio@4.0-impl \
     android.hardware.audio.effect@4.0-impl \
+    android.hardware.audio.service \
     android.hardware.soundtrigger@2.0-impl
 
 PRODUCT_PACKAGES += \

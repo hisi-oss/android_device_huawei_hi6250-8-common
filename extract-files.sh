@@ -82,7 +82,7 @@ function blob_fixup() {
         vendor/lib*/libRefocusContrastPosition.so|vendor/lib*/libhwlog.so)
             "${PATCHELF}" --add-needed "libshim_log.so" "${2}"
             ;;
-        vendor/lib*/hw/audio.primary.hisi.so|vendor/lib*/libhivwservice.so)
+        vendor/lib*/hw/audio.primary.hi6250.so|vendor/lib*/libhivwservice.so)
 	    "${PATCHELF}" --add-needed "libprocessgroup.so" "${2}"
 	    ;;
         vendor/lib64/hw/hwcomposer.hi6250.so)
