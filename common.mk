@@ -141,6 +141,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
     android.hardware.drm@1.0-service
 
+# fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0.vendor
@@ -230,6 +234,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf
+
+# Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Power
 PRODUCT_PACKAGES += \

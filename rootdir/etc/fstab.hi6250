@@ -2,9 +2,10 @@
 #<src>                                                  <mnt_point>         <type>    <mnt_flags and options>                       <fs_mgr_flags>
 # The filesystem that contains the filesystem checker binary (typically /system) cannot
 # specify MF_CHECK, and must come before any filesystems that do specify MF_CHECK
-/dev/block/platform/hi_mci.0/by-name/system    /system    ext4    ro,barrier=1    wait,first_stage_mount
-/dev/block/platform/hi_mci.0/by-name/vendor    /vendor    ext4    ro,barrier=1    wait,first_stage_mount
-/dev/block/platform/hi_mci.0/by-name/odm    /odm    ext4    ro,barrier=1    wait,first_stage_mount
+system                                         /system    ext4    ro,barrier=1,discard    wait,logical,first_stage_mount
+vendor                                         /vendor    ext4    ro,barrier=1,discard    wait,logical,first_stage_mount
+odm                                            /odm       ext4    ro,barrier=1,discard    wait,logical,first_stage_mount
+
 /dev/block/platform/hi_mci.0/by-name/splash2         /splash2                ext4      rw,nosuid,nodev,noatime,data=ordered,context=u:object_r:splashtwo_file:s0 wait,check
 /devices/hi_mci.1/mmc_host/mmc1/*                       auto                auto      defaults                                      voldmanaged=sdcard:auto,noemulatedsd
 /devices/platform/hi_mci.1/mmc_host/mmc1/*                       auto                auto      defaults                                      voldmanaged=sdcard:auto,noemulatedsd
