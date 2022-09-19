@@ -130,6 +130,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1.vendor
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/keylayout/fingerprint.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/fingerprint.kl
+
 # Fstab
 PRODUCT_PACKAGES += \
     fstab.hi6250 \
