@@ -84,7 +84,9 @@ PRODUCT_PACKAGES += \
 
 # Fstab
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.hi6250:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.hi6250
+    $(LOCAL_PATH)/rootdir/etc/fstab.hi6250:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.hi6250 \
+    $(LOCAL_PATH)/rootdir/etc/fstab.hi6250:$(TARGET_COPY_OUT_RECOVERY)/root/fstab.hi6250 \
+    $(LOCAL_PATH)/rootdir/etc/fstab.hi6250:$(TARGET_COPY_OUT_RAMDISK)/fstab.hi6250
 
 # DRM
 PRODUCT_PACKAGES += \
