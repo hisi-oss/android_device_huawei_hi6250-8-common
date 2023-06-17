@@ -97,6 +97,17 @@ TARGET_RELEASETOOLS_EXTENSIONS := hardware/hisi/releasetools
 ENABLE_VENDOR_RIL_SERVICE := true
 BOARD_PROVIDES_LIBRIL := true
 
+# Root
+BOARD_ROOT_EXTRA_FOLDERS += \
+    3rdmodem \
+    3rdmodemnvm \
+    3rdmodemnvmbkp \
+    cust \
+    modem_log \
+    sec_storage \
+    splash2 \
+    version
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-09-01
 

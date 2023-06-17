@@ -36,10 +36,6 @@ on early-boot
     setprop viatel.device.pcv spi.4.ttySPI
     setprop viatel.device.gps spi.5.ttySPI
 
-    chmod 0750 /3rdmodem/
-    chmod 0750 /3rdmodemnvm/
-    chmod 0750 /3rdmodemnvmbkp/
-
     mkdir /3rdmodemnvm/viacbp82d 0740 radio radio
     mkdir /3rdmodemnvmbkp/viacbp82d 0740 radio radio
 

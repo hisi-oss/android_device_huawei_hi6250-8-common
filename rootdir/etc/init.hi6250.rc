@@ -324,13 +324,9 @@ on fs
     chmod 600 /sec_storage
 
     mount_all_patch /patch_hw/fstab.patch_step1
-    restorecon /splash2
-    chmod 775 /splash2
-    chown root system /splash2
 
     mkdir /splash2/log 0775 system log
     symlink /splash2/fac_log /data/log/fac_log
-    symlink /splash2 /log
 
     setprop ro.crypto.fuse_sdcard true
 
