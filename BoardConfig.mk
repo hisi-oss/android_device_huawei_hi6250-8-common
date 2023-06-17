@@ -86,5 +86,8 @@ TARGET_RELEASETOOLS_EXTENSIONS := hardware/hisi/releasetools
 # SEPolicy
 include device/hisi/sepolicy/SEPolicy.mk
 
+# Treble
+PRODUCT_USE_VNDK_OVERRIDE := true
+
 # Inherit the proprietary files
 include vendor/huawei/prague/BoardConfigVendor.mk
