@@ -36,6 +36,8 @@ on early-boot
     group audio inet net_bt net_bt_admin net_bw_acct system
 
 on init
+    symlink /dev/block/platform/hi_mci.0 /dev/block/bootdevice
+
     # Load persistent dm-verity state
     verity_load_state
 
