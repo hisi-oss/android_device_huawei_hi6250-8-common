@@ -37,6 +37,7 @@ BOARD_MKBOOTIMG_ARGS += --second_offset $(BOARD_SECOND_OFFSET)
 
 TARGET_KERNEL_SOURCE := kernel/huawei/hi6250-8
 TARGET_KERNEL_CONFIG := merge_hi6250_defconfig
+TARGET_KERNEL_LLVM_BINUTILS := false
 
 
 # Inherit the proprietary files
