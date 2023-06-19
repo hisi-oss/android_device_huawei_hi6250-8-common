@@ -93,6 +93,9 @@ TARGET_BOARD_PLATFORM := hi6250
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := hardware/hisi/releasetools
 
+# RIL
+BOARD_PROVIDES_LIBRIL := true
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-09-01
 

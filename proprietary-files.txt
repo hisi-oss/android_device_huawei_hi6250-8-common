@@ -501,6 +501,10 @@ vendor/lib/vendor.huawei.hardware.radio@1.1.so
 vendor/lib64/vendor.huawei.hardware.radio@1.0.so
 vendor/lib64/vendor.huawei.hardware.radio@1.1.so
 
+# RIL
+-vendor/lib/libril.so
+-vendor/lib64/libril.so
+
 # Sensors
 vendor/bin/hw/vendor.huawei.hardware.sensors@1.0-service
 vendor/etc/init/vendor.huawei.hardware.sensors@1.0-service.rc
