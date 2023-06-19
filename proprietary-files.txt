@@ -1833,10 +1833,6 @@ vendor/etc/ikedconfig/tunnel_ike_natt.conf
 vendor/etc/ikedconfig/vals.conf
 vendor/etc/init/activity_recognition_service.rc
 vendor/etc/init/aptouch_daemon.rc
-vendor/etc/init/charger/init.charger.rc
-vendor/etc/init/charger/init.chip.charger.rc
-vendor/etc/init/charger/init.chip.usb.rc
-vendor/etc/init/charger/init.hisi.usb.rc
 vendor/etc/init/connectivity/init.connectivity.bcm43455.rc
 vendor/etc/init/connectivity/init.connectivity.bcm43xx.rc
 vendor/etc/init/connectivity/init.connectivity.gps.rc
