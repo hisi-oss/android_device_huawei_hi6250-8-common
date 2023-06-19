@@ -66,6 +66,15 @@ function blob_fixup() {
         vendor/lib*/egl/libGLES_mali.so|vendor/lib*/hw/gralloc.hi6250.so)
             "${PATCHELF}" --add-needed "libutilscallstack.so" "${2}"
             ;;
+        vendor/lib*/libxcollie.so)
+            "${PATCHELF}" --add-needed "libbase_shim.so" "${2}"
+            ;;
+        vendor/bin/hw/android.hardware.drm@1.0-service.widevine)
+            "${PATCHELF}" --add-needed "libbase_shim.so" "${2}"
+            ;;
+        vendor/lib*/hw/vendor.huawei.hardware.sensors@1.0-impl.so)
+            "${PATCHELF}" --add-needed "libbase_shim.so" "${2}"
+            ;;
     esac
 }
 
