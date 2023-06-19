@@ -69,6 +69,12 @@ function blob_fixup() {
         vendor/lib*/libxcollie.so)
             "${PATCHELF}" --add-needed "libbase_shim.so" "${2}"
             ;;
+        vendor/lib*/libiawareperf_server.so)
+            "${PATCHELF}" --add-needed "libshim_perfhub.so" "${2}"
+            ;;
+        vendor/lib*/libperfhub_service.so)
+            "${PATCHELF}" --add-needed "libshim_perfhub.so" "${2}"
+            ;;
         vendor/bin/hw/android.hardware.drm@1.0-service.widevine)
             "${PATCHELF}" --add-needed "libbase_shim.so" "${2}"
             ;;
