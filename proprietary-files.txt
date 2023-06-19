@@ -1788,7 +1788,7 @@ vendor/etc/modemConfig/VIA/basic_name
 vendor/etc/modemConfig/VIA/viacbp82d_FieldTest.bcfg
 vendor/etc/modemConfig/viacbp82d_log.bcfg
 vendor/etc/modemConfig/viacbp82d_shutdown_log.bcfg
-vendor/etc/native_packages.xml
+vendor/etc/native_packages.xml:vendor/etc/native_packages.bin
 vendor/etc/perfgenius_boost_policy.xml
 vendor/etc/perfgenius_config.xml
 vendor/etc/pwrlog.cfg
