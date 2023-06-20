@@ -224,6 +224,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
 
+# VNDK
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-v29 \
+    libprotobuf-cpp-lite-v29
+
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0.vendor
