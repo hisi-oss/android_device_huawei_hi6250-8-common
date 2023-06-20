@@ -115,5 +115,9 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/hisi
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.basic
+
 # Call the proprietary setup
 $(call inherit-product, vendor/huawei/prague/prague-vendor.mk)
