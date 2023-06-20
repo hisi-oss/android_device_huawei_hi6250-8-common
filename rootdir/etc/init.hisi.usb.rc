@@ -2,6 +2,7 @@
 
 on init
     # USB
+    setprop sys.usb.configfs 1
     setprop sys.usb.controller hisi-usb-otg
 
 on boot
