@@ -207,6 +207,7 @@ PRODUCT_PACKAGES += \
 # Shims
 PRODUCT_PACKAGES += \
     libbase_shim \
+    libui_shim \
     libshim_log \
     libshim_perfhub
 
