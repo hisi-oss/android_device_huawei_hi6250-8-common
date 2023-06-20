@@ -81,6 +81,9 @@ function blob_fixup() {
         vendor/lib*/libRefocusContrastPosition.so|vendor/lib*/libhwlog.so)
             "${PATCHELF}" --add-needed "libshim_log.so" "${2}"
             ;;
+        vendor/lib*/hw/audio.primary.hisi.so|vendor/lib*/libhivwservice.so)
+	    "${PATCHELF}" --add-needed "libprocessgroup.so" "${2}"
+	    ;;
         vendor/bin/hw/android.hardware.drm@1.0-service.widevine)
             "${PATCHELF}" --add-needed "libbase_shim.so" "${2}"
             ;;
