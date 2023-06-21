@@ -91,6 +91,12 @@ function blob_fixup() {
         vendor/lib*/hw/vendor.huawei.hardware.sensors@1.0-impl.so)
             "${PATCHELF}" --add-needed "libbase_shim.so" "${2}"
             ;;
+        vendor/bin/hw/vendor.huawei.hardware.hisupl@1.0-service)
+            "${PATCHELF}" --add-needed "libshim_hardware.so" "${2}"
+            ;;
+        vendor/bin/hw/vendor.huawei.hardware.gnss@1.0-service)
+            "${PATCHELF}" --add-needed "libshim_hardware.so" "${2}"
+            ;;
     esac
 }
 
