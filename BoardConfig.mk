@@ -46,6 +46,9 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --second_offset $(BOARD_SECOND_OFFSET)
 
+BOARD_CUSTOM_BOOTIMG := true
+BOARD_CUSTOM_BOOTIMG_MK := hardware/hisi/mkbootimg.mk
+
 TARGET_KERNEL_SOURCE := kernel/huawei/hi6250-8
 TARGET_KERNEL_CONFIG := merge_hi6250_defconfig
 TARGET_KERNEL_CLANG_VERSION := r416183b
@@ -76,6 +79,9 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 # Platform
 TARGET_BOARD_PLATFORM := hi6250
+
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := hardware/hisi/releasetools
 
 # SEPolicy
 include device/hisi/sepolicy/SEPolicy.mk
