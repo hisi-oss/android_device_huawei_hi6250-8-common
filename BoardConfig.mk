@@ -90,6 +90,9 @@ TARGET_BOARD_PLATFORM := hi6250
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := hardware/hisi/releasetools
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2018-09-01
+
 # SEPolicy
 include device/hisi/sepolicy/SEPolicy.mk
 
