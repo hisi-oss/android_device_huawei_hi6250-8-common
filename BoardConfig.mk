@@ -77,5 +77,8 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Platform
 TARGET_BOARD_PLATFORM := hi6250
 
+# SEPolicy
+include device/hisi/sepolicy/SEPolicy.mk
+
 # Inherit the proprietary files
 include vendor/huawei/prague/BoardConfigVendor.mk
