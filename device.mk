@@ -210,7 +210,8 @@ PRODUCT_PACKAGES += \
     libui_shim \
     libshim_hardware \
     libshim_log \
-    libshim_perfhub
+    libshim_perfhub \
+    libshim_radio
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
