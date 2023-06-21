@@ -67,5 +67,8 @@ TARGET_COPY_OUT_PRODUCT := product
 TARGET_COPY_OUT_ODM := odm
 TARGET_COPY_OUT_VENDOR := vendor
 
+# Platform
+TARGET_BOARD_PLATFORM := hi6250
+
 # Inherit the proprietary files
 include vendor/huawei/prague/BoardConfigVendor.mk
