@@ -94,6 +94,7 @@ TARGET_BOARD_PLATFORM := hi6250
 TARGET_RELEASETOOLS_EXTENSIONS := hardware/hisi/releasetools
 
 # RIL
+ENABLE_VENDOR_RIL_SERVICE := true
 BOARD_PROVIDES_LIBRIL := true
 
 # Security patch level
