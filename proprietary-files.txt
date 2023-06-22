@@ -502,6 +502,7 @@ vendor/lib64/vendor.huawei.hardware.radio@1.0.so
 vendor/lib64/vendor.huawei.hardware.radio@1.1.so
 
 # RIL
+vendor/phone.prop
 -vendor/lib/libril.so
 -vendor/lib64/libril.so
 
