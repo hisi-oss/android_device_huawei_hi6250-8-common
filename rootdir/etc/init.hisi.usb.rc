@@ -9,6 +9,15 @@ on init
 on property:persist.vendor.usb.config=*
     setprop persist.sys.usb.config ${persist.vendor.usb.config}
 
+on property:sys.usb.config=adb
+    stop adbd
+    write /sys/class/android_usb/android0/idVendor 0bb4
+    write /sys/class/android_usb/android0/idProduct 0c81
+    write /sys/class/android_usb/android0/functions ${sys.usb.config}
+    start adbd
+    write /sys/devices/platform/android_usb/usb_function_switch 2
+    setprop sys.usb.state ${sys.usb.config}
+
 on boot
     chown system system /sys/devices/platform/ff100000.hisi_usb/plugusb
     chmod 0660 /sys/devices/platform/ff100000.hisi_usb/plugusb
