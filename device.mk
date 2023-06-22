@@ -105,6 +105,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     hisi_init
 
+# HIDL
+PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
