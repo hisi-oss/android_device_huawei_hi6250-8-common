@@ -3,6 +3,8 @@
 on init
     # USB
     setprop sys.usb.configfs 1
+    setprop ro.adb.nonblocking_ffs 0
+    setprop persist.adb.nonblocking_ffs 0
     setprop sys.usb.controller hisi-usb-otg
     setprop sys.usb.config ${persist.vendor.usb.config}
 
