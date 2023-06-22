@@ -22,23 +22,15 @@ vendor/lib64/hw/vendor.huawei.hardware.audio@2.0-impl.so
 vendor/lib64/vendor.huawei.hardware.audio@2.0.so
 
 # Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.0-service
 vendor/etc/bluetooth/bt_vendor.conf
-vendor/etc/init/android.hardware.bluetooth@1.0-service.rc
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so
 vendor/lib/libbt-vendor-hisi.so
 vendor/lib/libbt-vendor.so
 vendor/lib/libbt_factory_test.so
 vendor/lib/libbt_factory_test_hisi.so
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl.so
 vendor/lib64/libbt-vendor-hisi.so
 vendor/lib64/libbt-vendor.so
 vendor/lib64/libbt_factory_test.so
 vendor/lib64/libbt_factory_test_hisi.so
-
-# Bluetooth-AptX
-vendor/lib64/libaptXHD_encoder.so
-vendor/lib64/libaptX_encoder.so
 
 # Camera
 vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
