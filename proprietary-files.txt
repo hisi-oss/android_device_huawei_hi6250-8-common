@@ -21,27 +21,6 @@ vendor/lib64/hw/audio.primary.hisi.so
 vendor/lib64/hw/vendor.huawei.hardware.audio@2.0-impl.so
 vendor/lib64/vendor.huawei.hardware.audio@2.0.so
 
-# Audio-configs
-odm/etc/audio/algorithm/algorithm_PRAGUE_normal.xml
-odm/etc/audio/dts/dts_PRAGUE_normal.xml
-odm/etc/audio/hi6402/mixer_volumes_VENUS_ce.xml
-odm/etc/audio/hissc/mixer_paths_PRAGUE.xml
-odm/etc/audio/hissc/mixer_volumes_PRAGUE_ce.xml
-odm/etc/audio/hissc/mixer_volumes_PRAGUE_cmcciot.xml
-odm/etc/audio/hissc/mixer_volumes_PRAGUE_gcf.xml
-odm/etc/audio/hissc/mixer_volumes_PRAGUE_normal.xml
-odm/etc/audio/hissc/mixer_volumes_PRAGUE_telecomiot.xml
-odm/etc/audio/hissc/mixer_volumes_PRAGUE_unicomiot.xml
-odm/etc/audio/hissc/pop_seq_PRAGUE.xml
-odm/etc/audio/mbdrc/mbdrc_PRAGUE_normal.xml
-odm/etc/audio/modem/modem_PRAGUE_cmcciot.xml
-odm/etc/audio/modem/modem_PRAGUE_gcf.xml
-odm/etc/audio/modem/modem_PRAGUE_normal.xml
-odm/etc/audio/modem/modem_PRAGUE_telecomiot.xml
-odm/etc/audio/modem/modem_PRAGUE_unicomiot.xml
-odm/etc/audio/sws/sws_config.txt
-odm/etc/audio/sws/sws_PRAGUE_normal.xml
-
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service
 vendor/etc/bluetooth/bt_vendor.conf
