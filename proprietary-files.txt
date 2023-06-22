@@ -416,11 +416,7 @@ vendor/lib64/libhwgpschannelclient.so
 vendor/lib64/vendor.huawei.hardware.gnss@1.0.so
 
 # Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service
-vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib/hw/gatekeeper.hi6250.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.hi6250.so
 
 # Graphics
