@@ -2,23 +2,18 @@
 
 # Audio
 vendor/lib/libaudio_custom.so
-vendor/lib/soundfx/libaudiopreprocessing.so
 vendor/lib64/libaudio_custom.so
-vendor/lib64/libtinycompress.so
-vendor/lib64/soundfx/libaudiopreprocessing.so
+vendor/lib/soundfx/libhuaweiprocessing.so
+vendor/lib/soundfx/liboffloadvisualizer.so
+vendor/lib64/soundfx/libhuaweiprocessing.so
+vendor/lib64/soundfx/liboffloadvisualizer.so
 
 # Audio-Hardware
 vendor/bin/hw/vendor.huawei.hardware.audio@2.0-service
 vendor/etc/init/vendor.huawei.hardware.audio@2.0-service.rc
-vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so
 vendor/lib/hw/audio.primary.hisi.so
-vendor/lib/hw/audio.r_submix.default.so
-vendor/lib/hw/audio.usb.default.so
 vendor/lib/vendor.huawei.hardware.audio@2.0.so
-vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so
 vendor/lib64/hw/audio.primary.hisi.so
-vendor/lib64/hw/audio.r_submix.default.so
-vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/hw/vendor.huawei.hardware.audio@2.0-impl.so
 vendor/lib64/vendor.huawei.hardware.audio@2.0.so
 
@@ -516,9 +511,6 @@ vendor/lib/vendor.huawei.hardware.light@2.0.so
 vendor/lib64/hw/lights.default.so
 vendor/lib64/hw/vendor.huawei.hardware.light@2.0-impl.so
 vendor/lib64/vendor.huawei.hardware.light@2.0.so
-
-# Listen
-vendor/lib64/hw/android.hardware.soundtrigger@2.0-impl.so
 
 # Media-Hardware
 vendor/lib/libstagefrighthw.so
@@ -2015,8 +2007,6 @@ vendor/lib/lib_mmi_interface.so
 vendor/lib/lib_sensor_fac_interface.so
 vendor/lib/lib_softap_hw.so
 vendor/lib/lib_wifi_sar.so
-vendor/lib/soundfx/libhuaweiprocessing.so
-vendor/lib/soundfx/liboffloadvisualizer.so
 vendor/lib/vendor.huawei.hardware.activity_recognition@1.0.so
 vendor/lib/vendor.huawei.hardware.ai@1.0.so
 vendor/lib/vendor.huawei.hardware.dubai@1.0.so
@@ -2182,8 +2172,6 @@ vendor/lib64/lib_mmi_interface.so
 vendor/lib64/lib_sensor_fac_interface.so
 vendor/lib64/lib_softap_hw.so
 vendor/lib64/lib_wifi_sar.so
-vendor/lib64/soundfx/libhuaweiprocessing.so
-vendor/lib64/soundfx/liboffloadvisualizer.so
 vendor/lib64/vendor.huawei.hardware.activity_recognition@1.0.so
 vendor/lib64/vendor.huawei.hardware.ai@1.0.so
 vendor/lib64/vendor.huawei.hardware.dubai@1.0.so
