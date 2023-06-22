@@ -1,5 +1,9 @@
 # Supported for kernel4.1
 
+on init
+    # USB
+    setprop sys.usb.controller hisi-usb-otg
+
 on boot
     chown system system /sys/devices/platform/ff100000.hisi_usb/plugusb
     chmod 0660 /sys/devices/platform/ff100000.hisi_usb/plugusb
