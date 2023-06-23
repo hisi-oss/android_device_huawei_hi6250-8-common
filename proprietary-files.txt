@@ -421,11 +421,7 @@ vendor/lib64/hw/gatekeeper.hi6250.so
 
 # Graphics
 vendor/lib/egl/libGLES_mali.so
-vendor/lib/hw/vulkan.hi6250.so
-vendor/lib/libOpenCL.so
 vendor/lib64/egl/libGLES_mali.so
-vendor/lib64/hw/vulkan.hi6250.so
-vendor/lib64/libOpenCL.so
 
 # Keymaster
 vendor/lib/hw/keystore.hi6250.so
