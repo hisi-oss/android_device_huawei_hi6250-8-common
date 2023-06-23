@@ -293,10 +293,6 @@ vendor/etc/camera/watermark/dm.argb
 vendor/etc/camera/watermark/dm.png
 vendor/etc/camera/watermark/param.xml
 
-# Configstore
-vendor/bin/hw/android.hardware.configstore@1.0-service
-vendor/etc/init/android.hardware.configstore@1.0-service.rc
-
 # DRM-Hardware
 vendor/bin/hw/android.hardware.drm@1.0-service
 vendor/bin/hw/android.hardware.drm@1.0-service.widevine
