@@ -1,4 +1,4 @@
- early-init
+on early-init
 
 on init
 
@@ -45,7 +45,6 @@ on fs
     restorecon       /sys/class/leds/torch/flash_thermal_protect
 
 on post-fs
-    sys_wp_init_action
 
 on charger
     class_start core
@@ -201,9 +200,6 @@ on boot
     chown root system /sys/devices/system/cpu/cpu0/cpufreq/msg_policy
     chmod 0660 /sys/devices/system/cpu/cpu0/cpufreq/msg_policy
 
-on property:sys.printservice=*
-    printservice ${sys.printservice}
-
 on restart-sdcardfs
     ## create virtual sdcard based on the /data/media directory
     mkdir /data/media 0770 media_rw media_rw
@@ -247,11 +243,7 @@ on nonencrypted
     trigger start_latestart_class
     trigger data_ready
 
-on verify_cust_oeminfo_action
-    verify_cust_oeminfo
-
 on data_ready
-    verify_cust_oeminfo
     setprop sys.userdata_is_ready 1
     write /proc/post-fs-data 1
     write /proc/apanic_console 1
