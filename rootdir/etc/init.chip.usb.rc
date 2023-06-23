@@ -3,7 +3,7 @@
 # USB configuration common for hisi devices
 #
 
-import /vendor/etc/init/charger/init.hisi.usb.rc
+import /vendor/etc/init/init.hisi.usb.rc
 
 on init && property:sys.usb.configfs=0
     write /sys/class/android_usb/android0/iManufacturer ${ro.product.manufacturer}
