@@ -11,10 +11,6 @@ persist.sys.cpuset.enable=1
 persist.sys.cpuset.subswitch=0
 persist.sys.iaware.cpuenable=true
 
-# Crypto
-ro.crypto.volume.contents_mode=aes-256-xts
-ro.crypto.volume.filenames_mode=aes-256-cts
-
 # Display
 ro.opengles.version=196610
 debug.hwui.render_dirty_regions=false
