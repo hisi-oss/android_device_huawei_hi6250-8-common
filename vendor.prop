@@ -14,6 +14,7 @@ persist.sys.iaware.cpuenable=true
 # Display
 ro.opengles.version=196610
 debug.hwui.render_dirty_regions=false
+debug.renderengine.backend=threaded
 persist.alloc_buffer_sync=true
 persist.texture_cache_opt=1
 persist.smart_pool=1
