@@ -407,13 +407,9 @@ vendor/firmware/ts/venus_synaptics_VENS18100_lg.img
 vendor/firmware/wifi_cfg
 
 # GPS
-vendor/bin/hw/android.hardware.gnss@1.0-service
 vendor/bin/hw/vendor.huawei.hardware.gnss@1.0-service
-vendor/etc/init/android.hardware.gnss@1.0-service.rc
 vendor/etc/init/vendor.huawei.hardware.gnss@1.0-service.rc
-vendor/lib/hw/android.hardware.gnss@1.0-impl.so
 vendor/lib/vendor.huawei.hardware.gnss@1.0.so
-vendor/lib64/hw/android.hardware.gnss@1.0-impl.so
 vendor/lib64/hw/gps.hi1102.default.so
 vendor/lib64/hw/vendor.huawei.hardware.gnss@1.0-impl.so
 vendor/lib64/libhwgpschannelclient.so
