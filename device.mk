@@ -137,7 +137,8 @@ PRODUCT_PACKAGES += \
 
 # Hisi
 PRODUCT_PACKAGES += \
-    hisi_init
+    hisi_init \
+    libxcollie
 
 # HIDL
 PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true

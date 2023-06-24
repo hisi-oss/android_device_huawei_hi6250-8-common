@@ -1902,7 +1902,6 @@ vendor/lib/libwifi_ext.default.so
 vendor/lib/libwifi_factory_test.so
 vendor/lib/libwifi_factory_test_hisi.so
 vendor/lib/libwifi_wapi_hisi.so
-vendor/lib/libxcollie.so
 vendor/lib/libxmodemgpsrpc.so
 vendor/lib/lib_device_interface.so
 vendor/lib/lib_factory_interface.so
@@ -2067,7 +2066,6 @@ vendor/lib64/libwifi_ext.default.so
 vendor/lib64/libwifi_factory_test.so
 vendor/lib64/libwifi_factory_test_hisi.so
 vendor/lib64/libwifi_wapi_hisi.so
-vendor/lib64/libxcollie.so
 vendor/lib64/libxmodemgpsrpc.so
 vendor/lib64/lib_device_interface.so
 vendor/lib64/lib_factory_interface.so
