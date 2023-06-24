@@ -126,7 +126,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.device.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.device.rc \
     $(LOCAL_PATH)/rootdir/etc/init.ko.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ko.rc \
     $(LOCAL_PATH)/rootdir/etc/init.platform.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.platform.rc \
-    $(LOCAL_PATH)/rootdir/etc/init.chip.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.chip.usb.rc \
     $(LOCAL_PATH)/rootdir/etc/init.balong_modem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.balong_modem.rc \
     $(LOCAL_PATH)/rootdir/etc/init.extmodem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.extmodem.rc \
     $(LOCAL_PATH)/rootdir/etc/init.manufacture.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.manufacture.rc \
