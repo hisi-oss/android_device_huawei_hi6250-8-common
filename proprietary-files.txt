@@ -535,6 +535,9 @@ vendor/lib64/hw/vendor.huawei.hardware.sensors@1.0-impl.so
 vendor/lib64/vendor.huawei.hardware.sensors@1.0.so
 
 # TEE
+bin/system_teecd:vendor/bin/system_teecd
+lib/libtuidaemon.so:vendor/lib/libtuidaemon.so
+lib64/libtuidaemon.so:vendor/lib64/libtuidaemon.so
 vendor/bin/6c8cf255-ca98-439e-a98e-ade64022ecb6.sec
 vendor/bin/86310d18-5659-47c9-b212-841a3ca4f814.sec
 vendor/bin/883890ba-3ef8-4f0b-9c02-f5874acbf2ff.sec

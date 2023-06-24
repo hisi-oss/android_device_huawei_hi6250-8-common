@@ -10,7 +10,7 @@ service teecd /vendor/bin/teecd
     seclabel u:r:tee:s0
 
 #system_teecd
-service system_teecd /system/bin/system_teecd
+service system_teecd /vendor/bin/system_teecd
     socket tui_daemon stream 660 root system
     socket tee-multi-user stream 660 root system
     class core
