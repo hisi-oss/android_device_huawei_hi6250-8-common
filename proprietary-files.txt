@@ -582,11 +582,35 @@ vendor/lib64/vendor.huawei.hardware.hwvibrator@1.0.so
 
 # WiFi
 vendor/bin/hw/vendor.huawei.hardware.wifi@1.1-service
+vendor/bin/hinetmanager
+vendor/bin/hostapd_hisi
+vendor/bin/wifiwakeupsrc
+vendor/bin/wpa_cli_hisi
+vendor/bin/wpa_supplicant_hisi
+vendor/etc/init/hinetmanager.rc
 vendor/etc/init/vendor.huawei.hardware.wifi@1.1-service.rc
+vendor/lib/lib_softap_hw.so
+vendor/lib/lib_wifi_sar.so
+vendor/lib/libhwwifi-hal.so
+vendor/lib/libwifi-hal-bcm.so
+vendor/lib/libwifi_bcm.so
+vendor/lib/libwifi_ext.default.so
+vendor/lib/libwifi_factory_test.so
+vendor/lib/libwifi_factory_test_hisi.so
+vendor/lib/libwifi_wapi_hisi.so
 vendor/lib/vendor.huawei.hardware.wifi.supplicant@1.0.so
 vendor/lib/vendor.huawei.hardware.wifi@1.0.so
 vendor/lib/vendor.huawei.hardware.wifi@1.1.so
 vendor/lib64/hw/vendor.huawei.hardware.wifi@1.1-impl.so
+vendor/lib64/lib_softap_hw.so
+vendor/lib64/lib_wifi_sar.so
+vendor/lib64/libhwwifi-hal.so
+vendor/lib64/libwifi-hal-bcm.so
+vendor/lib64/libwifi_bcm.so
+vendor/lib64/libwifi_ext.default.so
+vendor/lib64/libwifi_factory_test.so
+vendor/lib64/libwifi_factory_test_hisi.so
+vendor/lib64/libwifi_wapi_hisi.so
 vendor/lib64/vendor.huawei.hardware.wifi.supplicant@1.0.so
 vendor/lib64/vendor.huawei.hardware.wifi@1.0.so
 vendor/lib64/vendor.huawei.hardware.wifi@1.1.so
@@ -619,8 +643,6 @@ vendor/bin/gnss_engine_hisi
 vendor/bin/gnss_supl20clientd_hisi
 vendor/bin/gnss_watchlssd_thirdparty
 vendor/bin/gpsdaemon
-vendor/bin/hinetmanager
-vendor/bin/hostapd_hisi
 vendor/bin/hwemerffu
 vendor/bin/iked
 vendor/bin/isplogcat
@@ -633,10 +655,7 @@ vendor/bin/secure_storage
 vendor/bin/start_connectivity_hisi
 vendor/bin/storage_info
 vendor/bin/tpd
-vendor/bin/wifiwakeupsrc
 vendor/bin/wl
-vendor/bin/wpa_cli_hisi
-vendor/bin/wpa_supplicant_hisi
 vendor/etc/cellular_cloud/border/20201/20201_0
 vendor/etc/cellular_cloud/border/20202/20202_0
 vendor/etc/cellular_cloud/border/20205/20205_0
@@ -1664,7 +1683,6 @@ vendor/etc/init/connectivity/init.connectivity.hisi.rc
 vendor/etc/init/connectivity/init.recovery.hi1102.rc
 vendor/etc/init/activity_recognition_service.rc
 vendor/etc/init/aptouch_daemon.rc
-vendor/etc/init/hinetmanager.rc
 vendor/etc/init/rild.rc
 vendor/etc/init/vendor.huawei.graphics.displayeffect@1.0-service.rc
 vendor/etc/init/vendor.huawei.hardware.hisupl@1.0-service.rc
@@ -1845,8 +1863,6 @@ vendor/lib/lib_factory_interface.so
 vendor/lib/lib_fpc_tac_shared.so
 vendor/lib/lib_mmi_interface.so
 vendor/lib/lib_sensor_fac_interface.so
-vendor/lib/lib_softap_hw.so
-vendor/lib/lib_wifi_sar.so
 vendor/lib/libaehc.so
 vendor/lib/libalConvert2Img_al6045.so
 vendor/lib/libasd.so
@@ -1882,7 +1898,6 @@ vendor/lib/libhw_display_effect.so
 vendor/lib/libhw_display_factory.so
 vendor/lib/libhw_display_test.so
 vendor/lib/libhwlog.so
-vendor/lib/libhwwifi-hal.so
 vendor/lib/libiawareperf_client.so
 vendor/lib/libiawareperf_server.so
 vendor/lib/libimedia_filters.so
@@ -1921,12 +1936,6 @@ vendor/lib/libthpinterface.so
 vendor/lib/libtrack.so
 vendor/lib/libufs_info.so
 vendor/lib/libvio.so
-vendor/lib/libwifi-hal-bcm.so
-vendor/lib/libwifi_bcm.so
-vendor/lib/libwifi_ext.default.so
-vendor/lib/libwifi_factory_test.so
-vendor/lib/libwifi_factory_test_hisi.so
-vendor/lib/libwifi_wapi_hisi.so
 vendor/lib/libxmodemgpsrpc.so
 vendor/lib/vendor.huawei.hardware.activity_recognition@1.0.so
 vendor/lib/vendor.huawei.hardware.ai@1.0.so
@@ -1994,8 +2003,6 @@ vendor/lib64/lib_factory_interface.so
 vendor/lib64/lib_fpc_tac_shared.so
 vendor/lib64/lib_mmi_interface.so
 vendor/lib64/lib_sensor_fac_interface.so
-vendor/lib64/lib_softap_hw.so
-vendor/lib64/lib_wifi_sar.so
 vendor/lib64/libaehc.so
 vendor/lib64/libaftouch.so
 vendor/lib64/libalConvert2Img_al6045.so
@@ -2040,7 +2047,6 @@ vendor/lib64/libhw_display_effect.so
 vendor/lib64/libhw_display_factory.so
 vendor/lib64/libhw_display_test.so
 vendor/lib64/libhwlog.so
-vendor/lib64/libhwwifi-hal.so
 vendor/lib64/libiawareperf_client.so
 vendor/lib64/libiawareperf_server.so
 vendor/lib64/libimedia_filters.so
@@ -2079,12 +2085,6 @@ vendor/lib64/libtfa9895.so
 vendor/lib64/libthpinterface.so
 vendor/lib64/libufs_info.so
 vendor/lib64/libvio.so
-vendor/lib64/libwifi-hal-bcm.so
-vendor/lib64/libwifi_bcm.so
-vendor/lib64/libwifi_ext.default.so
-vendor/lib64/libwifi_factory_test.so
-vendor/lib64/libwifi_factory_test_hisi.so
-vendor/lib64/libwifi_wapi_hisi.so
 vendor/lib64/libxmodemgpsrpc.so
 vendor/lib64/vendor.huawei.hardware.activity_recognition@1.0.so
 vendor/lib64/vendor.huawei.hardware.ai@1.0.so
