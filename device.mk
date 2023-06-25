@@ -82,6 +82,10 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     android.hardware.memtrack@1.0-impl
 
+# Fstab
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/fstab.hi6250:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.hi6250
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
@@ -108,6 +112,25 @@ PRODUCT_PACKAGES += \
 # HIDL
 PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
 
+# Init scripts
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connectivity.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.hi6250.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.hi6250.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.hisi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.hisi.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.hisi.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.hisi.usb.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.performance.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.performance.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.protocol.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.protocol.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.audio.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.audio.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.device.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.device.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.ko.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ko.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.platform.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.platform.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.chip.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.chip.usb.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.balong_modem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.balong_modem.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.extmodem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.extmodem.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.manufacture.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.manufacture.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.post-fs-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.post-fs-data.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.tee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.tee.rc
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
@@ -128,10 +151,18 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml
 
+# Recovery
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.recovery.hi6250.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.hi6250.rc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/hisi
+
+# Ueventd
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/ueventd.hi6250.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc
 
 # USB
 PRODUCT_PACKAGES += \
