@@ -56,8 +56,8 @@
 /dev/v4l-subdev15					0660  system 	camera
 /dev/v4l-subdev16					0660  system 	camera
 
-/sys/class/leds/torch/brightness			0664  system    system
-/sys/class/leds/torch/flash_thermal_protect		0664  system    system
+/sys/class/leds/torch	brightness			0664  system    system
+/sys/class/leds/torch	flash_thermal_protect		0664  system    system
 # /sys/class/camerafs/node/dual_leds			0664  system    system
 /dev/hifi_misc                                          0770  root      audio
 /dev/voice_proxy_vowifi                                 0660  root      audio
