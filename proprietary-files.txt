@@ -581,19 +581,15 @@ vendor/lib64/lib_vibrator.so
 vendor/lib64/vendor.huawei.hardware.hwvibrator@1.0.so
 
 # WiFi
-vendor/bin/hw/vendor.huawei.hardware.wifi@1.1-service
 vendor/bin/hinetmanager
 vendor/bin/hostapd_hisi
 vendor/bin/wifiwakeupsrc
 vendor/bin/wpa_cli_hisi
 vendor/bin/wpa_supplicant_hisi
 vendor/etc/init/hinetmanager.rc
-vendor/etc/init/vendor.huawei.hardware.wifi@1.1-service.rc
 vendor/lib/lib_softap_hw.so
 vendor/lib/lib_wifi_sar.so
 vendor/lib/libhwwifi-hal.so
-vendor/lib/libwifi-hal-bcm.so
-vendor/lib/libwifi_bcm.so
 vendor/lib/libwifi_ext.default.so
 vendor/lib/libwifi_factory_test.so
 vendor/lib/libwifi_factory_test_hisi.so
@@ -605,8 +601,6 @@ vendor/lib64/hw/vendor.huawei.hardware.wifi@1.1-impl.so
 vendor/lib64/lib_softap_hw.so
 vendor/lib64/lib_wifi_sar.so
 vendor/lib64/libhwwifi-hal.so
-vendor/lib64/libwifi-hal-bcm.so
-vendor/lib64/libwifi_bcm.so
 vendor/lib64/libwifi_ext.default.so
 vendor/lib64/libwifi_factory_test.so
 vendor/lib64/libwifi_factory_test_hisi.so

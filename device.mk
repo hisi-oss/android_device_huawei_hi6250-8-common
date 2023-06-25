@@ -233,8 +233,13 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-lite-v29
 
 # WiFi
+include hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk
+
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0.vendor
+    android.hardware.wifi@1.0-service \
+    hostapd \
+    wpa_supplicant \
+    wpa_supplicant.conf
 
 # Call the proprietary setup
 $(call inherit-product, vendor/huawei/prague/prague-vendor.mk)
