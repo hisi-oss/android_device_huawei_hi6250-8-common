@@ -1,3 +1,6 @@
+# AR
+/dev/ar                 0664    system system
+
 /dev/ion                0664    system  system
 /dev/mali0              0666    system  system
 /dev/graphics/fb2       0660    system  system
