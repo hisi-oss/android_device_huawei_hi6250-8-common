@@ -23,9 +23,3 @@ PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := PRA-LX1
 PRODUCT_MANUFACTURER := Huawei
 TARGET_VENDOR := Huawei
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="PRA-LX1-user 8.0.0 HUAWEIPRA-LX1 384\(C432\) release-keys"
-
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "HUAWEI/PRA-LX1/HWPRA-H:8.0.0/HUAWEIPRA-LX1/384\(C432\):user/release-keys"
