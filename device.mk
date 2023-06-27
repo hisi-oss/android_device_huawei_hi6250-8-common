@@ -206,6 +206,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.recovery.hi6250.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.hi6250.rc
 
+# Radio
+PRODUCT_PACKAGES += \
+    android.hardware.radio.deprecated@1.0.vendor
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0.vendor
