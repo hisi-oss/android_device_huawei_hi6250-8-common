@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/huawei/prague
+COMMON_PATH := device/huawei/hi6250-8-common
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
@@ -31,16 +31,13 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := generic
 TARGET_BOOTLOADER_BOARD_NAME := hi6250
 TARGET_NO_BOOTLOADER := true
 
-# Display
-TARGET_SCREEN_DENSITY := 480
-
 # Filesystem
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USERIMAGES_USE_EXT4 := true
 
 # HIDL
-DEVICE_MATRIX_FILE += $(DEVICE_PATH)/hidl/compatibility_matrix.xml
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
+DEVICE_MATRIX_FILE += $(COMMON_PATH)/hidl/compatibility_matrix.xml
+DEVICE_MANIFEST_FILE += $(COMMON_PATH)/hidl/manifest.xml
 
 # Init
 TARGET_INIT_VENDOR_LIB := //hardware/hisi:init_hisi
@@ -92,11 +89,11 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_BOARD_PLATFORM := hi6250
 
 # Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.hi6250
+TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.hi6250
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := hardware/hisi/releasetools
@@ -134,4 +131,4 @@ BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_bcmdhd
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
-include vendor/huawei/prague/BoardConfigVendor.mk
+include vendor/huawei/hi6250-8-common/BoardConfigVendor.mk

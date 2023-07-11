@@ -251,4 +251,4 @@ PRODUCT_PACKAGES += \
     wpa_supplicant.conf
 
 # Call the proprietary setup
-$(call inherit-product, vendor/huawei/prague/prague-vendor.mk)
+$(call inherit-product, vendor/huawei/hi6250-8-common/hi6250-8-common-vendor.mk)
