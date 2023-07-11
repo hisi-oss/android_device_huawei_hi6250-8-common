@@ -12,27 +12,6 @@ vendor/lib64/libaudio_custom.so
 vendor/lib/hw/audio.primary.hisi.so:vendor/lib/hw/audio.primary.hi6250.so
 vendor/lib64/hw/audio.primary.hisi.so:vendor/lib64/hw/audio.primary.hi6250.so
 
-# Audio configs
-odm/etc/audio/algorithm/algorithm_PRAGUE_normal.xml
-odm/etc/audio/dts/dts_PRAGUE_normal.xml
-odm/etc/audio/hi6402/mixer_volumes_VENUS_ce.xml
-odm/etc/audio/hissc/mixer_paths_PRAGUE.xml
-odm/etc/audio/hissc/mixer_volumes_PRAGUE_ce.xml
-odm/etc/audio/hissc/mixer_volumes_PRAGUE_cmcciot.xml
-odm/etc/audio/hissc/mixer_volumes_PRAGUE_gcf.xml
-odm/etc/audio/hissc/mixer_volumes_PRAGUE_normal.xml
-odm/etc/audio/hissc/mixer_volumes_PRAGUE_telecomiot.xml
-odm/etc/audio/hissc/mixer_volumes_PRAGUE_unicomiot.xml
-odm/etc/audio/hissc/pop_seq_PRAGUE.xml
-odm/etc/audio/mbdrc/mbdrc_PRAGUE_normal.xml
-odm/etc/audio/modem/modem_PRAGUE_cmcciot.xml
-odm/etc/audio/modem/modem_PRAGUE_gcf.xml
-odm/etc/audio/modem/modem_PRAGUE_normal.xml
-odm/etc/audio/modem/modem_PRAGUE_telecomiot.xml
-odm/etc/audio/modem/modem_PRAGUE_unicomiot.xml
-odm/etc/audio/sws/sws_PRAGUE_normal.xml
-odm/etc/audio/sws/sws_config.txt
-
 # Bluetooth
 vendor/etc/bluetooth/bt_vendor.conf
 vendor/lib/libbt-vendor-hisi.so
@@ -184,15 +163,6 @@ odm/etc/camera/hwscope/ov8856/kernel
 odm/etc/camera/hwscope/device.config
 odm/etc/camera/ispenhnc/ispenhncalgoconfig.xml
 odm/etc/camera/mmi/config.xml
-odm/etc/camera/mmi7cm/prague_imx386e3_ofilm/mmi7cmConfig.xml
-odm/etc/camera/mmi7cm/prague_imx386e3_sunny/mmi7cmConfig.xml
-odm/etc/camera/mmi7cm/prague_imx486_ofilm/mmi7cmConfig.xml
-odm/etc/camera/mmi7cm/prague_imx486_sunny/mmi7cmConfig.xml
-odm/etc/camera/mmi7cm/prague_ov12870e3_liteon/mmi7cmConfig.xml
-odm/etc/camera/mmi7cm/prague_ov12a10_foxconn/mmi7cmConfig.xml
-odm/etc/camera/mmi7cm/prague_ov12a10_liteon/mmi7cmConfig.xml
-odm/etc/camera/mmi7cm/prague_ov12a10_sunny/mmi7cmConfig.xml
-odm/etc/camera/mmi7cm/device.config
 odm/etc/camera/multidenoise/hi843/multiframe.xml
 odm/etc/camera/multidenoise/imx219/multiframe.xml
 odm/etc/camera/multidenoise/imx386e3/multiframe.xml
@@ -391,8 +361,6 @@ vendor/bin/silead_6275_ta.sec
 vendor/bin/silead_6275_ta_handel.sec
 
 # Firmware
-odm/etc/firmware/ts/prague_CYTT21403_default.bin
-product/etc/firmware/ts/prague_CYTT21403_default.bin
 vendor/firmware/ts/Nemo_CS445A_default.bin
 vendor/firmware/ts/Nemo_CS445A_junda.bin
 vendor/firmware/ts/berlin_auo_ili9885.bin
@@ -406,7 +374,6 @@ vendor/firmware/ts/berlin_tm_nt35596_lens.bin
 vendor/firmware/ts/berlin_tm_otm1901a.bin
 vendor/firmware/ts/berlin_tm_r63350.bin
 vendor/firmware/ts/berlin_tm_r63350_lens.bin
-vendor/firmware/ts/prague_CYTT21403_default.bin
 vendor/firmware/ts/venus_synaptics_VENS11080_jdi.img
 vendor/firmware/ts/venus_synaptics_VENS11120_cmi.img
 vendor/firmware/ts/venus_synaptics_VENS11130_boe.img
