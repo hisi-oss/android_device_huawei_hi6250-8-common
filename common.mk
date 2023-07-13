@@ -113,12 +113,10 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1.vendor
 
 # Fstab
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.hi6250:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.hi6250 \
-    $(LOCAL_PATH)/rootdir/etc/fstab.hi6250:$(TARGET_COPY_OUT_RAMDISK)/fstab.hi6250
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.modem:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.modem
+PRODUCT_PACKAGES += \
+    fstab.hi6250 \
+    fstab.hi6250_ramdisk \
+    fstab.modem
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -148,22 +146,22 @@ PRODUCT_PACKAGES += \
 PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
 
 # Init scripts
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/init.connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connectivity.rc \
-    $(LOCAL_PATH)/rootdir/etc/init.hi6250.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.hi6250.rc \
-    $(LOCAL_PATH)/rootdir/etc/init.hisi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.hisi.rc \
-    $(LOCAL_PATH)/rootdir/etc/init.hisi.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.hisi.usb.rc \
-    $(LOCAL_PATH)/rootdir/etc/init.performance.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.performance.rc \
-    $(LOCAL_PATH)/rootdir/etc/init.protocol.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.protocol.rc \
-    $(LOCAL_PATH)/rootdir/etc/init.audio.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.audio.rc \
-    $(LOCAL_PATH)/rootdir/etc/init.device.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.device.rc \
-    $(LOCAL_PATH)/rootdir/etc/init.ko.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ko.rc \
-    $(LOCAL_PATH)/rootdir/etc/init.platform.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.platform.rc \
-    $(LOCAL_PATH)/rootdir/etc/init.balong_modem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.balong_modem.rc \
-    $(LOCAL_PATH)/rootdir/etc/init.extmodem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.extmodem.rc \
-    $(LOCAL_PATH)/rootdir/etc/init.manufacture.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.manufacture.rc \
-    $(LOCAL_PATH)/rootdir/etc/init.post-fs-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.post-fs-data.rc \
-    $(LOCAL_PATH)/rootdir/etc/init.tee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.tee.rc
+PRODUCT_PACKAGES += \
+    init.audio.rc \
+    init.balong_modem.rc \
+    init.connectivity.rc \
+    init.device.rc \
+    init.extmodem.rc \
+    init.hi6250.rc \
+    init.hisi.rc \
+    init.hisi.usb.rc \
+    init.ko.rc \
+    init.manufacture.rc \
+    init.performance.rc \
+    init.platform.rc \
+    init.post-fs-data.rc \
+    init.protocol.rc \
+    init.tee.rc
 
 # Keymaster
 PRODUCT_PACKAGES += \
@@ -202,8 +200,8 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.0.vendor
 
 # Recovery
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/init.recovery.hi6250.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.hi6250.rc
+PRODUCT_PACKAGES += \
+    init.recovery.hi6250.rc
 
 # Radio
 PRODUCT_PACKAGES += \
@@ -228,8 +226,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/hisi
 
 # Ueventd
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/ueventd.hi6250.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc
+PRODUCT_PACKAGES += \
+    ueventd.hi6250.rc
 
 # USB
 PRODUCT_PACKAGES += \
