@@ -89,6 +89,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.override.rc",
+    src: "etc/init.override.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.performance.rc",
     src: "etc/init.performance.rc",
     sub_dir: "init/hw",

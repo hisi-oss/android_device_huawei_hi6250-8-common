@@ -16,6 +16,7 @@ import /vendor/etc/init/hw/init.hisi.rc
 import /vendor/etc/init/hw/init.hisi.usb.rc
 import /vendor/etc/init/hw/init.ko.rc
 import /vendor/etc/init/hw/init.manufacture.rc
+import /vendor/etc/init/hw/init.override.rc
 import /vendor/etc/init/hw/init.performance.rc
 import /vendor/etc/init/hw/init.platform.rc
 import /vendor/etc/init/hw/init.post-fs-data.rc
@@ -749,7 +750,7 @@ on property:init.svc.zygote=running && property:sys.userdata_is_ready=1
     start defragd
 
 on property:sys.userdata_is_ready=1
-    exec u:r:blkcginit:s0 root root -- /vendor/bin/sh /vendor/etc/blkcg_init.sh 0 0
+    exec u:r:vendor_blkcginit:s0 root root -- /vendor/bin/sh /vendor/etc/blkcg_init.sh 0 0
 
 on property:service.bootanim.exit=1
     write /sys/class/devfreq/ddrfreq/max_freq 933000000

@@ -157,6 +157,7 @@ PRODUCT_PACKAGES += \
     init.hisi.usb.rc \
     init.ko.rc \
     init.manufacture.rc \
+    init.override.rc \
     init.performance.rc \
     init.platform.rc \
     init.post-fs-data.rc \
