@@ -1,5 +1,5 @@
 on fs
-    mount_all /vendor/etc/fstab.modem --early
+    mount_all /vendor/etc/fstab.modem
     write /sys/devices/platform/his_modem/modem_sysboot_start 1
     chown radio radio sys/devices/platform/balong_power/state
 
