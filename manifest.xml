@@ -283,6 +283,15 @@
         </interface>
     </hal>
     <hal format="hidl">
+        <name>vendor.huawei.hardware.graphics.displayeffect</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IEffect</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
         <name>vendor.huawei.hardware.graphics.mediacomm</name>
         <transport>hwbinder</transport>
         <version>2.0</version>
@@ -352,6 +361,15 @@
         <interface>
             <name>IHwFactoryInterface</name>
             <instance>hwfactoryinterface_hal</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.huawei.hardware.hwfs</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IHwfs</name>
+            <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl">
@@ -438,7 +456,7 @@
     <hal format="hidl">
         <name>vendor.huawei.hardware.radio</name>
         <transport>hwbinder</transport>
-        <version>1.0</version>
+        <version>1.1</version>
         <interface>
             <name>IRadio</name>
             <instance>rilc</instance>
