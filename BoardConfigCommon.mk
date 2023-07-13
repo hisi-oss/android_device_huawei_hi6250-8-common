@@ -36,8 +36,8 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USERIMAGES_USE_EXT4 := true
 
 # HIDL
-DEVICE_MATRIX_FILE += $(COMMON_PATH)/hidl/compatibility_matrix.xml
-DEVICE_MANIFEST_FILE += $(COMMON_PATH)/hidl/manifest.xml
+DEVICE_MATRIX_FILE += $(COMMON_PATH)/compatibility_matrix.xml
+DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
 
 # Init
 TARGET_INIT_VENDOR_LIB := //hardware/hisi:init_hisi
