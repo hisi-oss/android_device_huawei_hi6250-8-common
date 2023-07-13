@@ -274,6 +274,15 @@
         </interface>
     </hal>
     <hal format="hidl">
+        <name>vendor.huawei.hardware.gnss</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IHWGnss</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
         <name>vendor.huawei.hardware.graphics.mediacomm</name>
         <transport>hwbinder</transport>
         <version>2.0</version>
