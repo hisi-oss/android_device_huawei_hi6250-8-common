@@ -735,23 +735,6 @@ vendor/lib64/libstagefrighthw.so
 vendor/lib64/libvio.so
 vendor/lib64/vendor.huawei.hardware.jpegdec@1.0.so
 
-# NFC
-vendor/bin/hw/vendor.huawei.hardware.nfc@1.0-service
-vendor/bin/nfcgetcplc
-vendor/etc/init/vendor.huawei.hardware.nfc@1.0-service.rc
-vendor/firmware/libpn548ad_fw.so
-vendor/firmware/libpn548ad_fw_10.01.1C_64bits.so
-vendor/firmware/libpn548ad_fw_10_01_1A_prod_slalm_64bits.so
-vendor/firmware/libpn551_fw_10_05_03_64bits.so
-vendor/lib/hw/nfc_nci.pn54x.default.so
-vendor/lib/vendor.huawei.hardware.nfc@1.0.so
-vendor/lib64/hw/nfc_nci.pn54x.default.so
-vendor/lib64/hw/nfc_nci.pn54x_45_548.default.so
-vendor/lib64/hw/nfc_nci.pn54x_45_551.default.so
-vendor/lib64/hw/nfc_nci.pn54x_45_66t.default.so
-vendor/lib64/hw/vendor.huawei.hardware.nfc@1.0-impl.so
-vendor/lib64/vendor.huawei.hardware.nfc@1.0.so
-
 # Nvme
 vendor/bin/mac_addr_normalization
 vendor/lib/libnvme.so

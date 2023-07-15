@@ -194,7 +194,11 @@ PRODUCT_PACKAGES += \
 
 # Nfc
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.0.vendor
+    android.hardware.nfc@1.2-service
+
+PRODUCT_PACKAGES += \
+    com.android.nfc_extras \
+    Tag
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf
