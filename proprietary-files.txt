@@ -739,8 +739,6 @@ vendor/lib64/vendor.huawei.hardware.jpegdec@1.0.so
 vendor/bin/hw/vendor.huawei.hardware.nfc@1.0-service
 vendor/bin/nfcgetcplc
 vendor/etc/init/vendor.huawei.hardware.nfc@1.0-service.rc
-vendor/etc/libnfc_brcm_pra_L31.conf
-vendor/etc/libnfc_nxp_pra_L31.conf
 vendor/firmware/libpn548ad_fw.so
 vendor/firmware/libpn548ad_fw_10.01.1C_64bits.so
 vendor/firmware/libpn548ad_fw_10_01_1A_prod_slalm_64bits.so
