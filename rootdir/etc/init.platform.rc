@@ -106,6 +106,9 @@ on post-fs-data
     chown system system /data/misc/hwpki
     restorecon_recursive /data/misc/hwpki
 
+    # FS
+    setprop vold.post_fs_data_done 1
+
 on boot
 #log
     chmod 0660 /dev/hwlog_tag

@@ -813,7 +813,6 @@ vendor/lib64/vendor.huawei.hardware.power@1.0.so
 
 # RIL
 vendor/bin/hw/rild
-vendor/bin/atcmdserver
 vendor/etc/init/rild.rc
 vendor/lib/libbalong-ril-1.so
 vendor/lib/libbalong-ril-2.so
@@ -1965,8 +1964,3 @@ vendor/lib64/vendor.huawei.hardware.hinetmanager@1.0.so
 vendor/lib64/vendor.huawei.hardware.wifi.supplicant@1.0.so
 vendor/lib64/vendor.huawei.hardware.wifi@1.0.so
 vendor/lib64/vendor.huawei.hardware.wifi@1.1.so
-
-# Misc
-vendor/bin/diagserver
-vendor/lib/libhisi_efuse.so
-vendor/lib64/libhisi_efuse.so

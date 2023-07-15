@@ -14,13 +14,8 @@ import /vendor/etc/init/hw/init.device.rc
 import /vendor/etc/init/hw/init.extmodem.rc
 import /vendor/etc/init/hw/init.hisi.rc
 import /vendor/etc/init/hw/init.hisi.usb.rc
-import /vendor/etc/init/hw/init.ko.rc
-import /vendor/etc/init/hw/init.manufacture.rc
 import /vendor/etc/init/hw/init.override.rc
-import /vendor/etc/init/hw/init.performance.rc
 import /vendor/etc/init/hw/init.platform.rc
-import /vendor/etc/init/hw/init.post-fs-data.rc
-import /vendor/etc/init/hw/init.protocol.rc
 import /vendor/etc/init/hw/init.tee.rc
 
 on early-init

@@ -160,13 +160,8 @@ PRODUCT_PACKAGES += \
     init.hi6250.rc \
     init.hisi.rc \
     init.hisi.usb.rc \
-    init.ko.rc \
-    init.manufacture.rc \
     init.override.rc \
-    init.performance.rc \
     init.platform.rc \
-    init.post-fs-data.rc \
-    init.protocol.rc \
     init.tee.rc
 
 # Keymaster

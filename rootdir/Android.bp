@@ -75,20 +75,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.ko.rc",
-    src: "etc/init.ko.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.manufacture.rc",
-    src: "etc/init.manufacture.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.override.rc",
     src: "etc/init.override.rc",
     sub_dir: "init/hw",
@@ -96,29 +82,8 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.performance.rc",
-    src: "etc/init.performance.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.platform.rc",
     src: "etc/init.platform.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.post-fs-data.rc",
-    src: "etc/init.post-fs-data.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.protocol.rc",
-    src: "etc/init.protocol.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
