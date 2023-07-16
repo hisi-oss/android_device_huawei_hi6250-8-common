@@ -301,15 +301,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.huawei.hardware.hinetmanager</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IHinetmanagerDevice</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
         <name>vendor.huawei.hardware.hisupl</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -474,15 +465,6 @@
         <version>1.0</version>
         <interface>
             <name>ITouchscreen</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.huawei.hardware.wifi</name>
-        <transport>hwbinder</transport>
-        <version>1.1</version>
-        <interface>
-            <name>IHwWifiExt</name>
             <instance>default</instance>
         </interface>
     </hal>
