@@ -104,6 +104,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl
 
+# Connectivity
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/connectivity/init.connectivity.bcm43455.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity/init.connectivity.bcm43455.rc \
+    $(LOCAL_PATH)/connectivity/init.connectivity.bcm43xx.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity/init.connectivity.bcm43xx.rc \
+    $(LOCAL_PATH)/connectivity/init.connectivity.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity/init.connectivity.gps.rc \
+    $(LOCAL_PATH)/connectivity/init.connectivity.hi1102.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity/init.connectivity.hi1102.rc \
+    $(LOCAL_PATH)/connectivity/init.connectivity.hisi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity/init.connectivity.hisi.rc \
+    $(LOCAL_PATH)/connectivity/init.recovery.hi1102.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity/init.recovery.hi1102.rc
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
@@ -256,13 +265,15 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-lite-v29
 
 # WiFi
-include hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk
-
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     hostapd \
     wpa_supplicant \
     wpa_supplicant.conf
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
+    $(LOCAL_PATH)/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf
 
 # Call the proprietary setup
 $(call inherit-product, vendor/huawei/hi6250-8-common/hi6250-8-common-vendor.mk)

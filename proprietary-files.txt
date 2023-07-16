@@ -420,14 +420,6 @@ vendor/etc/modemConfig/viacbp82d_log.bcfg
 vendor/etc/modemConfig/viacbp82d_shutdown_log.bcfg
 vendor/etc/factory_modem.cfg
 
-# Connectivity Init
-vendor/etc/init/connectivity/init.connectivity.bcm43455.rc
-vendor/etc/init/connectivity/init.connectivity.bcm43xx.rc
-vendor/etc/init/connectivity/init.connectivity.gps.rc
-vendor/etc/init/connectivity/init.connectivity.hi1102.rc
-vendor/etc/init/connectivity/init.connectivity.hisi.rc
-vendor/etc/init/connectivity/init.recovery.hi1102.rc
-
 # Device Configs
 vendor/etc/cfg_prague_al00_hisi.ini
 vendor/etc/cfg_prague_l21_hisi.ini
