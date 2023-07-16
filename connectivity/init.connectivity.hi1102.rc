@@ -27,9 +27,6 @@ on early-init
 
 # optimize selinux strategy for OTA
 on post-fs-data
-#wifi
-    chmod 0660 /data/misc/wifi/wpa_supplicant.conf
-#platform
     chmod 660 /dev/ttyAMA3
     chown system system /dev/ttyAMA3
 

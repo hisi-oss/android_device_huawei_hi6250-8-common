@@ -47,14 +47,3 @@ on boot
     chown system system /sys/devices/platform/bcmdhd_wlan.1/wifi_arp_timeout
     # control vio from framework
     chown system system /dev/vio
-
-service hostapd /vendor/bin/hostapd \
-        -e /data/misc/wifi/entropy.bin \
-        /data/misc/wifi/hostapd.conf
-    class main
-    user wifi
-    group wifi
-    writepid /data/misc/wifi/hostapd.pid
-    disabled
-    oneshot
-
