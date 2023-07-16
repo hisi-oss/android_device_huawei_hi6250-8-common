@@ -123,6 +123,7 @@ VENDOR_SECURITY_PATCH := 2018-09-01
 include device/hisi/sepolicy/SEPolicy.mk
 
 # Treble
+PRODUCT_FULL_TREBLE_OVERRIDE := true
 PRODUCT_USE_VNDK_OVERRIDE := true
 
 # Wifi
