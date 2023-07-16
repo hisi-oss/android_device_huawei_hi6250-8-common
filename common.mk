@@ -66,6 +66,9 @@ PRODUCT_PACKAGES += \
     libtinycompress \
     libalsautils
 
+PRODUCT_PACKAGES += \
+    libicuuc
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
     $(LOCAL_PATH)/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
@@ -218,6 +221,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0.vendor
 
+PRODUCT_PACKAGES += \
+    android.frameworks.sensorservice@1.0.vendor
+
 # Shims
 PRODUCT_PACKAGES += \
     libbase_shim \
@@ -239,6 +245,10 @@ PRODUCT_PACKAGES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
+
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.0.vendor
 
 # VNDK
 PRODUCT_PACKAGES += \
