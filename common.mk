@@ -124,6 +124,9 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     android.hardware.memtrack@1.0-impl
 
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.common@1.0_types.vendor
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1.vendor
@@ -224,6 +227,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.radio.deprecated@1.0.vendor
 
+PRODUCT_PACKAGES += \
+    android.hardware.radio@1.0_types.vendor
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0.vendor
@@ -237,8 +243,7 @@ PRODUCT_PACKAGES += \
     libui_shim \
     libshim_hardware \
     libshim_log \
-    libshim_perfhub \
-    libshim_radio
+    libshim_perfhub
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

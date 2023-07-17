@@ -106,11 +106,14 @@ function blob_fixup() {
         vendor/bin/hw/android.hardware.drm@1.0-service.widevine)
             "${PATCHELF}" --add-needed "libbase_shim.so" "${2}"
             ;;
+        vendor/lib*/vendor.huawei.hardware.graphics.gpucommon@1.0.so)
+            "${PATCHELF}" --add-needed "android.hardware.graphics.common@1.0_types.so" "${2}"
+            ;;
         vendor/lib*/hw/vendor.huawei.hardware.sensors@1.0-impl.so)
             "${PATCHELF}" --add-needed "libbase_shim.so" "${2}"
             ;;
         vendor/lib*/vendor.huawei.hardware.radio@1.0.so)
-            "${PATCHELF}" --add-needed "libshim_radio.so" "${2}"
+            "${PATCHELF}" --add-needed "android.hardware.radio@1.0_types.so" "${2}"
             ;;
         vendor/bin/hw/vendor.huawei.hardware.hisupl@1.0-service)
             "${PATCHELF}" --add-needed "libshim_hardware.so" "${2}"
