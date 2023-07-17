@@ -603,7 +603,7 @@ vendor/bin/hw/vendor.huawei.hardware.hisupl@1.0-service
 vendor/bin/gnss_control_hisi
 vendor/bin/gnss_engine_hisi
 vendor/bin/gnss_supl20clientd_hisi
-vendor/bin/gnss_watchlssd_thirdparty
+vendor/bin/gnss_watchlssd_thirdparty:vendor/xbin/gnss_watchlssd_thirdparty
 vendor/bin/gpsdaemon
 vendor/etc/init/vendor.huawei.hardware.gnss@1.0-service.rc
 vendor/etc/init/vendor.huawei.hardware.hisupl@1.0-service.rc
