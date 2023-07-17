@@ -98,14 +98,7 @@ function blob_fixup() {
 	    "${PATCHELF}" --add-needed "libprocessgroup.so" "${2}"
 	    ;;
         vendor/lib64/hw/hwcomposer.hi6250.so)
-            # SetPartialUpdates()
-            sed -i 's|\xe0\x03\x14\xaa\xb9\xc8\xff\x97|\xe0\x03\x14\xaa\x1f\x20\x03\xd5|g' "${2}"
-            # CalcOverlapLayersNum()
-            sed -i 's|\xe0\x03\x14\xaa\xbb\xc8\xff\x97|\xe0\x03\x14\xaa\x1f\x20\x03\xd5|g' "${2}"
-            # CalcOverlapLayersNum()
-            sed -i 's|\xb8\xc8\xff\x97\x88\x12\x40\xf9|\x1f\x20\x03\xd5\x88\x12\x40\xf9|g' "${2}"
-            # HasDamageRegion()
-            sed -i 's|\x9d\xb6\xff\x97\x60\x00\x00\x36|\x1f\x20\x03\xd5\x60\x00\x00\x36|g' "${2}"
+            "${PATCHELF}" --replace-needed "libui.so" "libui-v28.so" "${2}"
             ;;
         vendor/bin/hw/android.hardware.drm@1.0-service.widevine)
             "${PATCHELF}" --add-needed "libbase_shim.so" "${2}"

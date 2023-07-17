@@ -263,7 +263,8 @@ PRODUCT_PACKAGES += \
 # VNDK
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-v29 \
-    libprotobuf-cpp-lite-v29
+    libprotobuf-cpp-lite-v29 \
+    libui-v28
 
 # WiFi
 PRODUCT_PACKAGES += \
