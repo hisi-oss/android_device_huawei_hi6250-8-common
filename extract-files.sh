@@ -65,6 +65,9 @@ function blob_fixup() {
 	    sed -i 's/GB2312/iso-8859-1/g' "${2}"
 	    sed -i 's/xmlversion/xml version/g' "${2}"
             ;;
+        vendor/bin/gpsdaemon)
+            sed -i 's/\([Uu][Cc][Nn][Vv]_[A-Za-z_]*\)_58/\1_70/g' "${2}"
+            ;;
         vendor/etc/perfgenius_*)
             sed -i 's/version="2.0"/version="1.0"/g' "${2}"
             ;;
