@@ -78,6 +78,10 @@ function blob_fixup() {
             "${PATCHELF}" --replace-needed "libskia.so" "libhwui.so" "${2}"
             "${PATCHELF}" --add-needed "libui_shim.so" "${2}"
             ;;
+        vendor/lib*/hw/vendor.huawei.hardware.hisupl@1.0-impl.so)
+            # Respect the HMI's ID, which is hisupl
+            sed -i 's|hisupl.hi1102|hisupl\x00\x00\x00\x00\x00\x00\x00|g' "${2}"
+            ;;
         vendor/lib*/libwvhidl.so)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite.so" "libprotobuf-cpp-lite-v29.so" "${2}"
             ;;
@@ -114,12 +118,6 @@ function blob_fixup() {
             ;;
         vendor/lib*/vendor.huawei.hardware.radio@1.0.so)
             "${PATCHELF}" --add-needed "android.hardware.radio@1.0_types.so" "${2}"
-            ;;
-        vendor/bin/hw/vendor.huawei.hardware.hisupl@1.0-service)
-            "${PATCHELF}" --add-needed "libshim_hardware.so" "${2}"
-            ;;
-        vendor/bin/hw/vendor.huawei.hardware.gnss@1.0-service)
-            "${PATCHELF}" --add-needed "libshim_hardware.so" "${2}"
             ;;
     esac
 }

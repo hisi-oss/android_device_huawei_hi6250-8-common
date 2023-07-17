@@ -615,7 +615,7 @@ vendor/lib/libxmodemgpsrpc.so
 vendor/lib/vendor.huawei.hardware.gnss@1.0.so
 vendor/lib/vendor.huawei.hardware.hisupl@1.0.so
 vendor/lib64/hw/gps.hi1102.default.so
-vendor/lib64/hw/hisupl.hi1102.default.so
+vendor/lib64/hw/hisupl.hi1102.default.so:vendor/lib64/hw/hisupl.default.so
 vendor/lib64/hw/vendor.huawei.hardware.gnss@1.0-impl.so
 vendor/lib64/hw/vendor.huawei.hardware.hisupl@1.0-impl.so
 vendor/lib64/libgnss_common_hisi.so
