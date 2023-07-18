@@ -82,6 +82,9 @@ function blob_fixup() {
             # Respect the HMI's ID, which is hisupl
             sed -i 's|hisupl.hi1102|hisupl\x00\x00\x00\x00\x00\x00\x00|g' "${2}"
             ;;
+        vendor/lib*/soundfx/libhuaweiprocessing.so)
+            "${PATCHELF}" --remove-needed "libicuuc.so" "${2}"
+            ;;
         vendor/lib*/libwvhidl.so)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite.so" "libprotobuf-cpp-lite-v29.so" "${2}"
             ;;
