@@ -42,14 +42,7 @@ vendor/lib64/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0.so
 
 # Bluetooth
 vendor/etc/bluetooth/bt_vendor.conf
-vendor/lib/libbt-vendor-hisi.so
-vendor/lib/libbt-vendor.so
-vendor/lib/libbt_factory_test.so
-vendor/lib/libbt_factory_test_hisi.so
 vendor/lib64/libbt-vendor-hisi.so
-vendor/lib64/libbt-vendor.so
-vendor/lib64/libbt_factory_test.so
-vendor/lib64/libbt_factory_test_hisi.so
 
 # Camera
 vendor/bin/oeminfo_gamma
