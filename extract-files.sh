@@ -88,7 +88,7 @@ function blob_fixup() {
         vendor/lib64/libDocBeauty.so \
         |vendor/lib64/libFaceBeautyMeiwoJNI.so \
         |vendor/lib64/libcontrastCal.so)
-            "${PATCHELF}" --replace-needed "libgui.so" "libgui_vendor.so" "${2}"
+            sed -i 's|libgui.so|guivnd.so|g' "${2}"
             ;;
         vendor/lib*/libiawareperf_server.so)
             "${PATCHELF}" --add-needed "libtinyxml2_shim.so" "${2}"

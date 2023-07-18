@@ -246,7 +246,8 @@ PRODUCT_PACKAGES += \
     libsensor_vendor \
     libshim_log \
     libui_shim.vendor \
-    libtinyxml2_shim.vendor
+    libtinyxml2_shim.vendor \
+    guivnd
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
