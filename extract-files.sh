@@ -85,6 +85,11 @@ function blob_fixup() {
         vendor/lib*/libwvhidl.so)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite.so" "libprotobuf-cpp-lite-v29.so" "${2}"
             ;;
+        vendor/lib64/libDocBeauty.so \
+        |vendor/lib64/libFaceBeautyMeiwoJNI.so \
+        |vendor/lib64/libcontrastCal.so)
+            "${PATCHELF}" --replace-needed "libgui.so" "libgui_vendor.so" "${2}"
+            ;;
         vendor/lib*/libiawareperf_server.so)
             "${PATCHELF}" --add-needed "libtinyxml2_shim.so" "${2}"
             ;;

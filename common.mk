@@ -102,6 +102,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl
 
+PRODUCT_PACKAGES += \
+    libgui_vendor \
+    libstdc++.vendor
+
 # Connectivity
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/connectivity/init.connectivity.bcm43455.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity/init.connectivity.bcm43455.rc \
@@ -239,6 +243,7 @@ PRODUCT_PACKAGES += \
 # Shims
 PRODUCT_PACKAGES += \
     libbase_shim \
+    libsensor_vendor \
     libshim_log \
     libui_shim.vendor \
     libtinyxml2_shim.vendor
