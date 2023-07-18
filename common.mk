@@ -240,8 +240,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbase_shim \
     libshim_log \
-    libshim_perfhub \
-    libui_shim.vendor
+    libui_shim.vendor \
+    libtinyxml2_shim.vendor
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

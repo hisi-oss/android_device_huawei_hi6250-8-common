@@ -86,10 +86,10 @@ function blob_fixup() {
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite.so" "libprotobuf-cpp-lite-v29.so" "${2}"
             ;;
         vendor/lib*/libiawareperf_server.so)
-            "${PATCHELF}" --add-needed "libshim_perfhub.so" "${2}"
+            "${PATCHELF}" --add-needed "libtinyxml2_shim.so" "${2}"
             ;;
         vendor/lib*/libperfhub_service.so)
-            "${PATCHELF}" --add-needed "libshim_perfhub.so" "${2}"
+            "${PATCHELF}" --add-needed "libtinyxml2_shim.so" "${2}"
             ;;
         vendor/lib*/libRefocusContrastPosition.so|vendor/lib*/libhwlog.so)
             "${PATCHELF}" --add-needed "libshim_log.so" "${2}"
