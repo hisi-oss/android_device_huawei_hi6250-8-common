@@ -19,7 +19,9 @@ vendor/lib64/libtas2560.so
 vendor/lib64/libtfa9895.so
 
 # Audio FX modules
+vendor/lib/soundfx/libhuaweiprocessing.so
 vendor/lib/soundfx/liboffloadvisualizer.so
+vendor/lib64/soundfx/libhuaweiprocessing.so
 vendor/lib64/soundfx/liboffloadvisualizer.so
 
 # Audio Hardware
