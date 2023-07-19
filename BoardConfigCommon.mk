@@ -107,13 +107,9 @@ BOARD_PROVIDES_LIBRIL := true
 
 # Root
 BOARD_ROOT_EXTRA_FOLDERS += \
-    3rdmodem \
-    3rdmodemnvm \
-    3rdmodemnvmbkp \
+    mnvm2:0 \
     modem_fw \
     modem_log \
-    modem_om \
-    modemnvm_img \
     sec_storage \
     splash2
 
