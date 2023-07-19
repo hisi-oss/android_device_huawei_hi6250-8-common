@@ -124,6 +124,7 @@ VENDOR_SECURITY_PATCH := 2018-09-01
 
 # SEPolicy
 include device/hisi/sepolicy/SEPolicy.mk
+BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true
