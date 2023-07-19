@@ -2,6 +2,6 @@
 #<src>                                                  <mnt_point>   <type>    <mnt_flags and options>                                                                               <fs_mgr_flags>
 # The filesystem that contains the filesystem checker binary (typically /system) cannot
 # specify MF_CHECK, and must come before any filesystems that do specify MF_CHECK
-/dev/block/platform/hi_mci.0/by-name/modem_fw           /modem_fw     ext4      ro,context=u:object_r:modem_fw_file:s0                                                                wait,nofail
-/dev/block/platform/hi_mci.0/by-name/modem_om           /modem_log    ext4      rw,noauto_da_alloc,nosuid,nodev,noatime,data=ordered,barrier=1,context=u:object_r:modem_log_file:s0   wait,check,notrim,nofail
-/dev/block/platform/hi_mci.0/by-name/modemnvm_img       /mnvm2:0      ext4      rw,noauto_da_alloc,nosuid,nodev,noatime,data=ordered,barrier=1,context=u:object_r:modem_nv_file:s0    wait,check,notrim,nofail
+/dev/block/platform/hi_mci.0/by-name/modem_fw           /modem_fw     ext4      ro,context=u:object_r:modem_file:s0                                                                 wait,nofail
+/dev/block/platform/hi_mci.0/by-name/modem_om           /modem_log    ext4      rw,noauto_da_alloc,nosuid,nodev,noatime,data=ordered,barrier=1,context=u:object_r:modem_file:s0     wait,check,notrim,nofail
+/dev/block/platform/hi_mci.0/by-name/modemnvm_img       /mnvm2:0      ext4      rw,noauto_da_alloc,nosuid,nodev,noatime,data=ordered,barrier=1,context=u:object_r:modem_file:s0     wait,check,notrim,nofail
