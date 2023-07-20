@@ -25,8 +25,8 @@ vendor/lib64/soundfx/libhuaweiprocessing.so
 vendor/lib64/soundfx/liboffloadvisualizer.so
 
 # Audio Hardware
-vendor/lib/hw/audio.primary.hisi.so:vendor/lib/hw/audio.primary.hi6250.so
-vendor/lib64/hw/audio.primary.hisi.so:vendor/lib64/hw/audio.primary.hi6250.so
+vendor/lib/hw/audio.primary.hisi.so:vendor/lib/hw/audio.primary_hisi.hi6250.so
+vendor/lib64/hw/audio.primary.hisi.so:vendor/lib64/hw/audio.primary_hisi.hi6250.so
 
 # Biometrics
 vendor/bin/hw/vendor.huawei.hardware.biometrics.fingerprint@2.1-service

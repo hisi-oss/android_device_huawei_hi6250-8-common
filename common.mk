@@ -58,6 +58,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.1-impl
 
 PRODUCT_PACKAGES += \
+    audio.primary.hisi_wrapper \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default
