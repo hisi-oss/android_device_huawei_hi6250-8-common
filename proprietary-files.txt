@@ -47,7 +47,6 @@ vendor/etc/bluetooth/bt_vendor.conf
 vendor/lib64/libbt-vendor-hisi.so
 
 # Camera
-vendor/bin/oeminfo_gamma
 vendor/lib/hw/camera.hi6250.so
 vendor/lib/hw/hicam.hal.bz.so
 vendor/lib/hw/hicam.hal.service.so
@@ -55,7 +54,6 @@ vendor/lib/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so
 vendor/lib/hwcam/hwcam.ddt.so
 vendor/lib/hwcam/hwcam.services.so
 vendor/lib/libBestShot.so
-vendor/lib/libBootloaderOeminfo.so
 vendor/lib/libDocBeauty.so
 vendor/lib/libFaceBeautyMeiwo.so
 vendor/lib/libFaceBeautyMeiwoJNI.so
@@ -91,7 +89,6 @@ vendor/lib/libmrc_cg_niceFood.so
 vendor/lib/libmrc_cg_postprocess.so
 vendor/lib/libmrc_cg_postprocess_cl.so
 vendor/lib/libmrc_cg_sz.so
-vendor/lib/liboeminfo.so
 vendor/lib/libscenedetection.so
 vendor/lib/libtrack.so
 vendor/lib/vendor.huawei.hardware.ai@1.0.so
@@ -107,7 +104,6 @@ vendor/lib64/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so
 vendor/lib64/hwcam/hwcam.ddt.so
 vendor/lib64/hwcam/hwcam.services.so
 vendor/lib64/libBestShot.so
-vendor/lib64/libBootloaderOeminfo.so
 vendor/lib64/libDocBeauty.so
 vendor/lib64/libFaceBeautyMeiwo.so
 vendor/lib64/libFaceBeautyMeiwoJNI.so
@@ -146,7 +142,6 @@ vendor/lib64/libmrc_cg_oz.so
 vendor/lib64/libmrc_cg_postprocess.so
 vendor/lib64/libmrc_cg_postprocess_cl.so
 vendor/lib64/libmrc_cg_sz.so
-vendor/lib64/liboeminfo.so
 vendor/lib64/libscenedetection.so
 vendor/lib64/vendor.huawei.hardware.ai@1.0.so
 vendor/lib64/vendor.huawei.hardware.camera.camResource@1.0.so
@@ -1456,6 +1451,16 @@ vendor/lib64/vendor.huawei.hardware.jpegdec@1.0.so
 vendor/bin/mac_addr_normalization
 vendor/lib/libnvme.so
 vendor/lib64/libnvme.so
+
+# Oeminfo
+vendor/bin/oeminfo_gamma
+vendor/lib/libBootloaderOeminfo.so
+vendor/lib/liboeminfo.so
+vendor/lib64/libBootloaderOeminfo.so
+vendor/lib64/liboeminfo.so
+
+# Oeminfo (ramdisk) - from PRA 8.0.0 OPR6.170623.010
+vendor/bin/oeminfo_nvm_server|8090ac50916f1f318454e091e6b7388af844d6e6
 
 # Otherdevices
 vendor/bin/hw/vendor.huawei.hardware.otherdevices@1.0-service
