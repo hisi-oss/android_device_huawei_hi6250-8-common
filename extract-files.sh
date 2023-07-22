@@ -68,6 +68,10 @@ function blob_fixup() {
         vendor/bin/gpsdaemon)
             sed -i 's/\([Uu][Cc][Nn][Vv]_[A-Za-z_]*\)_58/\1_70/g' "${2}"
             ;;
+        vendor/bin/system_teecd \
+        |vendor/bin/teecd)
+            "${SIGSCAN}" -p "1f 05 00 71 41 03 00 54" -P "1f 05 00 71 1a 00 00 14" -f "${2}"
+            ;;
         vendor/etc/perfgenius_*)
             sed -i 's/version="2.0"/version="1.0"/g' "${2}"
             ;;
