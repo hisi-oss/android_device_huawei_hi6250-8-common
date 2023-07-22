@@ -6,7 +6,6 @@
 
 COMMON_PATH := device/huawei/hi6250-8-common
 
-BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # APEX
