@@ -1071,6 +1071,7 @@ vendor/lib64/vendor.huawei.hardware.radio@1.1.so
 vendor/phone.prop
 
 # RIL Configs
+system/emui/base/global/ons.bin:vendor/etc/ons/ons.bin
 vendor/etc/cellular_cloud/border/20201/20201_0
 vendor/etc/cellular_cloud/border/20202/20202_0
 vendor/etc/cellular_cloud/border/20205/20205_0
