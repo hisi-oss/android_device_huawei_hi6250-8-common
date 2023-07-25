@@ -43,7 +43,6 @@ persist.rog_feature=1
 # IMS
 ro.config.callinwifi=200,6
 ro.config.hw_volte_on=true
-bastet.service.enable=true
 
 # Kernel
 ro.config.enable_rcc=true
@@ -61,11 +60,20 @@ ro.config.mmu_en=1
 ro.config.hw_perfgenius=true
 ro.config.hw_board_ipa=true
 
+# RIL
+ro.config.ipv4.mtu=1400
+bastet.service.enable=true
+ro.config.hw_eccNumUseRplmn=true
+persist.radio.apm_sim_not_pwdn=true
+
 # Sensor
 ro.config.hw_sensorhub=true
 
 # Storage
 persist.fw.force_adoptable=true
+
+# Touch
+ro.config.huawei_smallwindow=0,0,1080,1346
 
 # TUI
 ro.tui.service=true
