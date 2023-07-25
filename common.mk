@@ -164,6 +164,14 @@ PRODUCT_PACKAGES += \
 # HIDL
 PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
 
+# IMS
+PRODUCT_BOOT_JARS += \
+    hwEmui \
+    hwTelephony-common
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-com.huawei.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.huawei.ims.xml
+
 # Init scripts
 PRODUCT_PACKAGES += \
     init.audio.rc \
@@ -243,12 +251,14 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
+    guivnd \
     libbase_shim \
+    libcutils_shim \
     libsensor_vendor \
+    libshim_emcom \
     libshim_log \
-    libui_shim.vendor \
     libtinyxml2_shim.vendor \
-    guivnd
+    libui_shim.vendor
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

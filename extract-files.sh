@@ -60,6 +60,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        system/lib*/libemcomutil.so)
+             "${PATCHELF}" --add-needed "libshim_emcom.so" "${2}"
+            ;;
         vendor/etc/camera/*|odm/etc/camera/*)
 	    sed -i 's/gb2312/iso-8859-1/g' "${2}"
 	    sed -i 's/GB2312/iso-8859-1/g' "${2}"
