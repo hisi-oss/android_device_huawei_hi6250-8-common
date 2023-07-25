@@ -1476,7 +1476,9 @@ vendor/lib64/vendor.huawei.hardware.otherdevices@1.0.so
 
 # Perf
 system/lib/libiawareperf_client.so
+system/lib/vendor.huawei.hardware.iawareperf@1.0.so
 system/lib64/libiawareperf_client.so
+system/lib64/vendor.huawei.hardware.iawareperf@1.0.so
 vendor/bin/hw/vendor.huawei.hardware.iawareperf@1.0-service
 vendor/bin/hw/vendor.huawei.hardware.perfgenius@1.0-service
 vendor/etc/init/vendor.huawei.hardware.iawareperf@1.0-service.rc
