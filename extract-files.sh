@@ -88,6 +88,9 @@ function blob_fixup() {
         vendor/lib64/hw/keystore.hi6250.so)
             sed -i 's|/system/lib64/libcrypto.so|libcrypto.so\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|g' "${2}"
             ;;
+        vendor/lib64/libcamera_algo.so)
+            "${PATCHELF}" --replace-needed "libsensor.so" "libsensor_vendor.so" "${2}"
+            ;;
         vendor/lib*/hw/vendor.huawei.hardware.hisupl@1.0-impl.so)
             # Respect the HMI's ID, which is hisupl
             sed -i 's|hisupl.hi1102|hisupl\x00\x00\x00\x00\x00\x00\x00|g' "${2}"
