@@ -10,6 +10,9 @@
 /dev/memory_latency     0660    system  system
 /dev/imgsysbrg_vdec0    0660    system  camera
 
+# GPS
+/dev/flp                0664    system system
+
 /dev/video0					0660  system 	camera
 /dev/video1					0660  system 	camera
 /dev/video2					0660  system 	camera
