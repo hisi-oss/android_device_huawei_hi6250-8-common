@@ -167,6 +167,7 @@ PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
 # IMS
 PRODUCT_BOOT_JARS += \
     hwEmui \
+    hwframework \
     hwTelephony-common
 
 PRODUCT_COPY_FILES += \

@@ -1404,6 +1404,7 @@ system/app/HwIms/lib/arm64/libtls_default.so:system/priv-app/HwIms/lib/arm64/lib
 system/app/HwIms/lib/arm64/libut.so:system/priv-app/HwIms/lib/arm64/libut.so
 system/app/HwIms/lib/arm64/libvsc.so:system/priv-app/HwIms/lib/arm64/libvsc.so
 -system/framework/hwEmui.jar
+-system/framework/hwframework.jar
 -system/framework/hwTelephony-common.jar
 vendor/bin/hivwserver
 vendor/bin/iked
