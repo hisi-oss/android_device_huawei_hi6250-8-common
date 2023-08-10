@@ -78,6 +78,10 @@ function blob_fixup() {
         vendor/etc/perfgenius_*)
             sed -i 's/version="2.0"/version="1.0"/g' "${2}"
             ;;
+        vendor/etc/init/rild.rc)
+            sed -i '1i on property:sys.rilprops_ready=1\n    start ril-daemon\n' "${2}"
+            echo "    disabled" >> "${2}"
+            ;;
         vendor/lib*/egl/libGLES_mali.so|vendor/lib*/hw/gralloc.hi6250.so)
             "${PATCHELF}" --add-needed "libutilscallstack.so" "${2}"
             ;;
