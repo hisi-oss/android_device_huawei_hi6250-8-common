@@ -266,6 +266,10 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/hisi
 
+# Touch
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.hisi
+
 # Ueventd
 PRODUCT_PACKAGES += \
     ueventd.hi6250.rc
