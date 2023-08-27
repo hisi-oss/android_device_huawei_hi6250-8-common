@@ -1,4 +1,4 @@
-import /vendor/etc/init/connectivity/init.connectivity.${ro.connectivity.chiptype}.rc
+import /vendor/etc/init/connectivity/init.connectivity.hi1102.rc
 
 on post-fs-data
     # Create the directories used by the Wireless subsystem

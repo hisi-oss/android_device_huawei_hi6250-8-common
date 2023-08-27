@@ -105,12 +105,7 @@ PRODUCT_PACKAGES += \
 
 # Connectivity
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/connectivity/init.connectivity.bcm43455.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity/init.connectivity.bcm43455.rc \
-    $(LOCAL_PATH)/connectivity/init.connectivity.bcm43xx.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity/init.connectivity.bcm43xx.rc \
-    $(LOCAL_PATH)/connectivity/init.connectivity.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity/init.connectivity.gps.rc \
-    $(LOCAL_PATH)/connectivity/init.connectivity.hi1102.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity/init.connectivity.hi1102.rc \
-    $(LOCAL_PATH)/connectivity/init.connectivity.hisi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity/init.connectivity.hisi.rc \
-    $(LOCAL_PATH)/connectivity/init.recovery.hi1102.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity/init.recovery.hi1102.rc
+    $(LOCAL_PATH)/connectivity/init.connectivity.hi1102.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity/init.connectivity.hi1102.rc
 
 # Display
 PRODUCT_PACKAGES += \
