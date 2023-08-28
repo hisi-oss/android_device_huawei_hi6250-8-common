@@ -422,9 +422,6 @@ on boot
     write /splash2/sim/sim_pin_file.bin  "000000"
     # DTS2017041402245 w00180399 20170508 end
 
-    chown system system /sys/class/leds/lcd_backlight0/brightness
-    chmod 644 /sys/class/leds/lcd_backlight0/brightness
-
     chmod 755 /system/bin/busybox
 
 

@@ -1436,17 +1436,6 @@ vendor/etc/ikedconfig/vals.conf
 vendor/lib/hw/keystore.hi6250.so
 vendor/lib64/hw/keystore.hi6250.so
 
-# Lights
-vendor/bin/hw/vendor.huawei.hardware.light@2.0-service
-vendor/etc/init/vendor.huawei.hardware.light@2.0-service.rc
-vendor/lib/hw/lights.default.so
-vendor/lib/vendor.huawei.hardware.hivrar@1.0.so
-vendor/lib/vendor.huawei.hardware.light@2.0.so
-vendor/lib64/hw/lights.default.so
-vendor/lib64/hw/vendor.huawei.hardware.light@2.0-impl.so
-vendor/lib64/vendor.huawei.hardware.hivrar@1.0.so
-vendor/lib64/vendor.huawei.hardware.light@2.0.so
-
 # Media
 vendor/lib/libVideoDenoise.so
 vendor/lib/libjpeghdrenc.so
