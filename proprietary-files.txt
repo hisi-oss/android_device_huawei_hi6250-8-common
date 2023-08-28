@@ -2640,12 +2640,3 @@ vendor/lib64/vendor.huawei.hardware.tp@1.0.so
 vendor/etc/tp_test_parameters/prague_eely_input_format.csv
 vendor/etc/tp_test_parameters/prague_ofilm_input_format.csv
 vendor/etc/tp_test_parameters/prague_truly_input_format.csv
-
-# Vibrator
-vendor/bin/hw/vendor.huawei.hardware.hwvibrator@1.0-service
-vendor/etc/init/vendor.huawei.hardware.hwvibrator@1.0-service.rc
-vendor/lib/lib_vibrator.so
-vendor/lib/vendor.huawei.hardware.hwvibrator@1.0.so
-vendor/lib64/hw/vendor.huawei.hardware.hwvibrator@1.0-impl.so
-vendor/lib64/lib_vibrator.so
-vendor/lib64/vendor.huawei.hardware.hwvibrator@1.0.so
