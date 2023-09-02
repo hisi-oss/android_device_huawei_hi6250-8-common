@@ -226,7 +226,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.0.vendor
+    android.hardware.power-service.hisi-libperfmgr
 
 # Recovery
 PRODUCT_PACKAGES += \
@@ -260,7 +260,10 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/hisi
+    hardware/google/interfaces \
+    hardware/google/pixel \
+    hardware/hisi \
+    hardware/hisi/power-libperfmgr
 
 # Touch
 PRODUCT_PACKAGES += \

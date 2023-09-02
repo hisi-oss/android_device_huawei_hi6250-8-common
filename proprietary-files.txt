@@ -1506,18 +1506,6 @@ vendor/etc/perfgenius_config.xml
 vendor/etc/topazhp.cfg
 vendor/etc/vdec_atlas.cfg
 
-# Power
-vendor/bin/hw/vendor.huawei.hardware.power@1.0-service
-vendor/etc/init/vendor.huawei.hardware.power@1.0-service.rc
-vendor/etc/pwrlog.cfg
-vendor/lib/hw/power.hi6250.so
-vendor/lib/libpowerlog.so
-vendor/lib/vendor.huawei.hardware.power@1.0.so
-vendor/lib64/hw/power.hi6250.so
-vendor/lib64/hw/vendor.huawei.hardware.power@1.0-impl.so
-vendor/lib64/libpowerlog.so
-vendor/lib64/vendor.huawei.hardware.power@1.0.so
-
 # RIL
 vendor/bin/hw/rild
 vendor/etc/init/rild.rc
