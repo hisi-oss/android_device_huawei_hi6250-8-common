@@ -35,12 +35,16 @@ vendor/etc/init/vendor.huawei.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/init/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0-service.rc
 vendor/lib/hw/facerecognize.hi6250.so
 vendor/lib/hw/fingerprint.hi6250.so
+vendor/lib/libiawareperf_client.so
 vendor/lib/vendor.huawei.hardware.biometrics.fingerprint@2.1.so
 vendor/lib/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0.so
+vendor/lib/vendor.huawei.hardware.iawareperf@1.0.so
 vendor/lib64/hw/facerecognize.hi6250.so
 vendor/lib64/hw/fingerprint.hi6250.so
+vendor/lib64/libiawareperf_client.so
 vendor/lib64/vendor.huawei.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0.so
+vendor/lib64/vendor.huawei.hardware.iawareperf@1.0.so
 
 # Bluetooth
 vendor/etc/bluetooth/bt_vendor.conf
@@ -89,6 +93,7 @@ vendor/lib/libmrc_cg_niceFood.so
 vendor/lib/libmrc_cg_postprocess.so
 vendor/lib/libmrc_cg_postprocess_cl.so
 vendor/lib/libmrc_cg_sz.so
+vendor/lib/libperfgenius_vendor_client.so
 vendor/lib/libscenedetection.so
 vendor/lib/libtrack.so
 vendor/lib/vendor.huawei.hardware.ai@1.0.so
@@ -96,6 +101,7 @@ vendor/lib/vendor.huawei.hardware.camera.camResource@1.0.so
 vendor/lib/vendor.huawei.hardware.camera.camResource@1.1.so
 vendor/lib/vendor.huawei.hardware.camera.cfgsvr@1.0.so
 vendor/lib/vendor.huawei.hardware.camera.factory@1.0.so
+vendor/lib/vendor.huawei.hardware.perfgenius@1.0.so
 vendor/lib64/hw/CameraFactoryService.so
 vendor/lib64/hw/camera.hi6250.so
 vendor/lib64/hw/hicam.hal.bz.so
@@ -142,12 +148,14 @@ vendor/lib64/libmrc_cg_oz.so
 vendor/lib64/libmrc_cg_postprocess.so
 vendor/lib64/libmrc_cg_postprocess_cl.so
 vendor/lib64/libmrc_cg_sz.so
+vendor/lib64/libperfgenius_vendor_client.so
 vendor/lib64/libscenedetection.so
 vendor/lib64/vendor.huawei.hardware.ai@1.0.so
 vendor/lib64/vendor.huawei.hardware.camera.camResource@1.0.so
 vendor/lib64/vendor.huawei.hardware.camera.camResource@1.1.so
 vendor/lib64/vendor.huawei.hardware.camera.cfgsvr@1.0.so
 vendor/lib64/vendor.huawei.hardware.camera.factory@1.0.so
+vendor/lib64/vendor.huawei.hardware.perfgenius@1.0.so
 
 # Camera Arcsoft
 odm/lib/libarcsoft_beautyshot.so
@@ -1398,9 +1406,11 @@ system/bin/emcomd
 system/lib64/libc_secshared.so
 system/lib64/libemcomutil.so
 system/lib64/libhuaweicust.so
+system/lib64/libiawareperf_client.so
 system/lib64/libsmartcare.so
 system/lib64/libsmartcareSDK.so
 system/lib64/libxengine.so
+system/lib64/vendor.huawei.hardware.iawareperf@1.0.so
 vendor/bin/hivwserver
 vendor/bin/iked
 vendor/bin/isplogcat
@@ -1432,6 +1442,8 @@ vendor/lib/hw/keystore.hi6250.so
 vendor/lib64/hw/keystore.hi6250.so
 
 # Media
+vendor/etc/topazhp.cfg
+vendor/etc/vdec_atlas.cfg
 vendor/lib/libVideoDenoise.so
 vendor/lib/libjpeghdrenc.so
 vendor/lib/libomx_vxd.so
@@ -1468,43 +1480,6 @@ vendor/etc/init/vendor.huawei.hardware.otherdevices@1.0-service.rc
 vendor/lib/vendor.huawei.hardware.otherdevices@1.0.so
 vendor/lib64/hw/vendor.huawei.hardware.otherdevices@1.0-impl.so
 vendor/lib64/vendor.huawei.hardware.otherdevices@1.0.so
-
-# Perf
-system/lib/libiawareperf_client.so
-system/lib/vendor.huawei.hardware.iawareperf@1.0.so
-system/lib64/libiawareperf_client.so
-system/lib64/vendor.huawei.hardware.iawareperf@1.0.so
-vendor/bin/hw/vendor.huawei.hardware.iawareperf@1.0-service
-vendor/bin/hw/vendor.huawei.hardware.perfgenius@1.0-service
-vendor/etc/init/vendor.huawei.hardware.iawareperf@1.0-service.rc
-vendor/etc/init/vendor.huawei.hardware.perfgenius@1.0-service.rc
-vendor/lib/hw/vendor.huawei.hardware.perfgenius@1.0-impl.so
-vendor/lib/libhisi_wrapper.so
-vendor/lib/libhuaweicust.so
-vendor/lib/libiawareperf_client.so
-vendor/lib/libiawareperf_server.so
-vendor/lib/libperfgenius_vendor_client.so
-vendor/lib/libperfhub.so
-vendor/lib/libperfhub_service.so
-vendor/lib/vendor.huawei.hardware.iawareperf@1.0.so
-vendor/lib/vendor.huawei.hardware.perfgenius@1.0.so
-vendor/lib64/hw/vendor.huawei.hardware.iawareperf@1.0-impl.so
-vendor/lib64/hw/vendor.huawei.hardware.perfgenius@1.0-impl.so
-vendor/lib64/libhisi_wrapper.so
-vendor/lib64/libhuaweicust.so
-vendor/lib64/libiawareperf_client.so
-vendor/lib64/libiawareperf_server.so
-vendor/lib64/libperfgenius_vendor_client.so
-vendor/lib64/libperfhub.so
-vendor/lib64/libperfhub_service.so
-vendor/lib64/vendor.huawei.hardware.iawareperf@1.0.so
-vendor/lib64/vendor.huawei.hardware.perfgenius@1.0.so
-
-# Perf Configs
-vendor/etc/perfgenius_boost_policy.xml
-vendor/etc/perfgenius_config.xml
-vendor/etc/topazhp.cfg
-vendor/etc/vdec_atlas.cfg
 
 # RIL
 vendor/bin/hw/rild

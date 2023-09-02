@@ -56,10 +56,6 @@ persist.media.lowlatency.enable=false
 # MMU
 ro.config.mmu_en=1
 
-# Perfgenius
-ro.config.hw_perfgenius=true
-ro.config.hw_board_ipa=true
-
 # RIL
 ro.config.ipv4.mtu=1400
 bastet.service.enable=true
