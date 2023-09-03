@@ -1,0 +1,272 @@
+{
+    "Nodes": [
+        {
+            "Name": "CPULittleClusterMaxFreq",
+            "Path": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq",
+            "Values": [
+                "1709000",
+                "1306000"
+            ],
+            "DefaultIndex": 0,
+            "ResetOnInit": true
+        },
+        {
+            "Name": "CPULittleClusterMinFreq",
+            "Path": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq",
+            "Values": [
+                "1709000",
+                "1306000",
+                "807000",
+                "480000"
+            ],
+            "ResetOnInit": true
+        },
+        {
+            "Name": "CPULittleClusterIOIsBusy",
+            "Path": "/sys/devices/system/cpu/cpu0/cpufreq/interactive/io_is_busy",
+            "Values": [
+                "0",
+                "1"
+            ],
+            "DefaultIndex": 0,
+            "ResetOnInit": true
+        },
+        {
+            "Name": "CPULittleBoostPulse",
+            "Path": "/sys/devices/system/cpu/cpu0/cpufreq/interactive/boostpulse",
+            "Values": [
+                "0",
+                "1"
+            ],
+            "DefaultIndex": 0,
+            "ResetOnInit": true
+        },
+        {
+            "Name": "CPUBigClusterMaxFreq",
+            "Path": "/sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq",
+            "Values": [
+                "2112000",
+                "1805000"
+            ],
+            "DefaultIndex": 0,
+            "ResetOnInit": true
+        },
+        {
+            "Name": "CPUBigClusterMinFreq",
+            "Path": "/sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq",
+            "Values": [
+                "2112000",
+                "2016000",
+                "1805000",
+                "1402000"
+            ],
+            "ResetOnInit": true
+        },
+        {
+            "Name": "CPUBigClusterIOIsBusy",
+            "Path": "/sys/devices/system/cpu/cpu4/cpufreq/ondemand/io_is_busy",
+            "Values": [
+                "0",
+                "1"
+            ],
+            "DefaultIndex": 0,
+            "ResetOnInit": true
+        },
+        {
+            "Name": "DDRMaxFreq",
+            "Path": "/sys/class/devfreq/ddrfreq/max_freq",
+            "Values": [
+                "933000000",
+                "533000000"
+            ],
+            "DefaultIndex": 0,
+            "ResetOnInit": true
+        },
+        {
+            "Name": "DDRMinFreq",
+            "Path": "/sys/class/devfreq/ddrfreq/min_freq",
+            "Values": [
+                "933000000",
+                "800000000",
+                "533000000",
+                "360000000",
+                "240000000",
+                "120000000"
+            ],
+            "ResetOnInit": true
+        },
+        {
+            "Name": "GPUMaxFreq",
+            "Path": "/sys/class/devfreq/gpufreq/max_freq",
+            "Values": [
+                "900000000",
+                "480000000"
+            ],
+            "DefaultIndex": 0,
+            "ResetOnInit": true
+        },
+        {
+            "Name": "GPUMinFreq",
+            "Path": "/sys/class/devfreq/gpufreq/min_freq",
+            "Values": [
+                "900000000",
+                "800000000",
+                "680000000",
+                "480000000",
+                "360000000",
+                "240000000",
+                "120000000"
+            ],
+            "ResetOnInit": true
+        },
+        {
+            "Name": "TASchedtuneBoost",
+            "Path": "/dev/stune/top-app/schedtune.boost",
+            "Values": [
+                "100",
+                "10"
+            ],
+            "ResetOnInit": true
+        },
+        {
+            "Name": "VIPSchedtuneBoost",
+            "Path": "/dev/stune/vip/schedtune.boost",
+            "Values": [
+                "100",
+                "10"
+            ],
+            "ResetOnInit": true
+        },
+        {
+            "Name": "PowerHALMainState",
+            "Path": "vendor.powerhal.state",
+            "Values": [
+                "SUSTAINED_PERFORMANCE",
+                ""
+            ],
+            "Type": "Property"
+        },
+        {
+            "Name": "PowerHALAudioState",
+            "Path": "vendor.powerhal.audio",
+            "Values": [
+                "AUDIO_STREAMING_LOW_LATENCY",
+                ""
+            ],
+            "Type": "Property"
+        },
+        {
+            "Name": "PowerHALRenderingState",
+            "Path": "vendor.powerhal.rendering",
+            "Values": [
+                "EXPENSIVE_RENDERING",
+                ""
+            ],
+            "Type": "Property"
+        }
+    ],
+    "Actions": [
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "CPULittleClusterMinFreq",
+            "Duration": 0,
+            "Value": "1306000"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "CPULittleClusterIOIsBusy",
+            "Duration": 0,
+            "Value": "1"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "CPULittleBoostPulse",
+            "Duration": 0,
+            "Value": "1"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "CPUBigClusterIOIsBusy",
+            "Duration": 0,
+            "Value": "1"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "DDRMinFreq",
+            "Duration": 0,
+            "Value": "533000000"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "GPUMinFreq",
+            "Duration": 0,
+            "Value": "480000000"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "TASchedtuneBoost",
+            "Duration": 0,
+            "Value": "10"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "VIPSchedtuneBoost",
+            "Duration": 0,
+            "Value": "10"
+        },
+        {
+            "PowerHint": "LAUNCH",
+            "Node": "CPULittleClusterMinFreq",
+            "Duration": 3500,
+            "Value": "1709000"
+        },
+        {
+            "PowerHint": "LAUNCH",
+            "Node": "CPUBigClusterMinFreq",
+            "Duration": 3500,
+            "Value": "2112000"
+        },
+        {
+            "PowerHint": "LAUNCH",
+            "Node": "DDRMinFreq",
+            "Duration": 3500,
+            "Value": "933000000"
+        },
+        {
+            "PowerHint": "LAUNCH",
+            "Node": "GPUMinFreq",
+            "Duration": 3500,
+            "Value": "900000000"
+        },
+        {
+            "PowerHint": "LAUNCH",
+            "Node": "TASchedtuneBoost",
+            "Duration": 3500,
+            "Value": "100"
+        },
+        {
+            "PowerHint": "LAUNCH",
+            "Node": "VIPSchedtuneBoost",
+            "Duration": 3500,
+            "Value": "100"
+        },
+        {
+            "PowerHint": "AUDIO_STREAMING_LOW_LATENCY",
+            "Node": "PowerHALAudioState",
+            "Duration": 0,
+            "Value": "AUDIO_STREAMING_LOW_LATENCY"
+        },
+        {
+            "PowerHint": "SUSTAINED_PERFORMANCE",
+            "Node": "PowerHALMainState",
+            "Duration": 0,
+            "Value": "SUSTAINED_PERFORMANCE"
+        },
+        {
+            "PowerHint": "EXPENSIVE_RENDERING",
+            "Node": "PowerHALRenderingState",
+            "Duration": 0,
+            "Value": "EXPENSIVE_RENDERING"
+        }
+    ]
+}
