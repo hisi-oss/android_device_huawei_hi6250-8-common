@@ -51,57 +51,6 @@ vendor/etc/bluetooth/bt_vendor.conf
 vendor/lib64/libbt-vendor-hisi.so
 
 # Camera
-vendor/lib/hw/camera.hi6250.so
-vendor/lib/hw/hicam.hal.bz.so
-vendor/lib/hw/hicam.hal.service.so
-vendor/lib/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so
-vendor/lib/hwcam/hwcam.ddt.so
-vendor/lib/hwcam/hwcam.services.so
-vendor/lib/libBestShot.so
-vendor/lib/libDocBeauty.so
-vendor/lib/libFaceBeautyMeiwo.so
-vendor/lib/libFaceBeautyMeiwoJNI.so
-vendor/lib/libFaceDetectCA.so
-vendor/lib/libHWCamCfgSvr.so
-vendor/lib/libHW_BShutter.so
-vendor/lib/libOmronFR.so
-vendor/lib/libRefocusContrastPosition.so
-vendor/lib/libaehc.so
-vendor/lib/libalConvert2Img_al6045.so
-vendor/lib/libcamera_ae.so
-vendor/lib/libcamera_flash.so
-vendor/lib/libcamera_omron.so
-vendor/lib/libcamerabuffer.so
-vendor/lib/libchrlog.so
-vendor/lib/libcontrastCal.so
-vendor/lib/libdcamera_sr.so
-vendor/lib/libface_recognize_manager.so
-vendor/lib/libfacedetection.so
-vendor/lib/libfcamera_visual_effect.so
-vendor/lib/libhdr.so
-vendor/lib/libhdr_acore.so
-vendor/lib/libhwlog.so
-vendor/lib/libimedia_filters.so
-vendor/lib/libispenhnc.so
-vendor/lib/libmorpho_effect_library5.so
-vendor/lib/libmotiondetect.so
-vendor/lib/libmrc_cg_filters.so
-vendor/lib/libmrc_cg_ldc.so
-vendor/lib/libmrc_cg_mfdenoise.so
-vendor/lib/libmrc_cg_mfnr_ap.so
-vendor/lib/libmrc_cg_niceFood.so
-vendor/lib/libmrc_cg_postprocess.so
-vendor/lib/libmrc_cg_postprocess_cl.so
-vendor/lib/libmrc_cg_sz.so
-vendor/lib/libperfgenius_vendor_client.so
-vendor/lib/libscenedetection.so
-vendor/lib/libtrack.so
-vendor/lib/vendor.huawei.hardware.ai@1.0.so
-vendor/lib/vendor.huawei.hardware.camera.camResource@1.0.so
-vendor/lib/vendor.huawei.hardware.camera.camResource@1.1.so
-vendor/lib/vendor.huawei.hardware.camera.cfgsvr@1.0.so
-vendor/lib/vendor.huawei.hardware.camera.factory@1.0.so
-vendor/lib/vendor.huawei.hardware.perfgenius@1.0.so
 vendor/lib64/hw/CameraFactoryService.so
 vendor/lib64/hw/camera.hi6250.so
 vendor/lib64/hw/hicam.hal.bz.so
@@ -158,7 +107,6 @@ vendor/lib64/vendor.huawei.hardware.camera.factory@1.0.so
 vendor/lib64/vendor.huawei.hardware.perfgenius@1.0.so
 
 # Camera Arcsoft
-odm/lib/libarcsoft_beautyshot.so
 odm/lib64/libarcsoft_beautyshot.so
 
 # Camera Bin
