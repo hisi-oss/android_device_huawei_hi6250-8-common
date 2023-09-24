@@ -1161,6 +1161,7 @@ vendor/lib/hw/gatekeeper.hi6250.so
 vendor/lib64/hw/gatekeeper.hi6250.so
 
 # GPS
+system/app/gnss_supl20service_hisi/gnss_supl20service_hisi.apk:system/priv-app/gnss_supl20service_hisi/gnss_supl20service_hisi.apk
 vendor/bin/gnss_control_hisi
 vendor/bin/gnss_engine_hisi
 vendor/bin/gnss_supl20clientd_hisi
