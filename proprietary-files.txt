@@ -1212,7 +1212,6 @@ vendor/lib64/libvio.so
 vendor/lib64/vendor.huawei.hardware.jpegdec@1.0.so
 
 # Nvme
-vendor/bin/mac_addr_normalization
 vendor/lib/libnvme.so
 vendor/lib64/libnvme.so
 
