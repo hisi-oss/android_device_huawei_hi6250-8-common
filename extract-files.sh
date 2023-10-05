@@ -129,6 +129,11 @@ function blob_fixup() {
             "${PATCHELF}" --add-needed "android.hardware.radio@1.0_types.so" "${2}"
             ;;
     esac
+
+    # For all ELF files
+    if [[ "${1}" =~ ^.*(\.so|\/bin\/.*)$ ]]; then
+        "${PATCHELF}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
+    fi
 }
 
 if [ -z "${ONLY_TARGET}" ]; then

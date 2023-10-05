@@ -104,7 +104,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libgui_vendor \
-    libstdc++.vendor
+    libstdc++_vendor
 
 # Connectivity
 PRODUCT_COPY_FILES += \
