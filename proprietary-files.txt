@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from PRA-LX1-user 8.0.0 HUAWEIPRA-LX1 384(C432) release-keys
+# All unpinned blobs below are extracted from PRA-LX1-user 8.0.0 HUAWEIPRA-LX1 416(C185) release-keys
 
 # Audio
 vendor/lib/libSmartAE.so
@@ -144,6 +144,7 @@ odm/hw_odm/ncfg/A1_AT.ato:odm/etc/ncfg/A1_AT.ato
 odm/hw_odm/ncfg/AIRTEL_BD.ato:odm/etc/ncfg/AIRTEL_BD.ato
 odm/hw_odm/ncfg/AIRTEL_IN.ato:odm/etc/ncfg/AIRTEL_IN.ato
 odm/hw_odm/ncfg/AIS_TH.ato:odm/etc/ncfg/AIS_TH.ato
+odm/hw_odm/ncfg/ALGAR_BR.ato:odm/etc/ncfg/ALGAR_BR.ato
 odm/hw_odm/ncfg/ALTAN_MX.ato:odm/etc/ncfg/ALTAN_MX.ato
 odm/hw_odm/ncfg/ALTEL_KZ_EXT1.ato:odm/etc/ncfg/ALTEL_KZ_EXT1.ato
 odm/hw_odm/ncfg/ALTEL_KZ_EXT2.ato:odm/etc/ncfg/ALTEL_KZ_EXT2.ato
@@ -168,6 +169,7 @@ odm/hw_odm/ncfg/CELLCOM_MY.ato:odm/etc/ncfg/CELLCOM_MY.ato
 odm/hw_odm/ncfg/CELLC_ZA.ato:odm/etc/ncfg/CELLC_ZA.ato
 odm/hw_odm/ncfg/CELL_TR.ato:odm/etc/ncfg/CELL_TR.ato
 odm/hw_odm/ncfg/CLARO_AR.ato:odm/etc/ncfg/CLARO_AR.ato
+odm/hw_odm/ncfg/CLARO_BR.ato:odm/etc/ncfg/CLARO_BR.ato
 odm/hw_odm/ncfg/CLARO_CL.ato:odm/etc/ncfg/CLARO_CL.ato
 odm/hw_odm/ncfg/CLARO_CO.ato:odm/etc/ncfg/CLARO_CO.ato
 odm/hw_odm/ncfg/CLARO_EC.ato:odm/etc/ncfg/CLARO_EC.ato
@@ -177,6 +179,7 @@ odm/hw_odm/ncfg/CMCC_CN.ato:odm/etc/ncfg/CMCC_CN.ato
 odm/hw_odm/ncfg/CMCC_CN_IOT.ato:odm/etc/ncfg/CMCC_CN_IOT.ato
 odm/hw_odm/ncfg/CMCC_HK.ato:odm/etc/ncfg/CMCC_HK.ato
 odm/hw_odm/ncfg/CONFIG.bin:odm/etc/ncfg/CONFIG.bin
+odm/hw_odm/ncfg/CORREIOS_BR.ato:odm/etc/ncfg/CORREIOS_BR.ato
 odm/hw_odm/ncfg/CRICKET_USA.ato:odm/etc/ncfg/CRICKET_USA.ato
 odm/hw_odm/ncfg/CTM_MO.ato:odm/etc/ncfg/CTM_MO.ato
 odm/hw_odm/ncfg/CT_TW.ato:odm/etc/ncfg/CT_TW.ato
@@ -197,6 +200,7 @@ odm/hw_odm/ncfg/DT_DE.ato:odm/etc/ncfg/DT_DE.ato
 odm/hw_odm/ncfg/DT_GR.ato:odm/etc/ncfg/DT_GR.ato
 odm/hw_odm/ncfg/DT_HR.ato:odm/etc/ncfg/DT_HR.ato
 odm/hw_odm/ncfg/DT_HU.ato:odm/etc/ncfg/DT_HU.ato
+odm/hw_odm/ncfg/DT_ME.ato:odm/etc/ncfg/DT_ME.ato
 odm/hw_odm/ncfg/DT_MK.ato:odm/etc/ncfg/DT_MK.ato
 odm/hw_odm/ncfg/DT_NL.ato:odm/etc/ncfg/DT_NL.ato
 odm/hw_odm/ncfg/DT_PL.ato:odm/etc/ncfg/DT_PL.ato
@@ -243,6 +247,7 @@ odm/hw_odm/ncfg/IDEA_IN.ato:odm/etc/ncfg/IDEA_IN.ato
 odm/hw_odm/ncfg/IMS_TEST.ato:odm/etc/ncfg/IMS_TEST.ato
 odm/hw_odm/ncfg/INWI_MA.ato:odm/etc/ncfg/INWI_MA.ato
 odm/hw_odm/ncfg/KDDI_JP.ato:odm/etc/ncfg/KDDI_JP.ato
+odm/hw_odm/ncfg/KDDI_JPNoVOLTE.ato:odm/etc/ncfg/KDDI_JPNoVOLTE.ato
 odm/hw_odm/ncfg/KPN_NL.ato:odm/etc/ncfg/KPN_NL.ato
 odm/hw_odm/ncfg/KT_KR.ato:odm/etc/ncfg/KT_KR.ato
 odm/hw_odm/ncfg/LGU_KR.ato:odm/etc/ncfg/LGU_KR.ato
@@ -253,8 +258,10 @@ odm/hw_odm/ncfg/MAGTICOM_GE.ato:odm/etc/ncfg/MAGTICOM_GE.ato
 odm/hw_odm/ncfg/MAXIS_MY.ato:odm/etc/ncfg/MAXIS_MY.ato
 odm/hw_odm/ncfg/MCI_IR.ato:odm/etc/ncfg/MCI_IR.ato
 odm/hw_odm/ncfg/MEGAFON_RU.ato:odm/etc/ncfg/MEGAFON_RU.ato
+odm/hw_odm/ncfg/MEO_PT.ato:odm/etc/ncfg/MEO_PT.ato
 odm/hw_odm/ncfg/METEOR_IE.ato:odm/etc/ncfg/METEOR_IE.ato
 odm/hw_odm/ncfg/MOBILIS_DZ.ato:odm/etc/ncfg/MOBILIS_DZ.ato
+odm/hw_odm/ncfg/MOBILY_SA.ato:odm/etc/ncfg/MOBILY_SA.ato
 odm/hw_odm/ncfg/MOBITEL_LK.ato:odm/etc/ncfg/MOBITEL_LK.ato
 odm/hw_odm/ncfg/MOI_QA.ato:odm/etc/ncfg/MOI_QA.ato
 odm/hw_odm/ncfg/MOVISTAR_AR.ato:odm/etc/ncfg/MOVISTAR_AR.ato
@@ -265,6 +272,7 @@ odm/hw_odm/ncfg/MOVISTAR_MX.ato:odm/etc/ncfg/MOVISTAR_MX.ato
 odm/hw_odm/ncfg/MOVISTAR_PA.ato:odm/etc/ncfg/MOVISTAR_PA.ato
 odm/hw_odm/ncfg/MOVISTAR_PE.ato:odm/etc/ncfg/MOVISTAR_PE.ato
 odm/hw_odm/ncfg/MOVISTAR_UY.ato:odm/etc/ncfg/MOVISTAR_UY.ato
+odm/hw_odm/ncfg/MPT_MM.ato:odm/etc/ncfg/MPT_MM.ato
 odm/hw_odm/ncfg/MTC_NA.ato:odm/etc/ncfg/MTC_NA.ato
 odm/hw_odm/ncfg/MTN_CI.ato:odm/etc/ncfg/MTN_CI.ato
 odm/hw_odm/ncfg/MTN_CY.ato:odm/etc/ncfg/MTN_CY.ato
@@ -274,6 +282,7 @@ odm/hw_odm/ncfg/MTN_ZA.ato:odm/etc/ncfg/MTN_ZA.ato
 odm/hw_odm/ncfg/MTS_RU.ato:odm/etc/ncfg/MTS_RU.ato
 odm/hw_odm/ncfg/MYTEL_MM.ato:odm/etc/ncfg/MYTEL_MM.ato
 odm/hw_odm/ncfg/NEMONT_USA.ato:odm/etc/ncfg/NEMONT_USA.ato
+odm/hw_odm/ncfg/NEXTEL_BR.ato:odm/etc/ncfg/NEXTEL_BR.ato
 odm/hw_odm/ncfg/NOS_PT.ato:odm/etc/ncfg/NOS_PT.ato
 odm/hw_odm/ncfg/NOVA_IS.ato:odm/etc/ncfg/NOVA_IS.ato
 odm/hw_odm/ncfg/NTEL_NG.ato:odm/etc/ncfg/NTEL_NG.ato
@@ -281,6 +290,7 @@ odm/hw_odm/ncfg/O2_CZ.ato:odm/etc/ncfg/O2_CZ.ato
 odm/hw_odm/ncfg/O2_DE.ato:odm/etc/ncfg/O2_DE.ato
 odm/hw_odm/ncfg/O2_GB.ato:odm/etc/ncfg/O2_GB.ato
 odm/hw_odm/ncfg/O2_SK.ato:odm/etc/ncfg/O2_SK.ato
+odm/hw_odm/ncfg/OI_BR.ato:odm/etc/ncfg/OI_BR.ato
 odm/hw_odm/ncfg/OMANTEL_OM.ato:odm/etc/ncfg/OMANTEL_OM.ato
 odm/hw_odm/ncfg/OMNITEL_LT.ato:odm/etc/ncfg/OMNITEL_LT.ato
 odm/hw_odm/ncfg/OOREDOO_KW.ato:odm/etc/ncfg/OOREDOO_KW.ato
@@ -296,6 +306,7 @@ odm/hw_odm/ncfg/PERSONAL_PY.ato:odm/etc/ncfg/PERSONAL_PY.ato
 odm/hw_odm/ncfg/PINE_USA.ato:odm/etc/ncfg/PINE_USA.ato
 odm/hw_odm/ncfg/PLAY_PL.ato:odm/etc/ncfg/PLAY_PL.ato
 odm/hw_odm/ncfg/PLUS_PL.ato:odm/etc/ncfg/PLUS_PL.ato
+odm/hw_odm/ncfg/PORTOCONECTA_BR.ato:odm/etc/ncfg/PORTOCONECTA_BR.ato
 odm/hw_odm/ncfg/PRO_BE.ato:odm/etc/ncfg/PRO_BE.ato
 odm/hw_odm/ncfg/RCOM_IN.ato:odm/etc/ncfg/RCOM_IN.ato
 odm/hw_odm/ncfg/RCSRDS_RO.ato:odm/etc/ncfg/RCSRDS_RO.ato
@@ -310,11 +321,13 @@ odm/hw_odm/ncfg/SFR_FR.ato:odm/etc/ncfg/SFR_FR.ato
 odm/hw_odm/ncfg/SIERRATEL_SL.ato:odm/etc/ncfg/SIERRATEL_SL.ato
 odm/hw_odm/ncfg/SINGTEL_SG.ato:odm/etc/ncfg/SINGTEL_SG.ato
 odm/hw_odm/ncfg/SKT_KR.ato:odm/etc/ncfg/SKT_KR.ato
+odm/hw_odm/ncfg/SKY_GB.ato:odm/etc/ncfg/SKY_GB.ato
 odm/hw_odm/ncfg/SMARTFREN_ID.ato:odm/etc/ncfg/SMARTFREN_ID.ato
 odm/hw_odm/ncfg/SMART_KH.ato:odm/etc/ncfg/SMART_KH.ato
 odm/hw_odm/ncfg/SMART_PH.ato:odm/etc/ncfg/SMART_PH.ato
 odm/hw_odm/ncfg/SM_SZ.ato:odm/etc/ncfg/SM_SZ.ato
 odm/hw_odm/ncfg/SOFTBANK_JP.ato:odm/etc/ncfg/SOFTBANK_JP.ato
+odm/hw_odm/ncfg/SPARK_NZ.ato:odm/etc/ncfg/SPARK_NZ.ato
 odm/hw_odm/ncfg/STARHUB_SG.ato:odm/etc/ncfg/STARHUB_SG.ato
 odm/hw_odm/ncfg/STC_SA.ato:odm/etc/ncfg/STC_SA.ato
 odm/hw_odm/ncfg/ST_HK.ato:odm/etc/ncfg/ST_HK.ato
@@ -376,6 +389,7 @@ odm/hw_odm/ncfg/VDF_AL.ato:odm/etc/ncfg/VDF_AL.ato
 odm/hw_odm/ncfg/VDF_CZ.ato:odm/etc/ncfg/VDF_CZ.ato
 odm/hw_odm/ncfg/VDF_DE.ato:odm/etc/ncfg/VDF_DE.ato
 odm/hw_odm/ncfg/VDF_DE_LAB.ato:odm/etc/ncfg/VDF_DE_LAB.ato
+odm/hw_odm/ncfg/VDF_EG.ato:odm/etc/ncfg/VDF_EG.ato
 odm/hw_odm/ncfg/VDF_ES.ato:odm/etc/ncfg/VDF_ES.ato
 odm/hw_odm/ncfg/VDF_GB.ato:odm/etc/ncfg/VDF_GB.ato
 odm/hw_odm/ncfg/VDF_GR.ato:odm/etc/ncfg/VDF_GR.ato
@@ -421,6 +435,7 @@ system/emui/base/emcom/carrierconfig/carrier_config_20214.xml
 system/emui/base/emcom/carrierconfig/carrier_config_20402.xml
 system/emui/base/emcom/carrierconfig/carrier_config_20404.xml
 system/emui/base/emcom/carrierconfig/carrier_config_20408.xml
+system/emui/base/emcom/carrierconfig/carrier_config_20412.xml
 system/emui/base/emcom/carrierconfig/carrier_config_20416.xml
 system/emui/base/emcom/carrierconfig/carrier_config_20420.xml
 system/emui/base/emcom/carrierconfig/carrier_config_20469.xml
@@ -461,6 +476,7 @@ system/emui/base/emcom/carrierconfig/carrier_config_21901.xml
 system/emui/base/emcom/carrierconfig/carrier_config_21910.xml
 system/emui/base/emcom/carrierconfig/carrier_config_22001.xml
 system/emui/base/emcom/carrierconfig/carrier_config_22004.xml
+system/emui/base/emcom/carrierconfig/carrier_config_22005.xml
 system/emui/base/emcom/carrierconfig/carrier_config_22201.xml
 system/emui/base/emcom/carrierconfig/carrier_config_22210.xml
 system/emui/base/emcom/carrierconfig/carrier_config_22288.xml
@@ -470,6 +486,7 @@ system/emui/base/emcom/carrierconfig/carrier_config_22603.xml
 system/emui/base/emcom/carrierconfig/carrier_config_22605.xml
 system/emui/base/emcom/carrierconfig/carrier_config_22606.xml
 system/emui/base/emcom/carrierconfig/carrier_config_22610.xml
+system/emui/base/emcom/carrierconfig/carrier_config_22615.xml
 system/emui/base/emcom/carrierconfig/carrier_config_22801.xml
 system/emui/base/emcom/carrierconfig/carrier_config_22802.xml
 system/emui/base/emcom/carrierconfig/carrier_config_22803.xml
@@ -490,9 +507,22 @@ system/emui/base/emcom/carrierconfig/carrier_config_23214.xml
 system/emui/base/emcom/carrierconfig/carrier_config_23408.xml
 system/emui/base/emcom/carrierconfig/carrier_config_23410.xml
 system/emui/base/emcom/carrierconfig/carrier_config_23415.xml
+system/emui/base/emcom/carrierconfig/carrier_config_23419.xml
 system/emui/base/emcom/carrierconfig/carrier_config_23420.xml
+system/emui/base/emcom/carrierconfig/carrier_config_23428.xml
 system/emui/base/emcom/carrierconfig/carrier_config_23430.xml
+system/emui/base/emcom/carrierconfig/carrier_config_23431.xml
+system/emui/base/emcom/carrierconfig/carrier_config_23432.xml
 system/emui/base/emcom/carrierconfig/carrier_config_23433.xml
+system/emui/base/emcom/carrierconfig/carrier_config_23434.xml
+system/emui/base/emcom/carrierconfig/carrier_config_23438.xml
+system/emui/base/emcom/carrierconfig/carrier_config_23439.xml
+system/emui/base/emcom/carrierconfig/carrier_config_23450.xml
+system/emui/base/emcom/carrierconfig/carrier_config_23455.xml
+system/emui/base/emcom/carrierconfig/carrier_config_23457.xml
+system/emui/base/emcom/carrierconfig/carrier_config_23458.xml
+system/emui/base/emcom/carrierconfig/carrier_config_23476.xml
+system/emui/base/emcom/carrierconfig/carrier_config_23486.xml
 system/emui/base/emcom/carrierconfig/carrier_config_23494.xml
 system/emui/base/emcom/carrierconfig/carrier_config_23594.xml
 system/emui/base/emcom/carrierconfig/carrier_config_23801.xml
@@ -505,9 +535,11 @@ system/emui/base/emcom/carrierconfig/carrier_config_24007.xml
 system/emui/base/emcom/carrierconfig/carrier_config_24008.xml
 system/emui/base/emcom/carrierconfig/carrier_config_24201.xml
 system/emui/base/emcom/carrierconfig/carrier_config_24202.xml
+system/emui/base/emcom/carrierconfig/carrier_config_24208.xml
 system/emui/base/emcom/carrierconfig/carrier_config_24214.xml
 system/emui/base/emcom/carrierconfig/carrier_config_24405.xml
 system/emui/base/emcom/carrierconfig/carrier_config_24412.xml
+system/emui/base/emcom/carrierconfig/carrier_config_24413.xml
 system/emui/base/emcom/carrierconfig/carrier_config_24491.xml
 system/emui/base/emcom/carrierconfig/carrier_config_24601.xml
 system/emui/base/emcom/carrierconfig/carrier_config_24701.xml
@@ -517,9 +549,12 @@ system/emui/base/emcom/carrierconfig/carrier_config_24801.xml
 system/emui/base/emcom/carrierconfig/carrier_config_24802.xml
 system/emui/base/emcom/carrierconfig/carrier_config_25001.xml
 system/emui/base/emcom/carrierconfig/carrier_config_25002.xml
+system/emui/base/emcom/carrierconfig/carrier_config_25020.xml
+system/emui/base/emcom/carrierconfig/carrier_config_25050.xml
 system/emui/base/emcom/carrierconfig/carrier_config_25099.xml
 system/emui/base/emcom/carrierconfig/carrier_config_25701.xml
 system/emui/base/emcom/carrierconfig/carrier_config_25704.xml
+system/emui/base/emcom/carrierconfig/carrier_config_25901.xml
 system/emui/base/emcom/carrierconfig/carrier_config_26001.xml
 system/emui/base/emcom/carrierconfig/carrier_config_26002.xml
 system/emui/base/emcom/carrierconfig/carrier_config_26003.xml
@@ -535,6 +570,7 @@ system/emui/base/emcom/carrierconfig/carrier_config_26211.xml
 system/emui/base/emcom/carrierconfig/carrier_config_26801.xml
 system/emui/base/emcom/carrierconfig/carrier_config_26803.xml
 system/emui/base/emcom/carrierconfig/carrier_config_26806.xml
+system/emui/base/emcom/carrierconfig/carrier_config_26889.xml
 system/emui/base/emcom/carrierconfig/carrier_config_27099.xml
 system/emui/base/emcom/carrierconfig/carrier_config_27201.xml
 system/emui/base/emcom/carrierconfig/carrier_config_27203.xml
@@ -614,12 +650,18 @@ system/emui/base/emcom/carrierconfig/carrier_config_334030.xml
 system/emui/base/emcom/carrierconfig/carrier_config_33405.xml
 system/emui/base/emcom/carrierconfig/carrier_config_334050.xml
 system/emui/base/emcom/carrierconfig/carrier_config_334090.xml
+system/emui/base/emcom/carrierconfig/carrier_config_334140.xml
+system/emui/base/emcom/carrierconfig/carrier_config_33420.xml
 system/emui/base/emcom/carrierconfig/carrier_config_33450.xml
 system/emui/base/emcom/carrierconfig/carrier_config_33490.xml
 system/emui/base/emcom/carrierconfig/carrier_config_34001.xml
+system/emui/base/emcom/carrierconfig/carrier_config_37001.xml
+system/emui/base/emcom/carrierconfig/carrier_config_40107.xml
+system/emui/base/emcom/carrierconfig/carrier_config_40177.xml
 system/emui/base/emcom/carrierconfig/carrier_config_40401.xml
 system/emui/base/emcom/carrierconfig/carrier_config_40402.xml
 system/emui/base/emcom/carrierconfig/carrier_config_40403.xml
+system/emui/base/emcom/carrierconfig/carrier_config_404030.xml
 system/emui/base/emcom/carrierconfig/carrier_config_40404.xml
 system/emui/base/emcom/carrierconfig/carrier_config_40405.xml
 system/emui/base/emcom/carrierconfig/carrier_config_40407.xml
@@ -645,8 +687,6 @@ system/emui/base/emcom/carrierconfig/carrier_config_40446.xml
 system/emui/base/emcom/carrierconfig/carrier_config_40449.xml
 system/emui/base/emcom/carrierconfig/carrier_config_40456.xml
 system/emui/base/emcom/carrierconfig/carrier_config_40460.xml
-system/emui/base/emcom/carrierconfig/carrier_config_40466.xml
-system/emui/base/emcom/carrierconfig/carrier_config_40467.xml
 system/emui/base/emcom/carrierconfig/carrier_config_40470.xml
 system/emui/base/emcom/carrierconfig/carrier_config_40478.xml
 system/emui/base/emcom/carrierconfig/carrier_config_40482.xml
@@ -669,6 +709,8 @@ system/emui/base/emcom/carrierconfig/carrier_config_40553.xml
 system/emui/base/emcom/carrierconfig/carrier_config_40554.xml
 system/emui/base/emcom/carrierconfig/carrier_config_40555.xml
 system/emui/base/emcom/carrierconfig/carrier_config_40556.xml
+system/emui/base/emcom/carrierconfig/carrier_config_40566.xml
+system/emui/base/emcom/carrierconfig/carrier_config_40567.xml
 system/emui/base/emcom/carrierconfig/carrier_config_40570.xml
 system/emui/base/emcom/carrierconfig/carrier_config_405750.xml
 system/emui/base/emcom/carrierconfig/carrier_config_405751.xml
@@ -707,6 +749,7 @@ system/emui/base/emcom/carrierconfig/carrier_config_405871.xml
 system/emui/base/emcom/carrierconfig/carrier_config_405872.xml
 system/emui/base/emcom/carrierconfig/carrier_config_405873.xml
 system/emui/base/emcom/carrierconfig/carrier_config_405874.xml
+system/emui/base/emcom/carrierconfig/carrier_config_41301.xml
 system/emui/base/emcom/carrierconfig/carrier_config_41302.xml
 system/emui/base/emcom/carrierconfig/carrier_config_41401.xml
 system/emui/base/emcom/carrierconfig/carrier_config_41403.xml
@@ -721,6 +764,7 @@ system/emui/base/emcom/carrierconfig/carrier_config_41902.xml
 system/emui/base/emcom/carrierconfig/carrier_config_41903.xml
 system/emui/base/emcom/carrierconfig/carrier_config_41904.xml
 system/emui/base/emcom/carrierconfig/carrier_config_42001.xml
+system/emui/base/emcom/carrierconfig/carrier_config_42003.xml
 system/emui/base/emcom/carrierconfig/carrier_config_42004.xml
 system/emui/base/emcom/carrierconfig/carrier_config_42202.xml
 system/emui/base/emcom/carrierconfig/carrier_config_42402.xml
@@ -739,14 +783,20 @@ system/emui/base/emcom/carrierconfig/carrier_config_42888.xml
 system/emui/base/emcom/carrierconfig/carrier_config_42889.xml
 system/emui/base/emcom/carrierconfig/carrier_config_43211.xml
 system/emui/base/emcom/carrierconfig/carrier_config_43235.xml
+system/emui/base/emcom/carrierconfig/carrier_config_44010.xml
 system/emui/base/emcom/carrierconfig/carrier_config_44020.xml
 system/emui/base/emcom/carrierconfig/carrier_config_44051.xml
+system/emui/base/emcom/carrierconfig/carrier_config_45005.xml
 system/emui/base/emcom/carrierconfig/carrier_config_45006.xml
+system/emui/base/emcom/carrierconfig/carrier_config_45008.xml
 system/emui/base/emcom/carrierconfig/carrier_config_45400.xml
 system/emui/base/emcom/carrierconfig/carrier_config_45402.xml
 system/emui/base/emcom/carrierconfig/carrier_config_45403.xml
 system/emui/base/emcom/carrierconfig/carrier_config_45404.xml
+system/emui/base/emcom/carrierconfig/carrier_config_45405.xml
 system/emui/base/emcom/carrierconfig/carrier_config_45406.xml
+system/emui/base/emcom/carrierconfig/carrier_config_45407.xml
+system/emui/base/emcom/carrierconfig/carrier_config_45410.xml
 system/emui/base/emcom/carrierconfig/carrier_config_45412.xml
 system/emui/base/emcom/carrierconfig/carrier_config_45413.xml
 system/emui/base/emcom/carrierconfig/carrier_config_45414.xml
@@ -755,10 +805,14 @@ system/emui/base/emcom/carrierconfig/carrier_config_45416.xml
 system/emui/base/emcom/carrierconfig/carrier_config_45417.xml
 system/emui/base/emcom/carrierconfig/carrier_config_45418.xml
 system/emui/base/emcom/carrierconfig/carrier_config_45419.xml
+system/emui/base/emcom/carrierconfig/carrier_config_45424.xml
+system/emui/base/emcom/carrierconfig/carrier_config_45429.xml
+system/emui/base/emcom/carrierconfig/carrier_config_45431.xml
 system/emui/base/emcom/carrierconfig/carrier_config_45501.xml
 system/emui/base/emcom/carrierconfig/carrier_config_45504.xml
 system/emui/base/emcom/carrierconfig/carrier_config_45606.xml
 system/emui/base/emcom/carrierconfig/carrier_config_45611.xml
+system/emui/base/emcom/carrierconfig/carrier_config_45701.xml
 system/emui/base/emcom/carrierconfig/carrier_config_46000.xml
 system/emui/base/emcom/carrierconfig/carrier_config_46002.xml
 system/emui/base/emcom/carrierconfig/carrier_config_46003.xml
@@ -776,6 +830,9 @@ system/emui/base/emcom/carrierconfig/carrier_config_46605.xml
 system/emui/base/emcom/carrierconfig/carrier_config_46689.xml
 system/emui/base/emcom/carrierconfig/carrier_config_46692.xml
 system/emui/base/emcom/carrierconfig/carrier_config_46697.xml
+system/emui/base/emcom/carrierconfig/carrier_config_47001.xml
+system/emui/base/emcom/carrierconfig/carrier_config_47002.xml
+system/emui/base/emcom/carrierconfig/carrier_config_47202.xml
 system/emui/base/emcom/carrierconfig/carrier_config_50210.xml
 system/emui/base/emcom/carrierconfig/carrier_config_50213.xml
 system/emui/base/emcom/carrierconfig/carrier_config_502152.xml
@@ -788,6 +845,8 @@ system/emui/base/emcom/carrierconfig/carrier_config_50502.xml
 system/emui/base/emcom/carrierconfig/carrier_config_50503.xml
 system/emui/base/emcom/carrierconfig/carrier_config_50506.xml
 system/emui/base/emcom/carrierconfig/carrier_config_50514.xml
+system/emui/base/emcom/carrierconfig/carrier_config_51009.xml
+system/emui/base/emcom/carrierconfig/carrier_config_51028.xml
 system/emui/base/emcom/carrierconfig/carrier_config_51502.xml
 system/emui/base/emcom/carrierconfig/carrier_config_51503.xml
 system/emui/base/emcom/carrierconfig/carrier_config_52000.xml
@@ -798,14 +857,17 @@ system/emui/base/emcom/carrierconfig/carrier_config_52501.xml
 system/emui/base/emcom/carrierconfig/carrier_config_52503.xml
 system/emui/base/emcom/carrierconfig/carrier_config_52505.xml
 system/emui/base/emcom/carrierconfig/carrier_config_52510.xml
+system/emui/base/emcom/carrierconfig/carrier_config_53001.xml
 system/emui/base/emcom/carrierconfig/carrier_config_53005.xml
 system/emui/base/emcom/carrierconfig/carrier_config_53024.xml
+system/emui/base/emcom/carrierconfig/carrier_config_60203.xml
 system/emui/base/emcom/carrierconfig/carrier_config_60204.xml
 system/emui/base/emcom/carrierconfig/carrier_config_60301.xml
 system/emui/base/emcom/carrierconfig/carrier_config_60402.xml
 system/emui/base/emcom/carrierconfig/carrier_config_61906.xml
 system/emui/base/emcom/carrierconfig/carrier_config_62001.xml
 system/emui/base/emcom/carrierconfig/carrier_config_62140.xml
+system/emui/base/emcom/carrierconfig/carrier_config_63102.xml
 system/emui/base/emcom/carrierconfig/carrier_config_63902.xml
 system/emui/base/emcom/carrierconfig/carrier_config_64505.xml
 system/emui/base/emcom/carrierconfig/carrier_config_64901.xml
@@ -833,18 +895,41 @@ system/emui/base/emcom/carrierconfig/carrier_config_71403.xml
 system/emui/base/emcom/carrierconfig/carrier_config_71404.xml
 system/emui/base/emcom/carrierconfig/carrier_config_71606.xml
 system/emui/base/emcom/carrierconfig/carrier_config_71610.xml
+system/emui/base/emcom/carrierconfig/carrier_config_71615.xml
 system/emui/base/emcom/carrierconfig/carrier_config_71617.xml
 system/emui/base/emcom/carrierconfig/carrier_config_72207.xml
 system/emui/base/emcom/carrierconfig/carrier_config_722310.xml
 system/emui/base/emcom/carrierconfig/carrier_config_72234.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72402.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72403.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72404.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72405.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72406.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72410.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72411.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72415.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72416.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72417.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72423.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72424.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72431.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72432.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72433.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72434.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72439.xml
+system/emui/base/emcom/carrierconfig/carrier_config_72454.xml
+system/emui/base/emcom/carrierconfig/carrier_config_73001.xml
 system/emui/base/emcom/carrierconfig/carrier_config_73002.xml
 system/emui/base/emcom/carrierconfig/carrier_config_73003.xml
+system/emui/base/emcom/carrierconfig/carrier_config_73004.xml
 system/emui/base/emcom/carrierconfig/carrier_config_73009.xml
+system/emui/base/emcom/carrierconfig/carrier_config_73010.xml
 system/emui/base/emcom/carrierconfig/carrier_config_732101.xml
 system/emui/base/emcom/carrierconfig/carrier_config_732103.xml
 system/emui/base/emcom/carrierconfig/carrier_config_732111.xml
 system/emui/base/emcom/carrierconfig/carrier_config_732123.xml
 system/emui/base/emcom/carrierconfig/carrier_config_73602.xml
+system/emui/base/emcom/carrierconfig/carrier_config_73603.xml
 system/emui/base/emcom/carrierconfig/carrier_config_74000.xml
 system/emui/base/emcom/carrierconfig/carrier_config_74405.xml
 system/emui/base/emcom/carrierconfig/carrier_config_74807.xml
@@ -950,10 +1035,9 @@ vendor/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so
 vendor/lib64/vendor.huawei.hardware.hwdisplay@1.0.so
 
 # DRM Widevine
-vendor/bin/hw/android.hardware.drm@1.0-service.widevine
-vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc
-vendor/lib/libwvhidl.so
-vendor/lib64/libwvhidl.so
+preavs/bin/hw/android.hardware.drm@1.0-service.widevine:vendor/bin/hw/android.hardware.drm@1.0-service.widevine
+preavs/etc/init/android.hardware.drm@1.0-service.widevine.rc:vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc
+preavs/lib/libwvhidl.so:vendor/lib/libwvhidl.so
 
 # Factory
 vendor/bin/hw/vendor.huawei.hardware.hwfactoryinterface@1.1-service
@@ -976,6 +1060,7 @@ vendor/lib/lib_fpc_tac_shared.so
 vendor/lib64/lib_fpc_tac_shared.so
 
 # Fingerprint (TEE)
+vendor/bin/cdfinger_fps1256s_ta.sec
 vendor/bin/fpc_1021_ta.sec
 vendor/bin/fpc_1021_ta_berlin.sec
 vendor/bin/fpc_1021_ta_mha.sec
@@ -997,6 +1082,7 @@ vendor/bin/fpc_1266Z120_ta_handel.sec
 vendor/bin/fpc_1268_ta.sec
 vendor/bin/fpc_1268_ta_sw22.sec
 vendor/bin/goodix_3206_ta.sec
+vendor/bin/goodix_3258_ta.sec
 vendor/bin/goodix_3266_ta.sec
 vendor/bin/goodix_3288_ta.sec
 vendor/bin/goodix_3288_ta_pra.sec
@@ -1034,7 +1120,9 @@ vendor/firmware/hifi_6402.img
 vendor/firmware/hifi_6402_2spk.img
 vendor/firmware/hifi_6402_2wake.img
 vendor/firmware/hifi_6402_tas2smartpa.img
+vendor/firmware/hifi_6402_tas2smartpa_no_wakeup_aec.img
 vendor/firmware/hifi_6402_tas4smartpa.img
+vendor/firmware/hifi_6402_tas4smartpa_no_wakeup_aec.img
 vendor/firmware/nvram43455_hw.txt
 vendor/firmware/nvram43455_hw_vn1.txt
 vendor/firmware/ram_reg_test_cfg
@@ -1105,7 +1193,10 @@ vendor/etc/gnss/rmd/g/a_1
 vendor/etc/gnss/rmd/g/aindex.bin
 vendor/etc/gnss/rmd/t/a_1
 vendor/etc/gnss/rmd/t/aindex.bin
+vendor/etc/gnss/security/gnss_caict_hisi.bks
+vendor/etc/gnss/security/gnss_claro_hisi.bks
 vendor/etc/gnss/security/gnss_entel_hisi.bks
+vendor/etc/gnss/security/gnss_huawei_hisi.bks
 vendor/etc/gnss/security/gnss_iusacell_hisi.bks
 vendor/etc/gnss/security/gnss_kddi_hisi.bks
 vendor/etc/gnss/security/gnss_vodafone_hisi.bks
@@ -1223,7 +1314,7 @@ vendor/lib64/libBootloaderOeminfo.so
 vendor/lib64/liboeminfo.so
 
 # Oeminfo (ramdisk) - from PRA 8.0.0 OPR6.170623.010
-vendor/bin/oeminfo_nvm_server|8090ac50916f1f318454e091e6b7388af844d6e6
+vendor/bin/oeminfo_nvm_server|4e54b2d0d8f9ce97b8f6b98aee8951706dab612f
 
 # Otherdevices
 vendor/bin/hw/vendor.huawei.hardware.otherdevices@1.0-service

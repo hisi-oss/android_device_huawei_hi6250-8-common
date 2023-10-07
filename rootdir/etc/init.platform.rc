@@ -56,6 +56,11 @@ on post-fs-data
     chown system system /data/misc/hsm
     restorecon_recursive /data/misc/hsm
 
+    mkdir /data/system/hsm
+    chmod 0770 /data/system/hsm
+    chown system system /data/system/hsm
+    restorecon_recursive /data/system/hsm
+
     # DTS2016062104837 zhangxinsheng 00221699 20160711
     mkdir /data/cota
     chmod 0775 /data/cota
@@ -126,6 +131,10 @@ on boot
     write /sys/class/hw_power/charger/charge_data/iin_thermal 900
     chmod 0660 /sys/class/hw_power/charger/charge_data/adaptor_voltage
     chown system system /sys/class/hw_power/charger/charge_data/adaptor_voltage
+    chmod 0660 /sys/class/hw_power/charger/charge_data/cca_charge_pattern
+    chown system system /sys/class/hw_power/charger/charge_data/cca_charge_pattern
+    chmod 0660 /sys/class/hw_power/charger/charge_data/cca_cccv_sample
+    chown system system /sys/class/hw_power/charger/charge_data/cca_cccv_sample
     chmod 0660 /sys/class/hw_power/charger/charge_data/iin_thermal_aux
     chown system system /sys/class/hw_power/charger/charge_data/iin_thermal_aux
     chmod 0660 /sys/class/hw_power/charger/charge_data/ichg_thermal
@@ -157,6 +166,8 @@ on boot
     write /sys/class/hw_power/charger/direct_charger/iin_thermal 1500
     chmod 0660 /sys/class/hw_power/coul/coul_data/cali_adc
     chown system system /sys/class/hw_power/coul/coul_data/cali_adc
+    chmod 0640 /sys/class/hw_power/coul/coul_data/decress_flag
+    chown system system /sys/class/hw_power/coul/coul_data/decress_flag
     chmod 0666 /sys/devices/virtual/hw_power/bq_bci/capacity_dec_start_event
     chown system system /sys/devices/virtual/hw_power/bq_bci/capacity_dec_start_event
     chmod 0660 /sys/class/misc/hw_bfm/bfm_ctl
@@ -166,6 +177,10 @@ on boot
 #pg msg policy
     chown root system /sys/devices/system/cpu/cpu0/cpufreq/msg_policy
     chmod 0660 /sys/devices/system/cpu/cpu0/cpufreq/msg_policy
+#wangweitao 00182615 20180603 AR000AFM5U begin
+    chmod 0664 /dev/acm
+    chown system system /dev/acm
+#wangweitao 00182615 20180603 AR000AFM5U end
 
 on restart-sdcardfs
     ## create virtual sdcard based on the /data/media directory

@@ -72,6 +72,9 @@ function blob_fixup() {
         |vendor/bin/teecd)
             "${SIGSCAN}" -p "1f 05 00 71 41 03 00 54" -P "1f 05 00 71 1a 00 00 14" -f "${2}"
             ;;
+        vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc)
+            sed -i 's/preavs/vendor/g' "${2}"
+            ;;
         vendor/etc/init/rild.rc)
             sed -i '1i on property:sys.rilprops_ready=1\n    start ril-daemon\n' "${2}"
             echo "    disabled" >> "${2}"

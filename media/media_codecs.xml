@@ -158,14 +158,6 @@ Only the three quirks included above are recognized at this point:
 	    <Limit name="concurrent-instances" max="16" />
             <Feature name="adaptive-playback" />
         </MediaCodec>
-        <MediaCodec name="OMX.IMG.MSVDX.Decoder.SORENSON" type="video/x-flv">
-            <Quirk name="needs-flush-on-all-ports" />
-            <Quirk name="requires-allocate-on-input-ports" />
-            <Limit name="size" min="96x16" max="1920x1088" />
-	    <Limit name="concurrent-instances" max="16" />
-            <Feature name="adaptive-playback" />
-        </MediaCodec>
-
         <MediaCodec name="OMX.IMG.MSVDX.Decoder.HEVC" type="video/hevc">
             <Quirk name="needs-flush-on-all-ports" />
             <Quirk name="requires-allocate-on-input-ports" />
