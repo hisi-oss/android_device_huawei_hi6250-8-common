@@ -15,6 +15,8 @@ odm                                            /odm       ext4    ro,barrier=1,d
 /dev/block/platform/hi_mci.0/by-name/secure_storage         /sec_storage                ext4      rw,nosuid,nodev,noatime,discard,auto_da_alloc,mblk_io_submit,data=journal,context=u:object_r:teecd_data_file:s0 wait,check
 /dev/block/platform/hi_mci.0/by-name/misc       /misc       emmc      defaults        defaults
 
+/dev/block/platform/hi_mci.0/by-name/preavs      /metadata   ext4      noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic wait,first_stage_mount,formattable,check
+
 /dev/block/platform/hi_mci.0/by-name/kernel              /boot          emmc    defaults        recoveryonly
 /dev/block/platform/hi_mci.0/by-name/recovery_ramdisk    /recovery      emmc    defaults        recoveryonly
 
