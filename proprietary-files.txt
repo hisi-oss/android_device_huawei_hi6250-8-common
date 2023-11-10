@@ -966,6 +966,19 @@ vendor/etc/modemConfig/viacbp82d_shutdown_log.bcfg
 vendor/etc/factory_modem.cfg
 
 # Device Configs
+vendor/etc/cfg_berlin_al10_hisi.ini
+vendor/etc/cfg_berlin_al20_hisi.ini
+vendor/etc/cfg_berlin_al30_hisi.ini
+vendor/etc/cfg_berlin_al40_hisi.ini
+vendor/etc/cfg_berlin_dl00_hisi.ini
+vendor/etc/cfg_berlin_l21_hisi.ini
+vendor/etc/cfg_berlin_l21l_hisi.ini
+vendor/etc/cfg_berlin_l22_hisi.ini
+vendor/etc/cfg_berlin_l23l_hisi.ini
+vendor/etc/cfg_berlin_l24_hisi.ini
+vendor/etc/cfg_berlin_tl00_hisi.ini
+vendor/etc/cfg_berlin_tl00a_hisi.ini
+vendor/etc/cfg_berlin_tl10_hisi.ini
 vendor/etc/cfg_prague_al00_hisi.ini
 vendor/etc/cfg_prague_l21_hisi.ini
 vendor/etc/cfg_prague_l22_hisi.ini
