@@ -113,9 +113,15 @@ odm/lib64/libarcsoft_beautyshot.so
 vendor/bin/CameraDaemon
 
 # Camera Configs
+odm/etc/camera/dcvalidation.xml
 odm/etc/camera/facedetection/config.xml
+odm/etc/camera/ippalgoconfig.xml
 odm/etc/camera/ispenhnc/ispenhncalgoconfig.xml
+odm/etc/camera/mempoolcfg.xml
 odm/etc/camera/mmi/config.xml
+odm/etc/camera/pdafvalidation.xml
+odm/etc/camera/ppconfig.xml
+odm/etc/camera/smartae/device.config
 odm/etc/camera/smartae/hi843/SmartAE.xml
 odm/etc/camera/smartae/imx219/SmartAE.xml
 odm/etc/camera/smartae/imx386e3/SmartAE.xml
@@ -123,7 +129,7 @@ odm/etc/camera/smartae/imx486/SmartAE.xml
 odm/etc/camera/smartae/ov12870e3/SmartAE.xml
 odm/etc/camera/smartae/ov12a10/SmartAE.xml
 odm/etc/camera/smartae/ov8856/SmartAE.xml
-odm/etc/camera/smartae/device.config
+odm/etc/camera/tornado/device.config
 odm/etc/camera/tornado/hi843/TornadoI.ini
 odm/etc/camera/tornado/imx219/TornadoI.ini
 odm/etc/camera/tornado/imx386e3/TornadoI.ini
@@ -131,13 +137,7 @@ odm/etc/camera/tornado/imx486/TornadoI.ini
 odm/etc/camera/tornado/ov12870e3/TornadoI.ini
 odm/etc/camera/tornado/ov12a10/TornadoI.ini
 odm/etc/camera/tornado/ov8856/TornadoI.ini
-odm/etc/camera/tornado/device.config
 odm/etc/camera/videostabilization/config.xml
-odm/etc/camera/dcvalidation.xml
-odm/etc/camera/ippalgoconfig.xml
-odm/etc/camera/mempoolcfg.xml
-odm/etc/camera/pdafvalidation.xml
-odm/etc/camera/ppconfig.xml
 
 # Carrier Configs
 odm/hw_odm/ncfg/A1_AT.ato:odm/etc/ncfg/A1_AT.ato
@@ -956,6 +956,7 @@ vendor/lib64/libpf_rotate_hisi.so
 vendor/lib64/vendor.huawei.hardware.modemlogcat@1.0.so
 
 # Connectivity Configs
+vendor/etc/factory_modem.cfg
 vendor/etc/modemConfig/VIA/basic_name
 vendor/etc/modemConfig/VIA/viacbp82d_FieldTest.bcfg
 vendor/etc/modemConfig/balong/FieldTest.cfg
@@ -963,7 +964,6 @@ vendor/etc/modemConfig/balong/basic_name
 vendor/etc/modemConfig/hids_ue_msg.cfg
 vendor/etc/modemConfig/viacbp82d_log.bcfg
 vendor/etc/modemConfig/viacbp82d_shutdown_log.bcfg
-vendor/etc/factory_modem.cfg
 
 # Device Configs
 vendor/etc/cfg_berlin_al10_hisi.ini
@@ -1018,6 +1018,7 @@ vendor/etc/init/vendor.huawei.graphics.displayeffect@1.0-service.rc
 vendor/etc/init/vendor.huawei.hardware.graphics.mediacomm@2.0-service.rc
 vendor/etc/init/vendor.huawei.hardware.hwdisplay.displayengine@1.0-service.rc
 vendor/etc/init/vendor.huawei.hardware.hwdisplay@1.0-service.rc
+vendor/lib/displayeffect.hi6250.so
 vendor/lib/hw/gralloc.hi6250.so
 vendor/lib/hw/hwcomposer.hi6250.so
 vendor/lib/hw/libhwdisplay.default.so
@@ -1025,12 +1026,12 @@ vendor/lib/hw/mediacomm.hi6250.so
 vendor/lib/hw/memtrack.hi6250.so
 vendor/lib/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-impl.so
 vendor/lib/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-impl.so
-vendor/lib/displayeffect.hi6250.so
 vendor/lib/vendor.huawei.hardware.graphics.displayeffect@1.0.so
 vendor/lib/vendor.huawei.hardware.graphics.gpucommon@1.0.so
 vendor/lib/vendor.huawei.hardware.graphics.mediacomm@2.0.so
 vendor/lib/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so
 vendor/lib/vendor.huawei.hardware.hwdisplay@1.0.so
+vendor/lib64/displayeffect.hi6250.so
 vendor/lib64/hw/gralloc.hi6250.so
 vendor/lib64/hw/hwcomposer.hi6250.so
 vendor/lib64/hw/libhwdisplay.default.so
@@ -1040,7 +1041,6 @@ vendor/lib64/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-impl.so
 vendor/lib64/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-impl.so
 vendor/lib64/hw/vendor.huawei.hardware.hwdisplay.displayengine@1.0-impl.so
 vendor/lib64/hw/vendor.huawei.hardware.hwdisplay@1.0-impl.so
-vendor/lib64/displayeffect.hi6250.so
 vendor/lib64/vendor.huawei.hardware.graphics.displayeffect@1.0.so
 vendor/lib64/vendor.huawei.hardware.graphics.gpucommon@1.0.so
 vendor/lib64/vendor.huawei.hardware.graphics.mediacomm@2.0.so
@@ -1161,12 +1161,12 @@ vendor/lib/hw/gatekeeper.hi6250.so
 vendor/lib64/hw/gatekeeper.hi6250.so
 
 # GPS
-vendor/bin/hw/vendor.huawei.hardware.gnss@1.0-service
-vendor/bin/hw/vendor.huawei.hardware.hisupl@1.0-service
 vendor/bin/gnss_control_hisi
 vendor/bin/gnss_engine_hisi
 vendor/bin/gnss_supl20clientd_hisi
 vendor/bin/gnss_watchlssd_thirdparty:vendor/xbin/gnss_watchlssd_thirdparty
+vendor/bin/hw/vendor.huawei.hardware.gnss@1.0-service
+vendor/bin/hw/vendor.huawei.hardware.hisupl@1.0-service
 vendor/etc/init/vendor.huawei.hardware.gnss@1.0-service.rc
 vendor/etc/init/vendor.huawei.hardware.hisupl@1.0-service.rc
 vendor/lib/libgnss_lss_gw_thirdparty.so
@@ -1192,10 +1192,12 @@ vendor/lib64/vendor.huawei.hardware.gnss@1.0.so
 vendor/lib64/vendor.huawei.hardware.hisupl@1.0.so
 
 # GPS Configs
+vendor/etc/geoloc.conf
 vendor/etc/gnss/config/gnss_lss_config_thirdparty.bin
 vendor/etc/gnss/config/gnss_lss_rfg_key_thirdparty.pem
 vendor/etc/gnss/config/gnss_lss_slp_thirdparty.p12
 vendor/etc/gnss/config/gnss_suplconfig_hisi.xml
+vendor/etc/gnss/gnss_lss_thirdparty.conf
 vendor/etc/gnss/rmd/c/a_1
 vendor/etc/gnss/rmd/c/aindex.bin
 vendor/etc/gnss/rmd/e/a_1
@@ -1213,8 +1215,6 @@ vendor/etc/gnss/security/gnss_huawei_hisi.bks
 vendor/etc/gnss/security/gnss_iusacell_hisi.bks
 vendor/etc/gnss/security/gnss_kddi_hisi.bks
 vendor/etc/gnss/security/gnss_vodafone_hisi.bks
-vendor/etc/gnss/gnss_lss_thirdparty.conf
-vendor/etc/geoloc.conf
 vendor/etc/goldeneye_config.xml
 
 # Graphics
@@ -2367,8 +2367,8 @@ vendor/lib64/vendor.huawei.hardware.huaweiantitheft@1.0.so
 vendor/lib64/vendor.huawei.hardware.huaweisigntool@1.0.so
 
 # Sensors
-vendor/bin/hw/vendor.huawei.hardware.sensors@1.0-service
 vendor/bin/activity_recognition_service
+vendor/bin/hw/vendor.huawei.hardware.sensors@1.0-service
 vendor/etc/init/activity_recognition_service.rc
 vendor/etc/init/vendor.huawei.hardware.sensors@1.0-service.rc
 vendor/lib/hw/sensors.default.so
@@ -2435,8 +2435,8 @@ vendor/bin/syna_155A_ta.sec
 vendor/bin/syna_155A_ta_lldp.sec
 
 # Touchscreen
-vendor/bin/hw/vendor.huawei.hardware.tp@1.0-service
 vendor/bin/aptouch_daemon
+vendor/bin/hw/vendor.huawei.hardware.tp@1.0-service
 vendor/bin/tpd
 vendor/etc/init/aptouch_daemon.rc
 vendor/etc/init/vendor.huawei.hardware.tp@1.0-service.rc
