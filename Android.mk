@@ -38,11 +38,16 @@ $(LIBBT_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(LIBBT_SYMLINKS)
 
-NATIVE_PACKAGES_FIXUP := $(TARGET_OUT_VENDOR)/etc/native_packages.xml
-$(NATIVE_PACKAGES_FIXUP): $(TARGET_OUT_VENDOR)/etc/native_packages.bin
+SYSTEM_NATIVE_PACKAGES_FIXUP := $(PRODUCT_OUT)/system/etc/native_packages.xml
+$(SYSTEM_NATIVE_PACKAGES_FIXUP): $(PRODUCT_OUT)/system/etc/native_packages.bin
+	@echo "Move system native_packages.bin to native_packages.xml"
+	$(hide) mv $(PRODUCT_OUT)/system/etc/native_packages.bin $@
+
+VENDOR_NATIVE_PACKAGES_FIXUP := $(TARGET_OUT_VENDOR)/etc/native_packages.xml
+$(VENDOR_NATIVE_PACKAGES_FIXUP): $(TARGET_OUT_VENDOR)/etc/native_packages.bin
 	@echo "Move vendor native_packages.bin to native_packages.xml"
 	$(hide) mv $(TARGET_OUT_VENDOR)/etc/native_packages.bin $@
 
-ALL_DEFAULT_INSTALLED_MODULES += $(NATIVE_PACKAGES_FIXUP)
+ALL_DEFAULT_INSTALLED_MODULES += $(SYSTEM_NATIVE_PACKAGES_FIXUP) $(VENDOR_NATIVE_PACKAGES_FIXUP)
 
 endif

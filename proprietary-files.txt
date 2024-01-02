@@ -2402,7 +2402,6 @@ system/lib/libtuidaemon.so:vendor/lib/libtuidaemon.so
 system/lib64/libtuidaemon.so:vendor/lib64/libtuidaemon.so
 vendor/bin/teecd
 vendor/bin/tlogcat
-vendor/etc/native_packages.xml:vendor/etc/native_packages.bin
 vendor/lib/libstorekeybox.so
 vendor/lib/libteec.so
 vendor/lib/libtrustzone_key_manager.so
@@ -2414,6 +2413,10 @@ vendor/lib64/libteec.so
 vendor/lib64/libtrustzone_key_manager.so
 vendor/lib64/vendor.huawei.hardware.libteec@1.0.so
 vendor/lib64/vendor.huawei.hardware.teecdaemon@1.0.so
+
+# TEE (native_packages) - from PRA-LX1-user 8.0.0 HUAWEIPRA-LX1 402(C432) release-keys
+system/etc/native_packages.xml:system/etc/native_packages.bin|f5bcd86064f9035406533e64a8b9bb39f5184614
+vendor/etc/native_packages.xml:vendor/etc/native_packages.bin|e9a05a062118d926e26ebdfad94e4cfca4e1fa46
 
 # TEE - from NXT 8.0.0 OPR6.170623.010
 vendor/etc/DroidSansFallbackTui.ttf|2f8a266389a8e22f68f402b775731eec6b760334
