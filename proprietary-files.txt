@@ -746,7 +746,9 @@ vendor/etc/ikedconfig/vals.conf
 
 # Keymaster
 vendor/lib/hw/keystore.hi6250.so
+vendor/lib/hw/android.hardware.keymaster@3.0-impl.so:vendor/lib/hw/android.hardware.keymaster@3.0-impl-hisi.so
 vendor/lib64/hw/keystore.hi6250.so
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so:vendor/lib64/hw/android.hardware.keymaster@3.0-impl-hisi.so
 
 # Media
 vendor/etc/topazhp.cfg
