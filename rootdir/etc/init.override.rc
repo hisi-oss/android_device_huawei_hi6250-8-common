@@ -10,3 +10,10 @@ service hwfactoryinterface-hal-1-1 /vendor/bin/hw/vendor.huawei.hardware.hwfacto
     user system
     group system wifi dhcp inet net_raw net_admin media_rw
     seclabel u:r:vendor_hal_hisi_hwfactoryinterface_default:s0
+
+service vendor.keymaster-3-0 /vendor/bin/hw/android.hardware.keymaster@3.0-service
+    override
+    interface android.hardware.keymaster@3.0::IKeymasterDevice default
+    class early_hal
+    user system
+    group system drmrpc
