@@ -74,7 +74,6 @@ vendor/lib64/libcamera_algo.so
 vendor/lib64/libcamera_ivp.so
 vendor/lib64/libcamera_omron.so
 vendor/lib64/libcamerabuffer.so
-vendor/lib64/libchrlog.so
 vendor/lib64/libcommunication_api.so
 vendor/lib64/libcontrastCal.so
 vendor/lib64/libdcamera_sr.so
@@ -84,7 +83,6 @@ vendor/lib64/libfacedetection.so
 vendor/lib64/libfcamera_visual_effect.so
 vendor/lib64/libhdr.so
 vendor/lib64/libhdr_acore.so
-vendor/lib64/libhwlog.so
 vendor/lib64/libimedia_filters.so
 vendor/lib64/libispenhnc.so
 vendor/lib64/libmorpho_effect_library5.so

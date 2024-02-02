@@ -61,12 +61,12 @@ fi
 function blob_fixup() {
     case "${1}" in
         system/lib*/libemcomutil.so)
-             "${PATCHELF}" --add-needed "libshim_emcom.so" "${2}"
+            "${PATCHELF}" --add-needed "libshim_emcom.so" "${2}"
             ;;
         odm/etc/camera/*)
-	    sed -i 's/gb2312/iso-8859-1/g' "${2}"
-	    sed -i 's/GB2312/iso-8859-1/g' "${2}"
-	    sed -i 's/xmlversion/xml version/g' "${2}"
+            sed -i 's/gb2312/iso-8859-1/g' "${2}"
+            sed -i 's/GB2312/iso-8859-1/g' "${2}"
+            sed -i 's/xmlversion/xml version/g' "${2}"
             ;;
         vendor/bin/system_teecd \
         |vendor/bin/teecd)
@@ -107,12 +107,12 @@ function blob_fixup() {
         |vendor/lib64/libcontrastCal.so)
             sed -i 's|libgui.so|guivnd.so|g' "${2}"
             ;;
-        vendor/lib*/libRefocusContrastPosition.so|vendor/lib*/libhwlog.so)
+        vendor/lib*/libRefocusContrastPosition.so)
             "${PATCHELF}" --add-needed "libshim_log.so" "${2}"
             ;;
         vendor/lib*/hw/audio.primary_hisi.hi6250.so|vendor/lib*/libhivwservice.so)
 	    "${PATCHELF}" --add-needed "libprocessgroup.so" "${2}"
-	    ;;
+            ;;
         vendor/lib64/hw/hwcomposer.hi6250.so)
             "${PATCHELF}" --replace-needed "libui.so" "libui-v28.so" "${2}"
             ;;
