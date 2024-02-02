@@ -76,6 +76,9 @@ function blob_fixup() {
             sed -i '1i on property:sys.rilprops_ready=1\n    start ril-daemon\n' "${2}"
             echo "    disabled" >> "${2}"
             ;;
+        vendor/lib*/libril-hisi.so)
+            "${PATCHELF}" --set-soname "libril-hisi.so" "${2}"
+            ;;
         vendor/lib*/egl/libGLES_mali.so|vendor/lib*/hw/gralloc.hi6250.so)
             "${PATCHELF}" --add-needed "libutilscallstack.so" "${2}"
             ;;

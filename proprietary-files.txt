@@ -794,14 +794,14 @@ vendor/lib/lib_wifi_sar.so
 vendor/lib/libbalong-ril-1.so
 vendor/lib/libbalong-ril-2.so
 vendor/lib/libbalong-ril.so
--vendor/lib/libril.so
+-vendor/lib/libril.so:vendor/lib/libril-hisi.so
 vendor/lib/vendor.huawei.hardware.radio@1.0.so
 vendor/lib/vendor.huawei.hardware.radio@1.1.so
 vendor/lib64/lib_wifi_sar.so
 vendor/lib64/libbalong-ril-1.so
 vendor/lib64/libbalong-ril-2.so
 vendor/lib64/libbalong-ril.so
--vendor/lib64/libril.so
+-vendor/lib64/libril.so:vendor/lib64/libril-hisi.so
 vendor/lib64/vendor.huawei.hardware.radio@1.0.so
 vendor/lib64/vendor.huawei.hardware.radio@1.1.so
 vendor/phone.prop

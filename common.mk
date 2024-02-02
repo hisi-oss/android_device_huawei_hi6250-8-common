@@ -254,7 +254,8 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.deprecated@1.0.vendor
 
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.0_types.vendor
+    android.hardware.radio@1.0_types.vendor \
+    libril
 
 # Sensors
 PRODUCT_PACKAGES += \
