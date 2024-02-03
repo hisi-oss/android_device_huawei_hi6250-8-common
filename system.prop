@@ -1,7 +1,0 @@
-# IMS
-ro.config.hw_volte_dyn=true
-ro.config.hw_volte_on=true
-ro.config.hw_emcom=true
-persist.dbg.volte_avail_ovr=1
-persist.dbg.vt_avail_ovr=1
-persist.dbg.wfc_avail_ovr=1

@@ -444,6 +444,7 @@ service emcomd /system/bin/emcomd
     socket emcomd stream 0600 system system
     user root
     group root system
+    disabled
     seclabel u:r:emcomd:s0
 
 # mini bugreport
