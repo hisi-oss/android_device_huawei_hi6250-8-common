@@ -1887,22 +1887,3 @@ vendor/bin/pki_provision_ta.sec
 vendor/bin/syna_109A0_ta.sec
 vendor/bin/syna_155A_ta.sec
 vendor/bin/syna_155A_ta_lldp.sec
-
-# Touchscreen
-vendor/bin/aptouch_daemon
-vendor/bin/hw/vendor.huawei.hardware.tp@1.0-service
-vendor/bin/tpd
-vendor/etc/init/aptouch_daemon.rc
-vendor/etc/init/vendor.huawei.hardware.tp@1.0-service.rc
-vendor/lib/hw/hw_touchscreen.default.so
-vendor/lib/libthpinterface.so
-vendor/lib/vendor.huawei.hardware.tp@1.0.so
-vendor/lib64/hw/hw_touchscreen.default.so
-vendor/lib64/hw/vendor.huawei.hardware.tp@1.0-impl.so
-vendor/lib64/libthpinterface.so
-vendor/lib64/vendor.huawei.hardware.tp@1.0.so
-
-# Touchscreen Configs
-vendor/etc/tp_test_parameters/prague_eely_input_format.csv
-vendor/etc/tp_test_parameters/prague_ofilm_input_format.csv
-vendor/etc/tp_test_parameters/prague_truly_input_format.csv

@@ -406,15 +406,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.huawei.hardware.tp</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ITouchscreen</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
         <name>vendor.nxp.nxpnfc</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
