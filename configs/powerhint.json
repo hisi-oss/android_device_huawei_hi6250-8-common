@@ -147,6 +147,15 @@
             "HoldFd": true
         },
         {
+            "Name": "HMPSchedBoost",
+            "Path": "/sys/kernel/hmp/boost",
+            "Values": [
+                "0",
+                "1"
+            ],
+            "HoldFd": true
+        },
+        {
             "Name": "PowerHALMainState",
             "Path": "vendor.powerhal.state",
             "Values": [
@@ -264,6 +273,12 @@
             "Node": "PMQoSCpuDmaLatency",
             "Duration": 3500,
             "Value": "2c"
+        },
+        {
+            "PowerHint": "LAUNCH",
+            "Node": "HMPSchedBoost",
+            "Duration": 3500,
+            "Value": "1"
         },
         {
             "PowerHint": "AUDIO_STREAMING_LOW_LATENCY",
