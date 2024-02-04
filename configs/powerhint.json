@@ -141,8 +141,8 @@
             "Name": "PMQoSCpuDmaLatency",
             "Path": "/dev/cpu_dma_latency",
             "Values": [
-                "44",
-                "100"
+                "2c",
+                "66"
             ],
             "HoldFd": true
         },
@@ -263,7 +263,7 @@
             "PowerHint": "LAUNCH",
             "Node": "PMQoSCpuDmaLatency",
             "Duration": 3500,
-            "Value": "44"
+            "Value": "2c"
         },
         {
             "PowerHint": "AUDIO_STREAMING_LOW_LATENCY",
