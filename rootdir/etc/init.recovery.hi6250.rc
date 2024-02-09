@@ -5,3 +5,10 @@ on init
     symlink /dev/block/platform/hi_mci.0 /dev/block/bootdevice
     # Fix misc issues with stock kernel
     symlink /dev/block/platform/hi_mci.0/by-name /by-name
+
+on boot
+    start chargeled
+
+service chargeled /system/bin/chargeled
+    disabled
+    seclabel u:r:healthd:s0

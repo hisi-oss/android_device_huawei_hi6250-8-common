@@ -110,6 +110,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/connectivity/init.connectivity.hi1102.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity/init.connectivity.hi1102.rc
 
+# Charger
+PRODUCT_PACKAGES += \
+    chargeled \
+    chargeled.recovery
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
