@@ -32,13 +32,9 @@ vendor/lib64/hw/audio.primary.hisi.so:vendor/lib64/hw/audio.primary_hisi.hi6250.
 vendor/bin/hw/vendor.huawei.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/vendor.huawei.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/lib/hw/fingerprint.hi6250.so
-vendor/lib/libiawareperf_client.so
 vendor/lib/vendor.huawei.hardware.biometrics.fingerprint@2.1.so
-vendor/lib/vendor.huawei.hardware.iawareperf@1.0.so
 vendor/lib64/hw/fingerprint.hi6250.so
-vendor/lib64/libiawareperf_client.so
 vendor/lib64/vendor.huawei.hardware.biometrics.fingerprint@2.1.so
-vendor/lib64/vendor.huawei.hardware.iawareperf@1.0.so
 
 # Bluetooth
 vendor/etc/bluetooth/bt_vendor.conf
@@ -89,14 +85,12 @@ vendor/lib64/libmrc_cg_oz.so
 vendor/lib64/libmrc_cg_postprocess.so
 vendor/lib64/libmrc_cg_postprocess_cl.so
 vendor/lib64/libmrc_cg_sz.so
-vendor/lib64/libperfgenius_vendor_client.so
 vendor/lib64/libscenedetection.so
 vendor/lib64/vendor.huawei.hardware.ai@1.0.so
 vendor/lib64/vendor.huawei.hardware.camera.camResource@1.0.so
 vendor/lib64/vendor.huawei.hardware.camera.camResource@1.1.so
 vendor/lib64/vendor.huawei.hardware.camera.cfgsvr@1.0.so
 vendor/lib64/vendor.huawei.hardware.camera.factory@1.0.so
-vendor/lib64/vendor.huawei.hardware.perfgenius@1.0.so
 
 # Camera Arcsoft
 odm/lib64/libarcsoft_beautyshot.so

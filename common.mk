@@ -250,6 +250,13 @@ PRODUCT_COPY_FILES += \
     system/core/libprocessgroup/profiles/cgroups_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
     system/core/libprocessgroup/profiles/task_profiles_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
 
+PRODUCT_PACKAGES += \
+    vendor.huawei.hardware.perfgenius@2.0.vendor
+
+PRODUCT_PACKAGES += \
+    libiawareperf_client \
+    libperfgenius_vendor_client
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
