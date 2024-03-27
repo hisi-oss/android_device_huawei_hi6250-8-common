@@ -35,7 +35,6 @@ on early-boot
 
     # create Ext SDcard mountpoint
     mkdir /mnt/media_rw 0750 media_rw media_rw
-    mkdir /data/samba 0755 media_rw media_rw
 
 on early-boot
     service hivwserver /vendor/bin/hivwserver
@@ -374,9 +373,6 @@ on post-fs-data
     mkdir /data/vendor/nfc
     chown nfc nfc /data/vendor/nfc
 
-    mkdir /data/share 0770 media_rw media_rw
-    chown media_rw media_rw /data/share
-
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -710,11 +706,6 @@ on post-fs-data
     mkdir /data/img
     chown system camera /data/img
     chmod 770 /data/img
-
-    mkdir /data/media 0770 media_rw media_rw
-    #wait for installd create this for multi-user
-    #wait /data/media/0
-    #mount sdcardfs /data/media /mnt/shell/emulated nosuid nodev derive=legacy,reserved_mb=20
 
     service shlogd /system/bin/shs
     class late_start

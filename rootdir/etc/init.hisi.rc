@@ -217,11 +217,6 @@ service kmemleak_debug /system/bin/sh /system/etc/kmemleak.debug.sh
 on property:persist.sys.kmemleak.debug=1
     start kmemleak_debug
 
-#add for create /data/hwcdump and add context
-on property:ro.build.type=eng
-    mkdir /data/hwcdump 0755 system system
-    restorecon_recursive /data/hwcdump
-
 on property:ro.build.type=eng
     write /proc/sys/kernel/kptr_restrict 0
 

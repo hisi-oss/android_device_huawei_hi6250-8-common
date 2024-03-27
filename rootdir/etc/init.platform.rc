@@ -45,11 +45,6 @@ on post-fs-data
     chmod 2775 /data/log/xcollie
     restorecon_recursive /data/log/xcollie
 
-    mkdir /data/apkpush
-    chmod 0770 /data/apkpush
-    chown system cache /data/apkpush
-    restorecon_recursive /data/apkpush
-
     # DTS2016051711861 zhouben/00210504 20160708
     mkdir /data/misc/hsm
     chmod 0770 /data/misc/hsm
@@ -61,17 +56,6 @@ on post-fs-data
     chown system system /data/system/hsm
     restorecon_recursive /data/system/hsm
 
-    # DTS2016062104837 zhangxinsheng 00221699 20160711
-    mkdir /data/cota
-    chmod 0775 /data/cota
-    chown system system /data/cota
-    restorecon_recursive /data/cota
-
-    mkdir /data/cota/cloud
-    chmod 0770 /data/cota/cloud
-    chown system system /data/cota/cloud
-    restorecon_recursive /data/cota/cloud
-    
     mkdir /data/misc/hwpush
     chmod 0770 /data/misc/hwpush
     chown system system /data/misc/hwpush
@@ -184,8 +168,6 @@ on boot
 
 on restart-sdcardfs
     ## create virtual sdcard based on the /data/media directory
-    mkdir /data/media 0770 media_rw media_rw
-    chown media_rw media_rw /data/media
     mount sdcardfs /data/media /mnt/shell/emulated nosuid nodev derive=legacy,reserved_mb=20
 
 on property:vold.decrypt=trigger_reset_main
