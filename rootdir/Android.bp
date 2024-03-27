@@ -47,13 +47,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.extmodem.rc",
-    src: "etc/init.extmodem.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.hi6250.rc",
     src: "etc/init.hi6250.rc",
     sub_dir: "init/hw",

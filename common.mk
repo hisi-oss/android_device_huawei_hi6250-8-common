@@ -187,7 +187,6 @@ PRODUCT_PACKAGES += \
     init.balong_modem.rc \
     init.connectivity.rc \
     init.device.rc \
-    init.extmodem.rc \
     init.hi6250.rc \
     init.hisi.rc \
     init.hisi.usb.rc \

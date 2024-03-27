@@ -11,7 +11,6 @@ import /vendor/etc/init/hw/init.audio.rc
 import /vendor/etc/init/hw/init.balong_modem.rc
 import /vendor/etc/init/hw/init.connectivity.rc
 import /vendor/etc/init/hw/init.device.rc
-import /vendor/etc/init/hw/init.extmodem.rc
 import /vendor/etc/init/hw/init.hisi.rc
 import /vendor/etc/init/hw/init.hisi.usb.rc
 import /vendor/etc/init/hw/init.override.rc
