@@ -744,11 +744,13 @@ vendor/etc/ikedconfig/tunnel_ike.conf
 vendor/etc/ikedconfig/tunnel_ike_natt.conf
 vendor/etc/ikedconfig/vals.conf
 
-# Keymaster
+# Keystore
 vendor/lib/hw/keystore.hi6250.so
-vendor/lib/hw/android.hardware.keymaster@3.0-impl.so:vendor/lib/hw/android.hardware.keymaster@3.0-impl-hisi.so
 vendor/lib64/hw/keystore.hi6250.so
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so:vendor/lib64/hw/android.hardware.keymaster@3.0-impl-hisi.so
+
+# Keymaster - from ANE 9.1.0.401 C432
+vendor/lib/hw/android.hardware.keymaster@3.0-impl.so:vendor/lib/hw/android.hardware.keymaster@3.0-impl-hisi.so|81ec34150e8b3dbf0b700f7fd6dc24e35e831231
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so:vendor/lib64/hw/android.hardware.keymaster@3.0-impl-hisi.so|166f317814d5741a4247927a1bba59e4dac697d8
 
 # Media
 vendor/etc/topazhp.cfg
