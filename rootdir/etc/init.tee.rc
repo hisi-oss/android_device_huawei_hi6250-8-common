@@ -34,9 +34,9 @@ on property:persist.sys.huawei.debug.on=0
 stop teelogcat
 
 on post-fs-data
-    mkdir /data/sec_storage_data 0700 system system
+    mkdir /data/sec_storage_data 0700 system system encryption=None
     restorecon /data/sec_storage_data
-    mkdir /data/sec_storage_data_users 0700 system system
+    mkdir /data/sec_storage_data_users 0700 system system encryption=None
     restorecon /data/sec_storage_data_users
     mkdir /data/vendor/log/sec_storage_data 0775 system system
     mkdir /data/vendor/log/sec_storage_data/log 0755 system system

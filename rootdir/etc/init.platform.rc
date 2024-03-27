@@ -15,17 +15,17 @@ on post-fs
 
 on post-fs-data
 
-    mkdir /data/hwzd_logs
+    mkdir /data/hwzd_logs encryption=Require
     chmod 0775 /data/hwzd_logs
     chown system system /data/hwzd_logs
     restorecon_recursive /data/hwzd_logs
 
-    mkdir /data/log
+    mkdir /data/log encryption=Require
     chmod 0775 /data/log
     chown system system /data/log
     restorecon_recursive /data/log
 
-    mkdir /data/hisi_logs
+    mkdir /data/hisi_logs encryption=Require
     chmod 0770 /data/hisi_logs
     chown root system /data/hisi_logs
     restorecon_recursive /data/hisi_logs

@@ -698,12 +698,12 @@ on post-fs-data
 
     setprop ro.hwcamera.SlowMotionZoom 0
 
-    mkdir /data/camera
+    mkdir /data/camera encryption=Require
     chown system camera /data/camera
     chmod 771 /data/camera
     chmod 664 /data/camera/hisi_sensor0
     chmod 664 /data/camera/hisi_sensor1
-    mkdir /data/img
+    mkdir /data/img encryption=Require
     chown system camera /data/img
     chmod 770 /data/img
 
