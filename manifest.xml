@@ -27,6 +27,26 @@
         </interface>
     </hal>
     <hal format="hidl">
+        <name>vendor.huawei.hardware.biometrics.hwfacerecognize</name>
+        <transport>hwbinder</transport>
+        <version>1.1</version>
+        <interface>
+            <name>IBiometricsFaceRecognize</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.1::IBiometricsFaceRecognize/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.huawei.hardware.biometrics.hwsecurefacerecognize</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ISecureBiometricsFaceRecognize</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::ISecureBiometricsFaceRecognize/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>android.hardware.bluetooth</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
