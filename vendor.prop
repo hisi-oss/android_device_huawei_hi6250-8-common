@@ -56,6 +56,9 @@ persist.media.lowlatency.enable=false
 # MMU
 ro.config.mmu_en=1
 
+# Power HAL
+vendor.powerhal.disp.idle_support=false
+
 # RIL
 ro.config.ipv4.mtu=1400
 bastet.service.enable=true

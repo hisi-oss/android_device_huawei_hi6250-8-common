@@ -657,6 +657,9 @@ on boot
     chmod 0664 /dev/mmtuner
     chown system system /dev/mmtuner
 
+    # Power
+    setprop vendor.powerhal.init 1
+
 #on property:ro.build.type=eng
 #    start telemntncat
 
