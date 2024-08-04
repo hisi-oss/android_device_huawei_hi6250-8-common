@@ -112,8 +112,7 @@ PRODUCT_COPY_FILES += \
 
 # Charger
 PRODUCT_PACKAGES += \
-    chargeled \
-    chargeled.recovery
+    charger_res_images_vendor
 
 # Display
 PRODUCT_PACKAGES += \
@@ -173,9 +172,13 @@ PRODUCT_PACKAGES += \
 
 # Hisi
 PRODUCT_PACKAGES += \
-    hisi_init \
+    hisi_init
+
+# Huawei - stubs
+PRODUCT_PACKAGES += \
     libchrlog \
     libhwlog \
+    libimonitor \
     libxcollie
 
 # HIDL
@@ -206,11 +209,11 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.hisi
+    android.hardware.light-service.huawei
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service-hisi
+    vendor.lineage.livedisplay@2.1-service.hisi
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -241,7 +244,7 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.hisi-libperfmgr
+    android.hardware.power-service.huawei-libperfmgr
 
 PRODUCT_COPY_FILES += \
     system/core/libprocessgroup/profiles/cgroups_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
@@ -284,11 +287,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/hisi \
-    hardware/hisi/power-libperfmgr
-
-# Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.hisi
+    hardware/huawei \
+    hardware/huawei/power-libperfmgr
 
 # Ueventd
 PRODUCT_PACKAGES += \

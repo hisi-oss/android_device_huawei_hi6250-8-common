@@ -485,12 +485,10 @@ vendor/etc/cfg_warsaw_tl00_hisi.ini
 vendor/lib/libhw_display_effect.so
 vendor/lib/libhw_display_factory.so
 vendor/lib/libhw_display_test.so
-vendor/lib/libimonitor.so
 vendor/lib/libmediacomm@2.0-client.so
 vendor/lib64/libhw_display_effect.so
 vendor/lib64/libhw_display_factory.so
 vendor/lib64/libhw_display_test.so
-vendor/lib64/libimonitor.so
 vendor/lib64/libmediacomm@2.0-client.so
 
 # Display Hardware
