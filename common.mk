@@ -280,10 +280,12 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@1.0.vendor
+    android.hardware.sensors@1.0-impl \
+    android.hardware.sensors@1.0-service
 
 PRODUCT_PACKAGES += \
-    android.frameworks.sensorservice@1.0.vendor
+    android.frameworks.sensorservice@1.0.vendor \
+    vendor.huawei.hardware.sensors@1.0.vendor
 
 # Shims
 PRODUCT_PACKAGES += \

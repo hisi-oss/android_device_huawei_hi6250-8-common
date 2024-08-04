@@ -1802,20 +1802,15 @@ vendor/lib64/vendor.huawei.hardware.huaweisigntool@1.0.so
 
 # Sensors
 vendor/bin/activity_recognition_service
-vendor/bin/hw/vendor.huawei.hardware.sensors@1.0-service
 vendor/etc/init/activity_recognition_service.rc
-vendor/etc/init/vendor.huawei.hardware.sensors@1.0-service.rc
 vendor/lib/hw/sensors.default.so
 vendor/lib/lib_sensor_fac_interface.so
 vendor/lib/vendor.huawei.hardware.activity_recognition@1.0.so
-vendor/lib/vendor.huawei.hardware.sensors@1.0.so
 vendor/lib64/hw/activity_recognition.default.so
 vendor/lib64/hw/sensors.default.so
 vendor/lib64/hw/vendor.huawei.hardware.activity_recognition@1.0-impl.so
-vendor/lib64/hw/vendor.huawei.hardware.sensors@1.0-impl.so
 vendor/lib64/lib_sensor_fac_interface.so
 vendor/lib64/vendor.huawei.hardware.activity_recognition@1.0.so
-vendor/lib64/vendor.huawei.hardware.sensors@1.0.so
 
 # Storage
 vendor/bin/fwrt_emmc_screen_test
