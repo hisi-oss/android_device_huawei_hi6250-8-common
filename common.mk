@@ -111,6 +111,11 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl
 
 PRODUCT_PACKAGES += \
+    vendor.huawei.hardware.camera.cfgsvr@1.0.vendor \
+    vendor.huawei.hardware.hwfactoryinterface@1.0.vendor \
+    vendor.huawei.hardware.hwfactoryinterface@1.1.vendor
+
+PRODUCT_PACKAGES += \
     libgui_vendor \
     libstdc++.vendor
 

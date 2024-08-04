@@ -87,7 +87,6 @@ vendor/lib64/libscenedetection.so
 vendor/lib64/vendor.huawei.hardware.ai@1.0.so
 vendor/lib64/vendor.huawei.hardware.camera.camResource@1.0.so
 vendor/lib64/vendor.huawei.hardware.camera.camResource@1.1.so
-vendor/lib64/vendor.huawei.hardware.camera.cfgsvr@1.0.so
 vendor/lib64/vendor.huawei.hardware.camera.factory@1.0.so
 
 # Camera Arcsoft
@@ -527,20 +526,14 @@ preavs/etc/init/android.hardware.drm@1.0-service.widevine.rc:vendor/etc/init/and
 preavs/lib/libwvhidl.so:vendor/lib/libwvhidl.so
 
 # Factory
-vendor/bin/hw/vendor.huawei.hardware.hwfactoryinterface@1.1-service
-vendor/etc/init/vendor.huawei.hardware.hwfactoryinterface@1.1-service.rc
 vendor/lib/lib_device_interface.so
 vendor/lib/lib_factory_interface.so
 vendor/lib/lib_mmi_interface.so
 vendor/lib/libjtag_wdt_ctrl.so
-vendor/lib/vendor.huawei.hardware.hwfactoryinterface@1.0.so
-vendor/lib/vendor.huawei.hardware.hwfactoryinterface@1.1.so
 vendor/lib64/lib_device_interface.so
 vendor/lib64/lib_factory_interface.so
 vendor/lib64/lib_mmi_interface.so
 vendor/lib64/libjtag_wdt_ctrl.so
-vendor/lib64/vendor.huawei.hardware.hwfactoryinterface@1.0.so
-vendor/lib64/vendor.huawei.hardware.hwfactoryinterface@1.1.so
 
 # Fingerprint (fpc)
 vendor/lib/lib_fpc_tac_shared.so
